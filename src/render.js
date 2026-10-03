@@ -123,7 +123,16 @@ const ABREV_DIA = { lunes: 'Lun', martes: 'Mar', miercoles: 'Mié', jueves: 'Jue
 const DIAS_SEMANA = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
 
 function obtenerFechasSemana(fecha) {
-  const lunes = obtenerLunesDeLaSemana(fecha);
+  // Si hoy es domingo, obtenerLunesDeLaSemana retornaría el lunes de la
+  // semana que ya terminó. Para la vista completa queremos mostrar la
+  // semana que viene (el lunes siguiente), así que adelantamos un día
+  // antes de calcular el lunes de referencia.
+  let fechaBase = fecha;
+  if (obtenerDiaActual(fecha) === 'domingo') {
+    fechaBase = new Date(fecha);
+    fechaBase.setDate(fechaBase.getDate() + 1);
+  }
+  const lunes = obtenerLunesDeLaSemana(fechaBase);
   return DIAS_SEMANA.map((dia, i) => {
     const fechaDia = new Date(lunes);
     fechaDia.setDate(lunes.getDate() + i);
@@ -137,7 +146,8 @@ export function renderVistaCompleta(contenedor, datosAula, diaSeleccionado, fech
   const bloquesDia = obtenerBloquesDia(datosAula.bloques, diaSeleccionado);
   const actual = diaSeleccionado === diaHoy ? obtenerClaseActual(bloquesDia, minutosActuales) : null;
   const fechasSemana = obtenerFechasSemana(fecha);
-  const fechaSeleccionada = fechasSemana.find((f) => f.dia === diaSeleccionado).fechaDia;
+  const fechaSeleccionadaInfo = fechasSemana.find((f) => f.dia === diaSeleccionado) || fechasSemana[0];
+  const fechaSeleccionada = fechaSeleccionadaInfo.fechaDia;
 
   const fechaSeleccionadaTexto = fechaSeleccionada.toLocaleDateString('es-EC', {
     weekday: 'long',
