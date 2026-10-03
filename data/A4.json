@@ -1,12 +1,497 @@
 {
   "aula": "A4",
   "campus": "Manuela Sáenz",
-  "capacidad": 30,
+  "capacidad": 35,
   "bloques": [
-    { "dia": "lunes", "horaInicio": "08:00", "horaFin": "10:00", "materia": "Ingeniería de Software (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "TI", "nivel": "6", "paralelo": "A" },
-    { "dia": "lunes", "horaInicio": "10:00", "horaFin": "12:00", "materia": "Base de Datos (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "TI", "nivel": "6", "paralelo": "A" },
-    { "dia": "martes", "horaInicio": "14:00", "horaFin": "16:00", "materia": "Redes de Computadoras (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "Software", "nivel": "4", "paralelo": "B" },
-    { "dia": "miercoles", "horaInicio": "08:00", "horaFin": "11:00", "materia": "Cálculo Integral (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "TI", "nivel": "2", "paralelo": "A" },
-    { "dia": "viernes", "horaInicio": "16:00", "horaFin": "18:00", "materia": "Gestión de Proyectos (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "Software", "nivel": "7", "paralelo": "A" }
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ESTEFANIA ARACELLY REYES ROSERO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ESTEFANIA ARACELLY REYES ROSERO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "SILVANA ANDREA GALLEGOS SANCHEZ",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "SILVANA ANDREA GALLEGOS SANCHEZ",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOQUIMICA I",
+      "docente": "DELIA MARLENE LOPEZ DOMINGUEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ONCOLOGIA",
+      "docente": "JOSE EDUARDO AUCAPIÑA ASTUDILLO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "ONCOLOGIA",
+      "docente": "JOSE EDUARDO AUCAPIÑA ASTUDILLO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "PSICOPATOLOGIA",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FISIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "HISTOLOGIA Y BIOLOGIA CELULAR I",
+      "docente": "REGLA CRISTINA VALDES CABODEVILLA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "HISTOLOGIA Y BIOLOGIA CELULAR I",
+      "docente": "REGLA CRISTINA VALDES CABODEVILLA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "BIOQUIMICA I",
+      "docente": "DELIA MARLENE LOPEZ DOMINGUEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BIOQUIMICA I",
+      "docente": "DELIA MARLENE LOPEZ DOMINGUEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "GASTROENTEROLOGIA",
+      "docente": "LILIAN CAMAÑO CARBALLO",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "NEUROLOGIA",
+      "docente": "JORGE SEBASTIAN ROBAYO ORTIZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "SALUD MENTAL",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "SALUD MENTAL",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "EMBRIOLOGIA I",
+      "docente": "HECTOR RODRIGO REMACHE CEVALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "LENGUAJE Y COMUNICACION",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "LENGUAJE Y COMUNICACION",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "FISIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "FISIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "MEDICINA BASADA EN EVIDENCIAS",
+      "docente": "CLAUDIA MARIA REYTOR GONZALEZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "MEDICINA BASADA EN EVIDENCIAS",
+      "docente": "CLAUDIA MARIA REYTOR GONZALEZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "ERICA LISETH LARA SANDOVAL",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "ERICA LISETH LARA SANDOVAL",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "ERICA LISETH LARA SANDOVAL",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FISIOPATOLOGIA I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "FISIOPATOLOGIA I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "HISTOLOGIA Y BIOLOGIA CELULAR I",
+      "docente": "REGLA CRISTINA VALDES CABODEVILLA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "IMAGENOLOGIA",
+      "docente": "JOSE LUIS GRANIZO JARA",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "IMAGENOLOGIA",
+      "docente": "JOSE LUIS GRANIZO JARA",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "FISIOPATOLOGIA I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "20:30",
+      "horaFin": "21:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "ELECTIVA II",
+      "docente": "DIANA MARICELA BERMUDEZ SANTANA",
+      "carrera": "DERECHO",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ELECTIVA II",
+      "docente": "DIANA MARICELA BERMUDEZ SANTANA",
+      "carrera": "DERECHO",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ELECTIVA II",
+      "docente": "DIANA MARICELA BERMUDEZ SANTANA",
+      "carrera": "DERECHO",
+      "nivel": "3RO",
+      "paralelo": "01"
+    }
   ]
 }

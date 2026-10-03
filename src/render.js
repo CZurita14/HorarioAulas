@@ -10,7 +10,7 @@ import {
 const TOTAL_SEGMENTOS = 14;
 
 export function formatearDetalle(bloque) {
-  return `${bloque.nivel}.º Nivel · ${bloque.carrera} · Paralelo ${bloque.paralelo}`;
+  return `Nivel ${bloque.nivel} · ${bloque.carrera} · Paralelo ${bloque.paralelo}`;
 }
 
 export function formatearHora12(fecha) {
