@@ -117,6 +117,10 @@ body {
   border-left-color: var(--color-verde);
 }
 
+.tarjeta-actual.vacia {
+  border-left-color: #d6d9e0;
+}
+
 .tarjeta-siguiente {
   border-left-color: var(--color-naranja);
   display: flex;
