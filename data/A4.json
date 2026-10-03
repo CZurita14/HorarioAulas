@@ -15,6 +15,16 @@
     },
     {
       "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
       "horaInicio": "10:30",
       "horaFin": "11:29",
       "materia": "ANATOMIA HUMANA I",
@@ -165,6 +175,16 @@
     },
     {
       "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "GASTROENTEROLOGIA",
+      "docente": "LILIAN CAMAÑO CARBALLO",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
       "horaInicio": "15:30",
       "horaFin": "16:29",
       "materia": "GASTROENTEROLOGIA",
@@ -264,6 +284,16 @@
       "paralelo": "01"
     },
     {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ESTEFANIA ARACELLY REYES ROSERO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
       "dia": "jueves",
       "horaInicio": "07:30",
       "horaFin": "08:29",
@@ -321,6 +351,16 @@
       "docente": "CLAUDIA MARIA REYTOR GONZALEZ",
       "carrera": "MEDICINA",
       "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "ERICA LISETH LARA SANDOVAL",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
       "paralelo": "01"
     },
     {
@@ -445,6 +485,16 @@
     },
     {
       "dia": "viernes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
       "horaInicio": "19:30",
       "horaFin": "20:29",
       "materia": "MEDICINA FORENSE",
@@ -477,6 +527,16 @@
       "dia": "sabado",
       "horaInicio": "08:30",
       "horaFin": "09:29",
+      "materia": "ELECTIVA II",
+      "docente": "DIANA MARICELA BERMUDEZ SANTANA",
+      "carrera": "DERECHO",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
       "materia": "ELECTIVA II",
       "docente": "DIANA MARICELA BERMUDEZ SANTANA",
       "carrera": "DERECHO",
