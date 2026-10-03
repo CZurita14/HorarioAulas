@@ -6,6 +6,13 @@ import './styles.css';
 const app = document.getElementById('app');
 const datosAula = obtenerDatosAula();
 
+if (!datosAula) {
+  app.innerHTML = '<p class="vacio">Aula no encontrada. Verifica el código QR.</p>';
+  throw new Error('Aula no encontrada');
+}
+
+document.title = `Horario Aula ${datosAula.aula} — Universidad Indoamérica`;
+
 let vista = 'principal';
 let diaSeleccionado = obtenerDiaActual();
 // La vista completa no tiene chip para "domingo" (no es un día de clases);
