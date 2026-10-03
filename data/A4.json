@@ -1,0 +1,12 @@
+{
+  "aula": "A4",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    { "dia": "lunes", "horaInicio": "08:00", "horaFin": "10:00", "materia": "Ingeniería de Software (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "TI", "nivel": "6", "paralelo": "A" },
+    { "dia": "lunes", "horaInicio": "10:00", "horaFin": "12:00", "materia": "Base de Datos (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "TI", "nivel": "6", "paralelo": "A" },
+    { "dia": "martes", "horaInicio": "14:00", "horaFin": "16:00", "materia": "Redes de Computadoras (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "Software", "nivel": "4", "paralelo": "B" },
+    { "dia": "miercoles", "horaInicio": "08:00", "horaFin": "11:00", "materia": "Cálculo Integral (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "TI", "nivel": "2", "paralelo": "A" },
+    { "dia": "viernes", "horaInicio": "16:00", "horaFin": "18:00", "materia": "Gestión de Proyectos (DATO DE PRUEBA)", "docente": "Por definir", "carrera": "Software", "nivel": "7", "paralelo": "A" }
+  ]
+}
