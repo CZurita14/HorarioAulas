@@ -41,7 +41,7 @@ export function renderVistaPrincipal(contenedor, datosAula, fecha = new Date()) 
   const bloquesDia = obtenerBloquesDia(datosAula.bloques, dia);
   const actual = obtenerClaseActual(bloquesDia, minutosActuales);
   const siguiente = obtenerClaseSiguiente(bloquesDia, minutosActuales);
-  const restoDelDia = bloquesDia.filter((b) => b !== actual && b !== siguiente && b.horaInicio > (siguiente?.horaInicio ?? ''));
+  const restoDelDia = bloquesDia.filter((b) => siguiente && b !== actual && b !== siguiente && b.horaInicio > siguiente.horaInicio);
 
   const fechaTexto = fecha.toLocaleDateString('es-EC', {
     weekday: 'long',
