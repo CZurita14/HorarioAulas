@@ -108,3 +108,82 @@ export function renderVistaPrincipal(contenedor, datosAula, fecha = new Date()) 
     <button id="btn-ver-completo" class="boton-secundario">Ver horario completo de la semana</button>
   `;
 }
+
+const NOMBRES_DIA = {
+  lunes: 'Lunes',
+  martes: 'Martes',
+  miercoles: 'Miércoles',
+  jueves: 'Jueves',
+  viernes: 'Viernes',
+  sabado: 'Sábado',
+};
+
+const ABREV_DIA = { lunes: 'Lun', martes: 'Mar', miercoles: 'Mié', jueves: 'Jue', viernes: 'Vie', sabado: 'Sáb' };
+
+const DIAS_SEMANA = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
+
+function obtenerFechasSemana(fecha) {
+  const lunes = obtenerLunesDeLaSemana(fecha);
+  return DIAS_SEMANA.map((dia, i) => {
+    const fechaDia = new Date(lunes);
+    fechaDia.setDate(lunes.getDate() + i);
+    return { dia, fechaDia };
+  });
+}
+
+export function renderVistaCompleta(contenedor, datosAula, diaSeleccionado, fecha = new Date()) {
+  const diaHoy = obtenerDiaActual(fecha);
+  const minutosActuales = fecha.getHours() * 60 + fecha.getMinutes();
+  const bloquesDia = obtenerBloquesDia(datosAula.bloques, diaSeleccionado);
+  const actual = diaSeleccionado === diaHoy ? obtenerClaseActual(bloquesDia, minutosActuales) : null;
+  const fechasSemana = obtenerFechasSemana(fecha);
+  const fechaSeleccionada = fechasSemana.find((f) => f.dia === diaSeleccionado).fechaDia;
+
+  const fechaSeleccionadaTexto = fechaSeleccionada.toLocaleDateString('es-EC', {
+    weekday: 'long',
+    day: '2-digit',
+    month: 'long',
+  });
+
+  const chips = fechasSemana
+    .map(
+      ({ dia, fechaDia }) => `
+    <button class="chip ${dia === diaSeleccionado ? 'activo' : ''}" data-dia="${dia}">
+      <span class="chip-dia">${ABREV_DIA[dia]}</span>
+      <span class="chip-numero">${fechaDia.getDate()}</span>
+      <span class="chip-hoy">${dia === diaHoy ? 'HOY' : ''}</span>
+    </button>
+  `
+    )
+    .join('');
+
+  const tarjetas = bloquesDia.length
+    ? bloquesDia
+        .map(
+          (b) => `
+        <article class="tarjeta ${b === actual ? 'en-curso' : ''}">
+          ${b === actual ? '<h2 class="etiqueta-en-curso">EN CURSO</h2>' : ''}
+          <p class="materia">${b.materia}</p>
+          <p class="detalle">${formatearDetalle(b)}</p>
+          <p class="docente">Docente: ${b.docente}</p>
+          ${b === actual ? renderBarraProgreso(b, minutosActuales) : `<span class="hora-chip">${b.horaInicio} – ${b.horaFin}</span>`}
+        </article>
+      `
+        )
+        .join('')
+    : '<p class="vacio">Sin clases este día.</p>';
+
+  contenedor.innerHTML = `
+    <header class="encabezado">
+      <div>
+        <span class="universidad">Universidad Indoamérica</span>
+        <h1>AULA ${datosAula.aula}</h1>
+        <p class="campus">Campus ${datosAula.campus}</p>
+      </div>
+      <button id="btn-volver" class="boton-secundario boton-volver">&larr; Volver</button>
+    </header>
+    <p class="fecha-seleccionada">${fechaSeleccionadaTexto}</p>
+    <div class="selector-dias">${chips}</div>
+    <div class="lista-clases">${tarjetas}</div>
+  `;
+}
