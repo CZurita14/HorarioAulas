@@ -3,6 +3,7 @@ import {
   parseHora,
   obtenerDiaActual,
   obtenerBloquesDia,
+  agruparBloquesConsecutivos,
   obtenerClaseActual,
   obtenerClaseSiguiente,
   obtenerLunesDeLaSemana,
@@ -69,6 +70,38 @@ describe('obtenerClaseSiguiente', () => {
   });
   it('devuelve null después de la última clase', () => {
     expect(obtenerClaseSiguiente(bloquesLunes, parseHora('13:00'))).toBeNull();
+  });
+});
+
+describe('agruparBloquesConsecutivos', () => {
+  const base = { dia: 'sabado', materia: 'ELECTIVA II', docente: 'DIANA', carrera: 'DERECHO', nivel: '3RO', paralelo: '01' };
+
+  it('une bloques consecutivos de la misma clase en uno solo con el rango completo', () => {
+    const bloques = [
+      { ...base, horaInicio: '07:30', horaFin: '08:29' },
+      { ...base, horaInicio: '08:30', horaFin: '09:29' },
+      { ...base, horaInicio: '09:30', horaFin: '10:29' },
+      { ...base, horaInicio: '10:30', horaFin: '11:29' },
+    ];
+    expect(agruparBloquesConsecutivos(bloques)).toEqual([
+      { ...base, horaInicio: '07:30', horaFin: '11:29' },
+    ]);
+  });
+
+  it('no une bloques de distinta materia aunque sean consecutivos', () => {
+    const bloques = [
+      { ...base, horaInicio: '07:30', horaFin: '08:29' },
+      { ...base, materia: 'OTRA MATERIA', horaInicio: '08:30', horaFin: '09:29' },
+    ];
+    expect(agruparBloquesConsecutivos(bloques)).toEqual(bloques);
+  });
+
+  it('no une bloques de la misma clase si hay un hueco entre ellos', () => {
+    const bloques = [
+      { ...base, horaInicio: '07:30', horaFin: '08:29' },
+      { ...base, horaInicio: '09:30', horaFin: '10:29' },
+    ];
+    expect(agruparBloquesConsecutivos(bloques)).toEqual(bloques);
   });
 });
 

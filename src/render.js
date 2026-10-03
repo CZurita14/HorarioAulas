@@ -1,6 +1,7 @@
 import {
   obtenerDiaActual,
   obtenerBloquesDia,
+  agruparBloquesConsecutivos,
   obtenerClaseActual,
   obtenerClaseSiguiente,
   obtenerLunesDeLaSemana,
@@ -38,7 +39,7 @@ export function renderBarraProgreso(bloque, minutosActuales) {
 export function renderVistaPrincipal(contenedor, datosAula, fecha = new Date()) {
   const dia = obtenerDiaActual(fecha);
   const minutosActuales = fecha.getHours() * 60 + fecha.getMinutes();
-  const bloquesDia = obtenerBloquesDia(datosAula.bloques, dia);
+  const bloquesDia = agruparBloquesConsecutivos(obtenerBloquesDia(datosAula.bloques, dia));
   const actual = obtenerClaseActual(bloquesDia, minutosActuales);
   const siguiente = obtenerClaseSiguiente(bloquesDia, minutosActuales);
   const restoDelDia = bloquesDia.filter((b) => siguiente && b !== actual && b !== siguiente && b.horaInicio > siguiente.horaInicio);
@@ -143,7 +144,7 @@ function obtenerFechasSemana(fecha) {
 export function renderVistaCompleta(contenedor, datosAula, diaSeleccionado, fecha = new Date()) {
   const diaHoy = obtenerDiaActual(fecha);
   const minutosActuales = fecha.getHours() * 60 + fecha.getMinutes();
-  const bloquesDia = obtenerBloquesDia(datosAula.bloques, diaSeleccionado);
+  const bloquesDia = agruparBloquesConsecutivos(obtenerBloquesDia(datosAula.bloques, diaSeleccionado));
   const actual = diaSeleccionado === diaHoy ? obtenerClaseActual(bloquesDia, minutosActuales) : null;
   const fechasSemana = obtenerFechasSemana(fecha);
   const fechaSeleccionadaInfo = fechasSemana.find((f) => f.dia === diaSeleccionado) || fechasSemana[0];

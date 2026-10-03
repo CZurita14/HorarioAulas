@@ -32,6 +32,33 @@ export function obtenerClaseSiguiente(bloquesDia, minutosActuales) {
   );
 }
 
+// Varios bloques consecutivos de una hora pueden representar en realidad
+// una sola clase más larga (ej. 07:30–08:29, 08:30–09:29, ...). Para la
+// vista de tarjetas los unimos en uno solo con el rango horario completo,
+// siempre que sean la misma materia/docente/paralelo y no haya hueco entre
+// el fin de uno y el inicio del siguiente.
+export function agruparBloquesConsecutivos(bloquesDia) {
+  const resultado = [];
+  for (const bloque of bloquesDia) {
+    const anterior = resultado[resultado.length - 1];
+    const esContinuacion =
+      anterior &&
+      anterior.materia === bloque.materia &&
+      anterior.docente === bloque.docente &&
+      anterior.carrera === bloque.carrera &&
+      anterior.nivel === bloque.nivel &&
+      anterior.paralelo === bloque.paralelo &&
+      parseHora(bloque.horaInicio) - parseHora(anterior.horaFin) === 1;
+
+    if (esContinuacion) {
+      resultado[resultado.length - 1] = { ...anterior, horaFin: bloque.horaFin };
+    } else {
+      resultado.push({ ...bloque });
+    }
+  }
+  return resultado;
+}
+
 export function obtenerLunesDeLaSemana(fecha) {
   const resultado = new Date(fecha);
   const diaSemana = resultado.getDay();
