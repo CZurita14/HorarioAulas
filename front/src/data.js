@@ -1,7 +1,8 @@
-// Cada aula tiene su propio archivo data/<ID>.json (mismo esquema). Vite
-// los importa todos en build time; así, agregar una aula nueva es solo
-// agregar su JSON a data/ sin tocar este archivo.
-const modulos = import.meta.glob('../data/*.json', { eager: true });
+// Cada aula tiene su propio archivo back/data/<ID>.json (mismo esquema),
+// generado a partir de SharePoint por los scripts de /consumos. Vite los
+// importa todos en build time; así, agregar una aula nueva es solo agregar
+// su JSON en back/data/ sin tocar este archivo.
+const modulos = import.meta.glob('../../back/data/*.json', { eager: true });
 
 const aulasPorId = {};
 for (const ruta in modulos) {
