@@ -1,0 +1,290 @@
+:root {
+  --color-azul: #2b3a67;
+  --color-naranja: #e8622c;
+  --color-fondo: #f4f5f7;
+  --color-texto: #1f2430;
+  --color-verde: #2e9e4f;
+  --color-tarjeta: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+#app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.encabezado {
+  background: var(--color-azul);
+  color: white;
+  padding: 20px 16px 18px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.encabezado-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.universidad {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.reloj-vivo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 3px 9px 3px 7px;
+  border-radius: 999px;
+}
+
+.punto-vivo {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5eeb8f;
+  display: inline-block;
+}
+
+.encabezado h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.campus,
+.fecha,
+.fecha-seleccionada {
+  margin: 2px 0 0;
+  opacity: 0.85;
+  font-size: 0.85rem;
+}
+
+.fecha {
+  text-transform: capitalize;
+}
+
+.fecha-seleccionada {
+  color: var(--color-texto);
+  opacity: 1;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: capitalize;
+  margin: 4px 2px 10px;
+}
+
+.seccion-titulo {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9298a6;
+  margin: 4px 2px;
+}
+
+.tarjeta {
+  background: var(--color-tarjeta);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid transparent;
+}
+
+.tarjeta-actual.en-curso,
+.tarjeta.en-curso {
+  border-left-color: var(--color-verde);
+}
+
+.tarjeta-siguiente {
+  border-left-color: var(--color-naranja);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tarjeta h2,
+.etiqueta-en-curso {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-verde);
+}
+
+.tarjeta-siguiente h2 {
+  color: var(--color-naranja);
+}
+
+.materia {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.materia-chica {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.detalle {
+  color: #5a6072;
+  font-size: 0.9rem;
+  margin: 0 0 2px;
+}
+
+.docente {
+  font-size: 0.85rem;
+  color: #5a6072;
+  margin: 0 0 10px;
+}
+
+.hora-chip,
+.hora-chica {
+  display: inline-block;
+  background: #eef0f4;
+  color: #5a6072;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.barra-progreso {
+  display: flex;
+  gap: 3px;
+  margin-top: 4px;
+}
+
+.segmento {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background: #e7eae0;
+}
+
+.segmento.lleno {
+  background: var(--color-verde);
+}
+
+.barra-horas {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #5a6072;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.fila-resto {
+  background: var(--color-tarjeta);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  opacity: 0.85;
+}
+
+.boton-secundario {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d6d9e0;
+  border-radius: 12px;
+  background: white;
+  color: var(--color-azul);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.boton-volver {
+  width: auto;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  align-self: flex-start;
+}
+
+.selector-dias {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.chip {
+  flex: 0 0 auto;
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 0 7px;
+  border-radius: 14px;
+  border: 1px solid #d6d9e0;
+  background: white;
+  color: #5a6072;
+  cursor: pointer;
+}
+
+.chip.activo {
+  background: var(--color-azul);
+  border-color: var(--color-azul);
+  color: white;
+}
+
+.chip-dia {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.chip-numero {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.chip-hoy {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #9fd6ff;
+  min-height: 0.7em;
+}
+
+.vacio {
+  text-align: center;
+  color: #5a6072;
+  padding: 24px 0;
+}
