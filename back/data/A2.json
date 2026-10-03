@@ -1,0 +1,377 @@
+{
+  "aula": "A2",
+  "campus": "Manuela Sáenz",
+  "capacidad": 35,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ALEXANDRA ELIZABETH GALARZA GUEVARA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "FISICA APLICADA",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA INFORMACION",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "BIOQUIMICA I",
+      "docente": "DELIA MARLENE LOPEZ DOMINGUEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "SALUD PUBLICA",
+      "docente": "JAEN CARLOS CAGUA ORDOÑEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "GASTROENTEROLOGIA",
+      "docente": "LILIAN CAMAÑO CARBALLO",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "20:29",
+      "materia": "ANESTESIOLOGIA",
+      "docente": "SILVIA ELIZABETH NAULA ICHINA",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ALEXANDRA ELIZABETH GALARZA GUEVARA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "FARMACOLOGIA BASICA",
+      "docente": "ESTEFANIA ARACELLY REYES ROSERO",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "HISTOLOGIA Y BIOLOGIA CELULAR I",
+      "docente": "REGLA CRISTINA VALDES CABODEVILLA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "FUNDAMENTOS DE ENFERMERIA DEL NIÑO Y",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "SALUD MENTAL",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "CARDIOLOGIA",
+      "docente": "ISRAEL MAURICIO ZURITA ALTAMIRANO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:30",
+      "horaFin": "20:29",
+      "materia": "NEUROLOGIA",
+      "docente": "LUIS ANDRES TAPIA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ALEXANDRA ELIZABETH GALARZA GUEVARA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FISIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "EMBRIOLOGIA I",
+      "docente": "HECTOR RODRIGO REMACHE CEVALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "LENGUAJE Y COMUNICACION",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "ERICA LISETH LARA SANDOVAL",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INTEGRACION CURRICULAR III",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "17:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "18:30",
+      "horaFin": "20:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ALEXANDRA ELIZABETH GALARZA GUEVARA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "FARMACOLOGIA BASICA",
+      "docente": "ESTEFANIA ARACELLY REYES ROSERO",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "PSICOPATOLOGIA",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "OFTALMOLOGIA",
+      "docente": "KATHERINE NATALY MARTINEZ GUERRERO",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "SALUD MENTAL",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MEDICINA BASADA EN EVIDENCIAS",
+      "docente": "DANIEL ALEJANDRO SIMANCAS RACINES",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "NEUMOLOGIA",
+      "docente": "EDWIN MARCELO MIRANDA SOLIS",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "ANESTESIOLOGIA",
+      "docente": "SILVIA ELIZABETH NAULA ICHINA",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ALEXANDRA ELIZABETH GALARZA GUEVARA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "PSICOPATOLOGIA",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "MEDICINA BASADA EN EVIDENCIAS",
+      "docente": "DANIEL ALEJANDRO SIMANCAS RACINES",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "17:29",
+      "materia": "PATOLOGIA APLICADA",
+      "docente": "DIANA CAROLINA KELLY CHICO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "19:29",
+      "materia": "PATOLOGIA APLICADA",
+      "docente": "DIANA CAROLINA KELLY CHICO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "13:29",
+      "materia": "INGLES III",
+      "docente": "POR DEFINIR",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "11"
+    }
+  ]
+}

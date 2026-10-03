@@ -6,14 +6,42 @@ aula) y convertirlo al esquema de `back/data/<ID>.json`.
 
 ## Estado actual: proceso manual
 
-Hoy esta carpeta no tiene automatización corriendo. El flujo real es:
+Hoy esta carpeta no tiene automatización corriendo (sin acceso a Azure AD,
+ver más abajo). El flujo real es:
 
-1. Alguien con acceso a SharePoint comparte el PDF/Excel del aula (o un
-   link de SharePoint) fuera de este repo.
-2. Se transforma manualmente ese archivo al esquema de `back/data/<ID>.json`
-   (como se hizo para `A4.json`, parseando el PDF con `pdfplumber` contra
-   las líneas de la grilla de la tabla).
+1. Alguien con acceso a SharePoint comparte el PDF del aula ("USO DE
+   AULAS") fuera de este repo.
+2. Se transforma ese PDF al esquema de `back/data/<ID>.json` con
+   `parse_pdf.py` (ver abajo).
 3. El JSON resultante se agrega/actualiza en `back/data/` y se publica.
+
+## `parse_pdf.py`
+
+```bash
+pip install pdfplumber
+python3 consumos/sharepoint/parse_pdf.py "AGR - AULA A1.pdf" A1 > back/data/A1.json
+```
+
+Lee la tabla del PDF (7 días x 2 sub-columnas por día) usando las líneas de
+la grilla, no el texto plano (el texto plano sale desordenado cuando hay
+columnas superpuestas). Imprime en `stderr` una `ADVERTENCIA:` por cada
+caso ambiguo que tuvo que resolver con una regla arbitraria — en particular:
+
+- **Sábado con varias sesiones en la misma hora nominal** (clases
+  semipresenciales que el PDF apila en una sola celda sin indicar la
+  subdivisión horaria real): se conserva solo la primera sesión encontrada
+  y se descarta el resto, igual que se decidió a mano para A4.
+- **Bloques que igual quedan solapados** después de lo anterior (aulas muy
+  cargadas los sábados, como A1 y A5, donde el PDF reparte una misma fila
+  en páginas con desalineos distintos): se conserva la primera sesión en
+  el orden del documento y se descarta cualquier otra que se solape.
+- **Domingo con contenido**: se descarta (la app no tiene día domingo en
+  el selector) pero se avisa, por si en el futuro se decide agregarlo.
+
+**Cualquier aula que dispare estas advertencias para sábado debe
+verificarse a mano contra el PDF original** — el script garantiza que el
+resultado no tenga clases solapadas, no que capture perfectamente cada
+sesión cuando el PDF mismo es ambiguo.
 
 ## Por qué no es automático todavía
 

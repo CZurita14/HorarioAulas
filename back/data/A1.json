@@ -1,0 +1,507 @@
+{
+  "aula": "A1",
+  "campus": "Manuela Sáenz",
+  "capacidad": 34,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "NEUMOLOGIA",
+      "docente": "LUIS FELIPE VILLAGRAN FIALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "NUTRICION Y DIETETICA",
+      "docente": "DANIELA ALEJANDRA LOAIZA MARTINEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "EPISTEMOLOGIA DEL CUIDADO",
+      "docente": "VIRGINIA LEONOR MARIÑO NUÑEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "GERIATRIA",
+      "docente": "MAYRA RAQUEL ORTIZ ANDALUZ",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "CIRUGIA GENERAL",
+      "docente": "CARLOS OMAR BLACIO VILLA",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "PATOLOGIA APLICADA",
+      "docente": "DIANA CAROLINA KELLY CHICO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "ENFERMERIA BASICA",
+      "docente": "ALVARO FERNANDO FLORES VILLACIS",
+      "carrera": "ENFERMERIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "ENFERMERIA EN PACIENTES CON NECESIDADES",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "SEMIOLOGIA II",
+      "docente": "JOSE ALEJANDRO GONZALEZ FREIRE",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "FUNDAMENTOS DE ENFERMERIA DEL NIÑO Y",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "GERIATRIA",
+      "docente": "MAYRA RAQUEL ORTIZ ANDALUZ",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "CIRUGIA GENERAL",
+      "docente": "CARLOS OMAR BLACIO VILLA",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:30",
+      "horaFin": "20:29",
+      "materia": "TRAUMATOLOGIA",
+      "docente": "VICTOR GABRIEL ROBALINO VASCONEZ",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "SEMIOLOGIA",
+      "docente": "DIEGO ALFONSO ARBOLEDA FLORES",
+      "carrera": "ENFERMERIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "POR DEFINIR",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "ENFERMERIA DEL NIÑO Y DEL ADOLESCENTE",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "CARDIOLOGIA",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "NEUMOLOGIA",
+      "docente": "EDWIN MARCELO MIRANDA SOLIS",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "18:30",
+      "horaFin": "20:29",
+      "materia": "MEDICINA SOCIAL IV",
+      "docente": "VERONICA IMELDA TORRES PAREDES",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ENFERMERIA DE SALUD MENTAL Y PSIQUIATRIA",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "GESTION DE SERVICIOS DE SALUD",
+      "docente": "STALYN FRANCISCO CONDEMAITA QUILLIGANA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ENFERMERIA EN PACIENTES CON NECESIDADES",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "INTEGRACION CURRICULAR III",
+      "docente": "CARLOS GONZALO ACOSTA MAYORGA",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "TRAUMATOLOGIA",
+      "docente": "VICTOR GABRIEL ROBALINO VASCONEZ",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "ERICA LISETH LARA SANDOVAL",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "19:30",
+      "horaFin": "21:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "FARMACOLOGIA I",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "FUNDAMENTOS DE DISEÑO",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "CARDIOLOGIA",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "CARDIOLOGIA",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "17:29",
+      "materia": "INFECTOLOGIA",
+      "docente": "SILVIA TATIANA TITE ANDI",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "GASTROENTEROLOGIA",
+      "docente": "LILIAN CAMAÑO CARBALLO",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "20:30",
+      "horaFin": "21:29",
+      "materia": "MEDICINA SOCIAL IV",
+      "docente": "VERONICA IMELDA TORRES PAREDES",
+      "carrera": "MEDICINA",
+      "nivel": "10MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "07:30",
+      "horaFin": "09:29",
+      "materia": "DERECHO ADMINISTRATIVO AMBIENTAL Y",
+      "docente": "RICARDO HERNAN SALAZAR OROZCO",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "SOCIETARIO Y DERECHO DE LA COMPETENCIA",
+      "docente": "TATIANA LISBETH GAIBOR VASQUEZ",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "13:29",
+      "materia": "DERECHO CIVIL IV CONTRATOS",
+      "docente": "LADY JOHANA VALLEJO GARZON",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "13:30",
+      "horaFin": "15:29",
+      "materia": "DERECHO ADMINISTRATIVO AMBIENTAL Y",
+      "docente": "RICARDO HERNAN SALAZAR OROZCO",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "15:30",
+      "horaFin": "18:29",
+      "materia": "DERECHO CIVIL IV CONTRATOS",
+      "docente": "LADY JOHANA VALLEJO GARZON",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "18:30",
+      "horaFin": "20:29",
+      "materia": "DERECHO ADMINISTRATIVO AMBIENTAL Y",
+      "docente": "RICARDO HERNAN SALAZAR OROZCO",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "20:30",
+      "horaFin": "21:29",
+      "materia": "SOCIETARIO Y DERECHO DE LA COMPETENCIA",
+      "docente": "TATIANA LISBETH GAIBOR VASQUEZ",
+      "carrera": "DERECHO",
+      "nivel": "5TO",
+      "paralelo": "01"
+    }
+  ]
+}

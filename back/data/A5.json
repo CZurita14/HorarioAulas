@@ -1,0 +1,437 @@
+{
+  "aula": "A5",
+  "campus": "Manuela Sáenz",
+  "capacidad": 38,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "LENGUAJE ARQUITECTONICO I",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "FUNDAMENTOS DEL DISEÑO",
+      "docente": "ELISKA FUENTES PEREZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "06"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "LENGUAJE ARQUITECTONICO I",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "FUNDAMENTOS DEL DISEÑO",
+      "docente": "LUCIA CRISTINA PAZMIÑO VITERI",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "COMUNICACION GRAFICA DE PROYECTOS",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "13:29",
+      "materia": "ANALISIS MATEMATICO",
+      "docente": "MAYRA ALEJANDRA PAUCAR SAMANIEGO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "06"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "17:29",
+      "materia": "ANALISIS MATEMATICO",
+      "docente": "MAYRA ALEJANDRA PAUCAR SAMANIEGO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "NEUROLOGIA",
+      "docente": "JORGE SEBASTIAN ROBAYO ORTIZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "11:29",
+      "materia": "LENGUAJE ARQUITECTONICO II",
+      "docente": "LUCIA CRISTINA PAZMIÑO VITERI",
+      "carrera": "ARQUITECTURA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "REUMATOLOGIA",
+      "docente": "POR DEFINIR",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRACTICAS PREPROFESIONALES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "06"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "POR DEFINIR",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "14"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "19:29",
+      "materia": "HEMATOLOGIA",
+      "docente": "MARIA PAULINA MOLINA ESPINOSA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "11:29",
+      "materia": "TALLER EXPERIMENTAL DE DISEÑO",
+      "docente": "PAOLA CRISTINA VELASCO ESPIN",
+      "carrera": "ARQUITECTURA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ELECTIVA II",
+      "docente": "MAYRA ALEJANDRA PAUCAR SAMANIEGO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ELECTIVA I",
+      "docente": "PAOLA CRISTINA VELASCO ESPIN",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "16:29",
+      "materia": "PORTAFOLIO Y COMUNICACION PARA",
+      "docente": "LUIS ANGEL PINARGOTE PICO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "9NO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "CIUDAD Y PLANIFICACION TERRITORIAL",
+      "docente": "RICARDO DAVID CELI VALVERDE",
+      "carrera": "ARQUITECTURA",
+      "nivel": "9NO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "LEGISLACION MEDICA",
+      "docente": "GERMAN EDUARDO CARRERA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "GEOMETRIA EN LA ARQUITECTURA",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "EXPRESION GRAFICA",
+      "docente": "DANIEL ANTONIO PUGA HERMOSA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ELECTIVA I",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "06"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "EXPRESION GRAFICA",
+      "docente": "DANIEL ANTONIO PUGA HERMOSA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "ENDOCRINOLOGIA",
+      "docente": "VICTOR ALFONSO ALVAREZ ALTAMIRANO",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "SISTEMAS DE INFORMACION GERENCIAL",
+      "docente": "WASHINGTON MARCELO GALLARDO MEDINA",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "COMERCIO INTERNACIONAL",
+      "docente": "AMANDA PATRICIA MARTINEZ YACELGA",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "CREATIVIDAD, INNOVACION Y EMPRENDIMIENTO",
+      "docente": "AIDE OLIVA NARANJO GAIBOR",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "RESPONSABILIDAD SOCIAL EMPRESARIAL",
+      "docente": "WALTER WASHINGTON MARQUEZ YAGUAL",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "SISTEMAS DE INFORMACION GERENCIAL",
+      "docente": "WASHINGTON MARCELO GALLARDO MEDINA",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "13:30",
+      "horaFin": "15:29",
+      "materia": "COMERCIO INTERNACIONAL",
+      "docente": "AMANDA PATRICIA MARTINEZ YACELGA",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "RESPONSABILIDAD SOCIAL EMPRESARIAL",
+      "docente": "WALTER WASHINGTON MARQUEZ YAGUAL",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "SISTEMAS DE INFORMACION GERENCIAL",
+      "docente": "WASHINGTON MARCELO GALLARDO MEDINA",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "COMERCIO INTERNACIONAL",
+      "docente": "AMANDA PATRICIA MARTINEZ YACELGA",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "CREATIVIDAD, INNOVACION Y EMPRENDIMIENTO",
+      "docente": "AIDE OLIVA NARANJO GAIBOR",
+      "carrera": "ADMINISTRACION DE EMPRESAS",
+      "nivel": "7MO",
+      "paralelo": "01"
+    }
+  ]
+}
