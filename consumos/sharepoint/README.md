@@ -43,17 +43,23 @@ verificarse a mano contra el PDF original** — el script garantiza que el
 resultado no tenga clases solapadas, no que capture perfectamente cada
 sesión cuando el PDF mismo es ambiguo.
 
-## Pendiente: B4, B8, C7, C9, D8, D9, D11, Taller_4
+## Pendiente: B8, D8, D11, Taller_4
 
-Estas 8 aulas se descargaron y parsearon en una sesión aparte (fuera de
-este flujo, con un parser distinto a `parse_pdf.py`) que no manejaba bien
-una carrera que ocupa más de una línea en el PDF: cuando eso pasa, todos
-los campos del bloque (materia/docente/nivel/paralelo) quedan corridos
-uno de más. `B8.json` y `D9.json` quedaron especialmente afectados
-(~30-49% de sus bloques). Para publicarlas hay que conseguir sus PDF
-originales de SharePoint y correrlos con `parse_pdf.py`, que sí resuelve
-este caso (ver `parsear_texto_bloque` en el script: arma los campos desde
-el final de la celda hacia atrás, no desde el principio).
+Originalmente 8 aulas (B4, B8, C7, C9, D8, D9, D11, Taller_4) habían sido
+descargadas y parseadas en una sesión aparte (fuera de este flujo, con un
+parser distinto a `parse_pdf.py`) que no manejaba bien una carrera que
+ocupa más de una línea en el PDF — todos los campos del bloque quedaban
+corridos uno de más. Se consiguieron los PDF originales de B4, C7, C9 y
+D9 y se reparsearon con `parse_pdf.py` (ya publicadas en `back/data/`).
+
+Quedan pendientes:
+- **D8, D11, Taller_4**: todavía no se consiguió el PDF original.
+- **B8**: sí se consiguió el PDF, pero tiene una celda que ocupa varias
+  horas y se corta justo en el borde entre dos páginas del documento —
+  la página siguiente retoma el contenido sin ninguna fila de hora al
+  lado, así que no hay cómo saber automáticamente a qué hora pertenece
+  esa continuación. Necesita transcripción manual contra el PDF visual
+  en vez del parser automático.
 
 ## Por qué no es automático todavía
 
