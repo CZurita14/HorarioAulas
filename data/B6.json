@@ -1,0 +1,227 @@
+{
+  "aula": "B6",
+  "campus": "Manuela Sáenz",
+  "capacidad": 26,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "MODELADO 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "DISEÑO DE VIDEO JUEGOS",
+      "docente": "KEVIN WILLIAM ORTIZ CHIMBORAZO",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "DISEÑO DE VIDEO JUEGOS",
+      "docente": "KEVIN WILLIAM ORTIZ CHIMBORAZO",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "MODELADO Y ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MODELADO Y ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "SIMULACION DIGITAL PARA EL DISEÑO",
+      "docente": "DANIEL ANTONIO PUGA HERMOSA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "DISEÑO DE ENTORNOS",
+      "docente": "KEVIN WILLIAM ORTIZ CHIMBORAZO",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PRODUCCION Y POSPRODUCCION AUDIOVISUAL",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PRODUCCION Y POSPRODUCCION AUDIOVISUAL",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PRODUCCION Y POSPRODUCCION AUDIOVISUAL",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "MODELADO 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "MODELADO Y ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "MODELADO Y ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MODELADO Y ANIMACION DIGITAL 3D",
+      "docente": "JESSICA VIVIANA MARTINEZ VERGARA",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PRODUCCION AUDIOVISUAL",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ANIMACION DIGITAL 2D",
+      "docente": "MARIA DEL PILAR HIDALGO BARRENO",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO UX UI",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO UX UI",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DISEÑO UX UI",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    }
+  ]
+}

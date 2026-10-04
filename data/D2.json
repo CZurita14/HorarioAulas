@@ -1,0 +1,407 @@
+{
+  "aula": "D2",
+  "campus": "Manuela Sáenz",
+  "capacidad": 28,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "LUIS ENRIQUE SORIA PAZMIÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "LUIS ENRIQUE SORIA PAZMIÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "14"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO WEB",
+      "docente": "MARIA DEL PILAR HIDALGO BARRENO",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DISEÑO WEB",
+      "docente": "MARIA DEL PILAR HIDALGO BARRENO",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "COSTOS EN LA CONSTRUCCION",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "COSTOS EN LA CONSTRUCCION",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER ESTRUCTURA FORMA Y ESPACIO PUBLICO",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER ESTRUCTURA FORMA Y ESPACIO PUBLICO",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "TALLER ESTRUCTURA FORMA Y ESPACIO PUBLICO",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "COSTOS EN LA CONSTRUCCION",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "COSTOS EN LA CONSTRUCCION",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "DISEÑO URBANO",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "DISEÑO URBANO",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "DISEÑO URBANO",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRACTICAS PREPROFESIONALES",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRACTICAS PREPROFESIONALES",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO URBANO",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO URBANO",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DISEÑO URBANO",
+      "docente": "LINDA ELIZABETH MIRANDA PAREDES",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "LUIS ENRIQUE SORIA PAZMIÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "LUIS ENRIQUE SORIA PAZMIÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "LUIS ENRIQUE SORIA PAZMIÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER ESTRUCTURA FORMA Y ESPACIO PUBLICO",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER ESTRUCTURA FORMA Y ESPACIO PUBLICO",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "TALLER ESTRUCTURA FORMA Y ESPACIO PUBLICO",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TALLER DE APLICACION AVANZADA",
+      "docente": "MARIO FABRICIO AMANCHA PROAÑO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INSTALACIONES ESPECIALES Y GRANDES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INSTALACIONES ESPECIALES Y GRANDES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INSTALACIONES ESPECIALES Y GRANDES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INSTALACIONES ESPECIALES Y GRANDES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INSTALACIONES ESPECIALES Y GRANDES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INSTALACIONES ESPECIALES Y GRANDES",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "8VO",
+      "paralelo": "02"
+    }
+  ]
+}

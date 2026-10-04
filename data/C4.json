@@ -1,0 +1,497 @@
+{
+  "aula": "C4",
+  "campus": "Manuela Sáenz",
+  "capacidad": 28,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLINGUISTICA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLINGUISTICA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTIVA 1",
+      "docente": "VERONICA NATALY HIDALGO VASCONEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "HISTOLOGIA Y BIOLOGIA CELULAR I",
+      "docente": "REGLA CRISTINA VALDES CABODEVILLA",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ESTRUCTURAS DE ACERO",
+      "docente": "CHRISTIAN DAVID MEDINA ROBALINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "AGUA POTABLE",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "AGUA POTABLE",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO INTERVENCION PSICOPEDAGOGICA",
+      "docente": "NORMA VERONICA SILVA JIMENEZ",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO INTERVENCION PSICOPEDAGOGICA",
+      "docente": "NORMA VERONICA SILVA JIMENEZ",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PRACTICAS PRE PROFESIONALES (PRACTICAS DE",
+      "docente": "LUIS FERNANDO TARUCHAIN POZO",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "NEUROLOGIA",
+      "docente": "LUIS ANDRES TAPIA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "NEUROLOGIA",
+      "docente": "LUIS ANDRES TAPIA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLOGIA GENERAL",
+      "docente": "PAOLA SILVANA VALENCIA MEDINA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "NEUROANATOMIA Y NEUROFISIOLOGIA I",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "NEUROANATOMIA Y NEUROFISIOLOGIA I",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PROCESOS PSICOLOGICOS I",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "DISEÑO MECANICO",
+      "docente": "ESTALIN JOSE ROMERO MORALES",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "DISEÑO MECANICO",
+      "docente": "ESTALIN JOSE ROMERO MORALES",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO INTERVENCION PSICOPEDAGOGICA",
+      "docente": "NORMA VERONICA SILVA JIMENEZ",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "TALENTO HUMANO EVALUACION DEL DESEMPEÑO",
+      "docente": "LUIS FERNANDO TARUCHAIN POZO",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TALENTO HUMANO EVALUACION DEL DESEMPEÑO",
+      "docente": "LUIS FERNANDO TARUCHAIN POZO",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "SISTEMAS DE INGENIERIA",
+      "docente": "FREDDY JULIAN CHIPUGSI CALERO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "SISTEMAS DE INGENIERIA",
+      "docente": "FREDDY JULIAN CHIPUGSI CALERO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "MAQUINAS ELECTRICAS ROTATORIAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "MAQUINAS ELECTRICAS ROTATORIAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "FUNDAMENTOS DE LA ENFERMERIA QUIRURGICA",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA GENERAL",
+      "docente": "PAOLA SILVANA VALENCIA MEDINA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOLOGIA GENERAL",
+      "docente": "PAOLA SILVANA VALENCIA MEDINA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PROCESOS PSICOLOGICOS I",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PROCESOS PSICOLOGICOS I",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "TALENTO HUMANO EVALUACION DEL DESEMPEÑO",
+      "docente": "LUIS FERNANDO TARUCHAIN POZO",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "CREATIVIDAD, INNOVACION Y EMPRENDIMIENTO",
+      "docente": "JOSE MIGUEL ACUÑA MAYORGA",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "CREATIVIDAD, INNOVACION Y EMPRENDIMIENTO",
+      "docente": "JOSE MIGUEL ACUÑA MAYORGA",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "MEDICINA SOCIAL III",
+      "docente": "DIANA VERONICA CARDENAS PAREDES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "MEDICINA SOCIAL III",
+      "docente": "DIANA VERONICA CARDENAS PAREDES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "MEDICINA SOCIAL III",
+      "docente": "DIANA VERONICA CARDENAS PAREDES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES II",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "2DO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "NEUROANATOMIA Y NEUROFISIOLOGIA I",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "NEUROANATOMIA Y NEUROFISIOLOGIA I",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ESTRUCTURAS DE ACERO",
+      "docente": "CHRISTIAN DAVID MEDINA ROBALINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ESTRUCTURAS DE ACERO",
+      "docente": "CHRISTIAN DAVID MEDINA ROBALINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO INTERVENCION PSICOLOGICA BASICA",
+      "docente": "null",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO INTERVENCION PSICOLOGICA BASICA",
+      "docente": "null",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "MATEMATICA PARA INGENIERIA",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "MECATRONICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "MATEMATICA PARA INGENIERIA",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "MECATRONICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "EPISTEMOLOGIA DE LA PSICOLOGIA",
+      "docente": "LIZBETH CAROLINA EUGENIO ZUMBANA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "EPISTEMOLOGIA DE LA PSICOLOGIA",
+      "docente": "LIZBETH CAROLINA EUGENIO ZUMBANA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PSIQUIATRIA Y PSICOFARMACOLOGIA.",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PSIQUIATRIA Y PSICOFARMACOLOGIA.",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "aula": "D12",
+  "campus": "Manuela Sáenz",
+  "capacidad": 32,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "FUNDAMENTOS DE LA ENFERMERIA QUIRURGICA",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FUNDAMENTOS DE LA ENFERMERIA QUIRURGICA",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "CASOS CLINICOS",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "REALIDAD NACIONAL CULTURAL Y ECOLOGICA",
+      "docente": "JULIO CESAR FREIRE PAZMIÑO",
+      "carrera": "MEDICINA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "REALIDAD NACIONAL CULTURAL Y ECOLOGICA",
+      "docente": "JULIO CESAR FREIRE PAZMIÑO",
+      "carrera": "MEDICINA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "LEGISLACION MEDICA",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "LEGISLACION MEDICA",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "ANATOMIA GENERAL",
+      "docente": "MAYRA RAQUEL ORTIZ ANDALUZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANATOMIA GENERAL",
+      "docente": "MAYRA RAQUEL ORTIZ ANDALUZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "CASOS CLINICOS",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "BIOQUIMICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BIOQUIMICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PERIODONCIA I",
+      "docente": "JENNIFER STEFANNY CAMPAÑA ALBAN",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PERIODONCIA I",
+      "docente": "JENNIFER STEFANNY CAMPAÑA ALBAN",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PERIODONCIA I",
+      "docente": "JENNIFER STEFANNY CAMPAÑA ALBAN",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PERIODONCIA I",
+      "docente": "JENNIFER STEFANNY CAMPAÑA ALBAN",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "OCLUSION II",
+      "docente": "DANIELA MONSERRATH AGUAYO ESCOBAR",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "OCLUSION II",
+      "docente": "DANIELA MONSERRATH AGUAYO ESCOBAR",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INTRODUCCION A LA ODONTOLOGIA",
+      "docente": "null",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INTRODUCCION A LA ODONTOLOGIA",
+      "docente": "null",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ANDRES ALEXANDER CASTILLO CHACON",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ANDRES ALEXANDER CASTILLO CHACON",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "CARIOLOGIA Y OPERATORIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "CARIOLOGIA Y OPERATORIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "CARIOLOGIA Y OPERATORIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MORFOLOGIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "MORFOLOGIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "CIRUGIA ORAL I",
+      "docente": "AURA ALEJANDRA VITERI RENTERIA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "CIRUGIA ORAL I",
+      "docente": "AURA ALEJANDRA VITERI RENTERIA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "FISIOLOGIA",
+      "docente": "MAYRA RAQUEL ORTIZ ANDALUZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "FISIOLOGIA",
+      "docente": "MAYRA RAQUEL ORTIZ ANDALUZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ANDRES ALEXANDER CASTILLO CHACON",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ANDRES ALEXANDER CASTILLO CHACON",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "MORFOLOGIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MORFOLOGIA DENTAL",
+      "docente": "FABIOLA AURORA MENDIETA ROSALES",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "HEMATOLOGIA",
+      "docente": "MARIA PAULINA MOLINA ESPINOSA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "HEMATOLOGIA",
+      "docente": "MARIA PAULINA MOLINA ESPINOSA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "HEMATOLOGIA",
+      "docente": "MARIA PAULINA MOLINA ESPINOSA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "HEMATOLOGIA",
+      "docente": "MARIA PAULINA MOLINA ESPINOSA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    }
+  ]
+}

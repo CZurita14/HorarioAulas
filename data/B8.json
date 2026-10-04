@@ -1,0 +1,457 @@
+{
+  "aula": "B8",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTIVA I",
+      "docente": "FERNANDO DAVID SAA TAPIA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ELECTIVA I",
+      "docente": "FERNANDO DAVID SAA TAPIA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PROYECTO DE INTEGRACION CURRICULAR",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PROYECTO DE INTEGRACION CURRICULAR",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "CALCULO DIFERENCIAL",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "CARLOS MIGUEL LEGON PEREZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "CALCULO DIFERENCIAL",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "CARLOS MIGUEL LEGON PEREZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JAIME WLADIMIR ANGAMARCA IGUAGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "FABIAN RAMIRO REVELO AGUILAR",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "CULTURA Y PRACTICA DIGITAL",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "CULTURA Y PRACTICA DIGITAL",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "ESTADISTICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JUAN CARLOS CHERREZ ARROBA - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "ESTADISTICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JUAN CARLOS CHERREZ ARROBA - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "INTERACCION HOMBRE MAQUINA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INFORMACION",
+      "docente": "INTERACCION HOMBRE MAQUINA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "CULTURA Y PRACTICA DIGITAL",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "CULTURA Y PRACTICA DIGITAL",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "LOGISTICA Y CADENA DE SUMINISTRO",
+      "docente": "EDUARDO SANTIAGO TENEDA RAMOS",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "LOGISTICA Y CADENA DE SUMINISTRO",
+      "docente": "EDUARDO SANTIAGO TENEDA RAMOS",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "CALCULO DIFERENCIAL",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "CARLOS MIGUEL LEGON PEREZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "CALCULO DIFERENCIAL",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "CARLOS MIGUEL LEGON PEREZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "CALCULO INTEGRAL",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "LUIS GABRIEL ORTIZ ARMENDARIZ - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INFORMACION",
+      "docente": "CALCULO INTEGRAL",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "LUIS GABRIEL ORTIZ ARMENDARIZ - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "METODOLOGIA DE INVESTIGACION",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "OPTIMIZACION DE SISTEMAS INDUSTRIALES CON",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "OPTIMIZACION DE SISTEMAS INDUSTRIALES CON",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "SISTEMAS INTEGRADOS",
+      "docente": "EDWIN RAMIRO OCAÑA RAZA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "SISTEMAS INTEGRADOS",
+      "docente": "EDWIN RAMIRO OCAÑA RAZA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "ARQUITECTURA DE COMPUTADORAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "ARQUITECTURA DE COMPUTADORAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "INTERACCION HOMBRE MAQUINA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "ANDREA PATRICIA SANCHEZ ZUMBA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "ANDREA PATRICIA SANCHEZ ZUMBA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "ANDREA PATRICIA SANCHEZ ZUMBA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "MATEMATICAS",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DIBUJO PARA INGENIERIA",
+      "docente": "FERNANDO DAVID SAA TAPIA",
+      "carrera": "MECATRONICA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DIBUJO PARA INGENIERIA",
+      "docente": "FERNANDO DAVID SAA TAPIA",
+      "carrera": "MECATRONICA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "ESTADISTICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JUAN CARLOS CHERREZ ARROBA - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "ELECTIVA IV",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "ELECTIVA IV",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "MAQUINAS ELECTRICAS ROTATORIAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "MAQUINAS ELECTRICAS ROTATORIAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    }
+  ]
+}

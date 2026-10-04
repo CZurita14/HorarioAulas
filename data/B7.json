@@ -1,0 +1,507 @@
+{
+  "aula": "B7",
+  "campus": "Manuela Sáenz",
+  "capacidad": 32,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "GENETICA BASICA",
+      "docente": "BORYS ROBERTO ABRIGO MALDONADO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "SYLVIA MARIELA RIVERA SIMBA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "GENETICA BASICA",
+      "docente": "BORYS ROBERTO ABRIGO MALDONADO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "GENETICA BASICA",
+      "docente": "BORYS ROBERTO ABRIGO MALDONADO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JAIME WLADIMIR ANGAMARCA IGUAGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "SYLVIA MARIELA RIVERA SIMBA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "FARMACOLOGIA CLINICA",
+      "docente": "ESTEFANIA ARACELLY REYES ROSERO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "FISIOPATOLOGIA I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "14"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PATOLOGIA GENERAL",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "PATOLOGIA GENERAL",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INMUNOLOGIA",
+      "docente": "ANDRES ESTEBAN MANTILLA ALVEAR",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "SYLVIA MARIELA RIVERA SIMBA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "SEMIOLOGIA II",
+      "docente": "JOSE ALEJANDRO GONZALEZ FREIRE",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "SALUD MENTAL",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "SALUD MENTAL",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PSIQUIATRIA",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "SEMIOLOGIA I",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "SEMIOLOGIA I",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FISIOPATOLOGIA I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "SYLVIA MARIELA RIVERA SIMBA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INMUNOLOGIA",
+      "docente": "ANDRES ESTEBAN MANTILLA ALVEAR",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INMUNOLOGIA",
+      "docente": "ANDRES ESTEBAN MANTILLA ALVEAR",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "SEMIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "SEMIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DISEÑO MECANICO",
+      "docente": "ESTALIN JOSE ROMERO MORALES",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "DISEÑO MECANICO",
+      "docente": "ESTALIN JOSE ROMERO MORALES",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "SEMIOLOGIA I",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "SYLVIA MARIELA RIVERA SIMBA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "NUTRICION",
+      "docente": "DANIELA ALEJANDRA LOAIZA MARTINEZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "NUTRICION",
+      "docente": "DANIELA ALEJANDRA LOAIZA MARTINEZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "SEMIOLOGIA I",
+      "docente": "SHIRLEY KATHERINE BARRERA LOAYZA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PATOLOGIA GENERAL",
+      "docente": "ANGELA CAROLINA JACOME LARA",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    }
+  ]
+}

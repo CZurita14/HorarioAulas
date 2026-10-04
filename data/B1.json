@@ -1,0 +1,347 @@
+{
+  "aula": "B1",
+  "campus": "Manuela Sáenz",
+  "capacidad": 24,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "BIOMATERIALES II",
+      "docente": "GISSELA LISSETTE LUCERO COCA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BIOMATERIALES II",
+      "docente": "GISSELA LISSETTE LUCERO COCA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "EDUCACION Y DIDACTICA DE LA SALUD",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "TRANSFORMACION SOCIAL",
+      "docente": "JORGE MATEO VILLACRES LOPEZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TRANSFORMACION SOCIAL",
+      "docente": "JORGE MATEO VILLACRES LOPEZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "SEMIOLOGIA",
+      "docente": "GISSELA LISSETTE LUCERO COCA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "SEMIOLOGIA",
+      "docente": "GISSELA LISSETTE LUCERO COCA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PROSTODONCIA FIJA",
+      "docente": "PATRICIA DOMENICA MURILLO AGUIRRE",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INSTALACIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TRANSFORMACION SOCIAL",
+      "docente": "JORGE MATEO VILLACRES LOPEZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ENFERMERIA QUIRURGICA",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ENFERMERIA QUIRURGICA",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PATOLOGIA GENERAL",
+      "docente": "ALEXANDRA DEL LAGUAPILLO VERGARA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PATOLOGIA GENERAL",
+      "docente": "ALEXANDRA DEL LAGUAPILLO VERGARA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PSICOLOGIA EVOLUTIVA",
+      "docente": "VERONICA NATALY HIDALGO VASCONEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "NEUROLOGIA",
+      "docente": "JORGE SEBASTIAN ROBAYO ORTIZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "NEUROLOGIA",
+      "docente": "JORGE SEBASTIAN ROBAYO ORTIZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "BIOETICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "BIOETICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PATOLOGIA GENERAL",
+      "docente": "ALEXANDRA DEL LAGUAPILLO VERGARA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PSICOLOGIA EVOLUTIVA",
+      "docente": "VERONICA NATALY HIDALGO VASCONEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ENFERMERIA DEL NIÑO Y DEL ADOLESCENTE",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ENFERMERIA DEL NIÑO Y DEL ADOLESCENTE",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "IMAGENOLOGIA",
+      "docente": "ADRIANA ELIZABETH CALDERON FLORES",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "BIOETICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "IMAGENOLOGIA II",
+      "docente": "LORENA MARIBEL SERNA HERRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "IMAGENOLOGIA II",
+      "docente": "LORENA MARIBEL SERNA HERRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    }
+  ]
+}

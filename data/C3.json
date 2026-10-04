@@ -1,0 +1,517 @@
+{
+  "aula": "C3",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOPATOLOGIA DE LA ADULTEZ",
+      "docente": "MARINA VALERIA MEDINA VARELA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PSICOPATOLOGIA DE LA ADULTEZ",
+      "docente": "MARINA VALERIA MEDINA VARELA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MEDICINA DEL TRABAJO",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ONCOLOGIA",
+      "docente": "JOSE EDUARDO AUCAPIÑA ASTUDILLO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ELECTIVA 5",
+      "docente": "VERONICA NATALY HIDALGO VASCONEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ELECTIVA 5",
+      "docente": "VERONICA NATALY HIDALGO VASCONEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES V",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INGLES V",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INGLES V",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INGLES V",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "08"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "aula": "D4",
+  "campus": "Manuela Sáenz",
+  "capacidad": 28,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "TALLER ARQUITECTURA Y HABITAT COLECTIVO",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER ARQUITECTURA Y HABITAT COLECTIVO",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER ARQUITECTURA Y HABITAT COLECTIVO",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "AUDIO Y VIDEO",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PSICOLOGIA GENERAL",
+      "docente": "PAOLA SILVANA VALENCIA MEDINA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PSICOLINGUISTICA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PSICOLINGUISTICA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ENSAYO DE MATERIALES I",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ENSAYO DE MATERIALES I",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ENSAYO DE MATERIALES I",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ANALISIS NUMERICO",
+      "docente": "FABIANA ELIZABETH CUNALATA VASQUEZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ENFERMERIA DE SALUD MENTAL Y PSIQUIATRIA",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ENFERMERIA DE SALUD MENTAL Y PSIQUIATRIA",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTIVA IV",
+      "docente": "null",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PRACTICA PREPROFESIONAL 2",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "NUTRICION",
+      "docente": "DANIELA ALEJANDRA LOAIZA MARTINEZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "NUTRICION",
+      "docente": "DANIELA ALEJANDRA LOAIZA MARTINEZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "FUNDAMENTOS DE DISEÑO",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "FUNDAMENTOS DE DISEÑO",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "EDICION DIGITAL DE AUDIO Y VIDEO",
+      "docente": "EDISON LUIS MACHADO GOMEZ",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "TALLER ARQUITECTURA Y HABITAT COLECTIVO",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER ARQUITECTURA Y HABITAT COLECTIVO",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER ARQUITECTURA Y HABITAT COLECTIVO",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PROYECTO DE INTEGRACION CURRICULAR",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PROYECTO DE INTEGRACION CURRICULAR",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "PROYECTO DE INTEGRACION CURRICULAR",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PROYECTO DE INTEGRACION CURRICULAR",
+      "docente": "PAULINA MAGALLY AMALUISA RENDON",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "ESTETICA CONTEMPORANEA",
+      "docente": "RAUL RENATO LOPEZ CHIRIBOGA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LOS ORIGENES",
+      "docente": "YOSMEL DIAZ PEREZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LOS ORIGENES",
+      "docente": "YOSMEL DIAZ PEREZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LOS ORIGENES",
+      "docente": "YOSMEL DIAZ PEREZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "null",
+      "carrera": "ARQUITECTURA",
+      "nivel": "7MO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ESTETICA CONTEMPORANEA",
+      "docente": "RAUL RENATO LOPEZ CHIRIBOGA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "ESTETICA CONTEMPORANEA",
+      "docente": "RAUL RENATO LOPEZ CHIRIBOGA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "2DO",
+      "paralelo": "01"
+    }
+  ]
+}

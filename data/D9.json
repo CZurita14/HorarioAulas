@@ -1,0 +1,437 @@
+{
+  "aula": "D9",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ELECTROTECNIA",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ELECTROTECNIA",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "docente": "PATRICIO EDUARDO SANCHEZ DIAZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "docente": "PATRICIO EDUARDO SANCHEZ DIAZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "REALIDAD NACIONAL CULTURAL Y ECOLOGICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JULIO CESAR FREIRE PAZMIÑO - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INFORMACION",
+      "docente": "REALIDAD NACIONAL CULTURAL Y ECOLOGICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JULIO CESAR FREIRE PAZMIÑO - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INTRODUCCION A LA INGENIERIA INDUSTRIAL",
+      "docente": "EDUARDO SANTIAGO TENEDA RAMOS",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INTRODUCCION A LA INGENIERIA INDUSTRIAL",
+      "docente": "EDUARDO SANTIAGO TENEDA RAMOS",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "METODOLOGIA DE INVESTIGACION",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "METODOLOGIA DE INVESTIGACION",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INFORMACION",
+      "docente": "FISICA APLICADA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "ANDRES ROGELIO LARA CALLE - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INFORMACION",
+      "docente": "FISICA APLICADA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "ANDRES ROGELIO LARA CALLE - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "ARQUITECTURA DE COMPUTADORAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "ARQUITECTURA DE COMPUTADORAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "FATIMA ADRIANA AVILES CASTILLO - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ESTRUCTURADA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JOSE LUIS MISE PASUÑA - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ESTRUCTURADA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JOSE LUIS MISE PASUÑA - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTROTECNIA",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ELECTROTECNIA",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "MAQUINAS ESTACIONARIAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "MAQUINAS ESTACIONARIAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "MATEMATICAS DISCRETAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "NANCY PIEDAD RODRIGUEZ SANCHEZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INFORMACION",
+      "docente": "MATEMATICAS DISCRETAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "NANCY PIEDAD RODRIGUEZ SANCHEZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "COMPUTACION Y SOCIEDAD",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "COMPUTACION Y SOCIEDAD",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION BASICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "ANDREA PATRICIA SANCHEZ ZUMBA - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION BASICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "ANDREA PATRICIA SANCHEZ ZUMBA - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ELECTIVA III",
+      "docente": "LUIS DELIBERTO LLACAS VICUÑA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ORIENTADA A OBJETOS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JENNY MARICELA LEON TORO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ORIENTADA A OBJETOS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JENNY MARICELA LEON TORO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ESTRUCTURADA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JOSE LUIS MISE PASUÑA - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ESTRUCTURADA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JOSE LUIS MISE PASUÑA - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "CULTURA Y PRACTICA DIGITAL",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INFORMACION",
+      "docente": "COMPUTACION Y SOCIEDAD.",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "PATRICIO GUSTAVO LARA ALVAREZ - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INFORMACION",
+      "docente": "COMPUTACION Y SOCIEDAD.",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "PATRICIO GUSTAVO LARA ALVAREZ - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "CIMENTACIONES Y MUROS DE CONTENCION",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "CIMENTACIONES Y MUROS DE CONTENCION",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "CIMENTACIONES Y MUROS DE CONTENCION",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ORIENTADA A OBJETOS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JENNY MARICELA LEON TORO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION ORIENTADA A OBJETOS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "JENNY MARICELA LEON TORO - TEORIA",
+      "paralelo": "NIVEL: 3RO NIVEL"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INFORMACION",
+      "docente": "MATEMATICAS DISCRETAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "NANCY PIEDAD RODRIGUEZ SANCHEZ - TEORIA",
+      "paralelo": "NIVEL: 2DO NIVEL"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "aula": "B3",
+  "campus": "Manuela Sáenz",
+  "capacidad": 24,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "GESTION DE SERVICIOS DE SALUD",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "GESTION DE SERVICIOS DE SALUD",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ENFERMERIA CRITICA",
+      "docente": "ALVARO FERNANDO FLORES VILLACIS",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ENFERMERIA CRITICA",
+      "docente": "ALVARO FERNANDO FLORES VILLACIS",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "DISEÑO Y GESTION DE PROYECTOS DE SALUD",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BASES TEORICAS DE LA ENFERMERIA",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ENFERMERIA DE URGENCIAS Y DESASTRES",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ENFERMERIA QUIRURGICA",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "HIGIENE INDUSTRIAL",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "HIGIENE INDUSTRIAL",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "HIGIENE INDUSTRIAL",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "FISIOLOGIA HUMANA I",
+      "docente": "GABRIELA SOCORRO SALGADO OVIEDO",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FISIOLOGIA HUMANA I",
+      "docente": "GABRIELA SOCORRO SALGADO OVIEDO",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTIVA 7",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "FUNDAMENTOS DE LA ENFERMERIA DE LA MADRE",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "FARMACOLOGIA II",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "FARMACOLOGIA II",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "SALUD PUBLICA",
+      "docente": "VIRGINIA LEONOR MARIÑO NUÑEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "FARMACOLOGIA I",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "EMBRIOLOGIA I",
+      "docente": "HECTOR RODRIGO REMACHE CEVALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "RESISTENCIA DE MATERIALES",
+      "docente": "JUAN PABLO SANCHEZ PAZMIÑO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "RESISTENCIA DE MATERIALES",
+      "docente": "JUAN PABLO SANCHEZ PAZMIÑO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "RESISTENCIA DE MATERIALES",
+      "docente": "JUAN PABLO SANCHEZ PAZMIÑO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "CARDIOLOGIA",
+      "docente": "ISRAEL MAURICIO ZURITA ALTAMIRANO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "CARDIOLOGIA",
+      "docente": "ISRAEL MAURICIO ZURITA ALTAMIRANO",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "FUNDAMENTOS DE LA ENFERMERIA COMUNITARIA",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "FUNDAMENTOS DE LA ENFERMERIA COMUNITARIA",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "EPIDEMIOLOGIA",
+      "docente": "CHRISTIAN WAGNER PUNINA MONTESDEOCA",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "EPIDEMIOLOGIA",
+      "docente": "CHRISTIAN WAGNER PUNINA MONTESDEOCA",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "EPIDEMIOLOGIA",
+      "docente": "CHRISTIAN WAGNER PUNINA MONTESDEOCA",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANATOMIA HUMANA I",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "SALUD PUBLICA",
+      "docente": "VIRGINIA LEONOR MARIÑO NUÑEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "SALUD PUBLICA",
+      "docente": "VIRGINIA LEONOR MARIÑO NUÑEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "BASES TEORICAS DE LA ENFERMERIA",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BASES TEORICAS DE LA ENFERMERIA",
+      "docente": "TANNIA ELIZABETH CHIPANTIZA CORDOVA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "EPISTEMOLOGIA DEL CUIDADO",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "EPISTEMOLOGIA DEL CUIDADO",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "ENDOCRINOLOGIA",
+      "docente": "VICTOR ALFONSO ALVAREZ ALTAMIRANO",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "FISIOLOGIA HUMANA I",
+      "docente": "GABRIELA SOCORRO SALGADO OVIEDO",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "FISIOLOGIA HUMANA I",
+      "docente": "GABRIELA SOCORRO SALGADO OVIEDO",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INMUNOLOGIA",
+      "docente": "ANDRES ESTEBAN MANTILLA ALVEAR",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INMUNOLOGIA",
+      "docente": "ANDRES ESTEBAN MANTILLA ALVEAR",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "LENGUAJE Y COMUNICACION",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "LENGUAJE Y COMUNICACION",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "14"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOQUIMICA",
+      "docente": "MARIA JOSE BARRENO SANCHEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "BIOQUIMICA",
+      "docente": "MARIA JOSE BARRENO SANCHEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PROCEDIMIENTOS EN EL COGEP",
+      "docente": "DIEGO RICARDO ALTAMIRANO INTRIAGO",
+      "carrera": "DERECHO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PROCEDIMIENTOS EN EL COGEP",
+      "docente": "DIEGO RICARDO ALTAMIRANO INTRIAGO",
+      "carrera": "DERECHO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PROCEDIMIENTOS EN EL COGEP",
+      "docente": "DIEGO RICARDO ALTAMIRANO INTRIAGO",
+      "carrera": "DERECHO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PROCEDIMIENTOS EN EL COGEP",
+      "docente": "DIEGO RICARDO ALTAMIRANO INTRIAGO",
+      "carrera": "DERECHO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    }
+  ]
+}

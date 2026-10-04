@@ -1,0 +1,547 @@
+{
+  "aula": "Taller_4",
+  "campus": "Manuela Sáenz",
+  "capacidad": 40,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "NEUMOLOGIA",
+      "docente": "LUIS FELIPE VILLAGRAN FIALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "GENETICA CLINICA",
+      "docente": "BORYS ROBERTO ABRIGO MALDONADO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "GENETICA CLINICA",
+      "docente": "BORYS ROBERTO ABRIGO MALDONADO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "GENETICA CLINICA",
+      "docente": "BORYS ROBERTO ABRIGO MALDONADO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "LEGISLACION MEDICA",
+      "docente": "GERMAN EDUARDO CARRERA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "LEGISLACION MEDICA",
+      "docente": "GERMAN EDUARDO CARRERA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "LEGISLACION MEDICA",
+      "docente": "GERMAN EDUARDO CARRERA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "LISSETTE ARACELY AMORES ALVAREZ",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "NEUMOLOGIA",
+      "docente": "LUIS FELIPE VILLAGRAN FIALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "NEUMOLOGIA",
+      "docente": "LUIS FELIPE VILLAGRAN FIALLOS",
+      "carrera": "MEDICINA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "20:30",
+      "horaFin": "21:29",
+      "materia": "MEDICINA FORENSE",
+      "docente": "JORGE MARCELO QUINTANA YANEZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "BIOETICA",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "BIOETICA",
+      "docente": "MONICA PATRICIA SOTO AYALA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "SEMIOLOGIA II",
+      "docente": "JOSE ALEJANDRO GONZALEZ FREIRE",
+      "carrera": "MEDICINA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ANTROPOLOGIA MEDICA",
+      "docente": "LISSETTE ARACELY AMORES ALVAREZ",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "OTORRINOLARINGOLOGIA",
+      "docente": "JAIME DAVID LOPEZ ARBOLEDA",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "OTORRINOLARINGOLOGIA",
+      "docente": "JAIME DAVID LOPEZ ARBOLEDA",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "OTORRINOLARINGOLOGIA",
+      "docente": "JAIME DAVID LOPEZ ARBOLEDA",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INFORMACION",
+      "docente": "MATEMATICAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "NANCY PIEDAD RODRIGUEZ SANCHEZ - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INFORMACION",
+      "docente": "MATEMATICAS",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "NANCY PIEDAD RODRIGUEZ SANCHEZ - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "GESTION DE SERVICIOS DE SALUD",
+      "docente": "STALYN FRANCISCO CONDEMAITA QUILLIGANA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "GESTION DE SERVICIOS DE SALUD",
+      "docente": "STALYN FRANCISCO CONDEMAITA QUILLIGANA",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOETICA APLICADA",
+      "docente": "KARLA SAMANTHA CORDOVA BARRERA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "NEUROANATOMIA Y NEUROFISIOLOGIA I",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PROCESOS PSICOLOGICOS I",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PROCESOS PSICOLOGICOS I",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "FISIOPATOLOGIA I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PSIQUIATRIA",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "OTORRINOLARINGOLOGIA",
+      "docente": "JHON ALEXIS SORIA APOLO",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "OTORRINOLARINGOLOGIA",
+      "docente": "JHON ALEXIS SORIA APOLO",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "OTORRINOLARINGOLOGIA",
+      "docente": "JHON ALEXIS SORIA APOLO",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES VI",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INGLES VI",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INGLES VI",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "08"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INGLES VI",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "08"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "aula": "D8",
+  "campus": "Manuela Sáenz",
+  "capacidad": 24,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANALISIS DE CIRCUITOS ELECTRICOS",
+      "docente": "FREDDY JULIAN CHIPUGSI CALERO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANALISIS DE CIRCUITOS ELECTRICOS",
+      "docente": "FREDDY JULIAN CHIPUGSI CALERO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADOR",
+      "docente": "LUIS ANGEL PINARGOTE PICO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADOR",
+      "docente": "LUIS ANGEL PINARGOTE PICO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "OPTIMIZACION DE SISTEMAS INDUSTRIALES CON",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "OPTIMIZACION DE SISTEMAS INDUSTRIALES CON",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ELECTIVA VI",
+      "docente": "CESAR ALBERTO ALTAMIRANO MERA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "COMPUTACION Y SOCIEDAD.",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "COMPUTACION Y SOCIEDAD.",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ELECTIVA III",
+      "docente": "FERNANDO ALFONSO CHICAIZA CLAUDIO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTIVA III",
+      "docente": "FERNANDO ALFONSO CHICAIZA CLAUDIO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "HIDRAULICA I",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "HIDRAULICA I",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "HIDROLOGIA",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DISEÑO INTERACTIVO",
+      "docente": "KEVIN WILLIAM ORTIZ CHIMBORAZO",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "DISEÑO INTERACTIVO",
+      "docente": "KEVIN WILLIAM ORTIZ CHIMBORAZO",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION BASICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "ANDREA PATRICIA SANCHEZ ZUMBA - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INFORMACION",
+      "docente": "PROGRAMACION BASICA",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA",
+      "nivel": "ANDREA PATRICIA SANCHEZ ZUMBA - TEORIA",
+      "paralelo": "NIVEL: 1RO NIVEL"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "MECATRONICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "MECATRONICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PROGRAMACION Y PENSAMIENTO",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "MECATRONICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TOPOGRAFIA",
+      "docente": "DIEGO RICARDO LUCIO ALVAREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "TOPOGRAFIA",
+      "docente": "DIEGO RICARDO LUCIO ALVAREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ARQUITECTURA Y USABILIDAD",
+      "docente": "ANDREA PATRICIA SANCHEZ ZUMBA",
+      "carrera": "DISEÑO DE MEDIOS INTERACTIVOS",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "DISEÑO VIAL I",
+      "docente": "LUIS LEONARDO ZAMBRANO SALAZAR",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "DISEÑO VIAL I",
+      "docente": "LUIS LEONARDO ZAMBRANO SALAZAR",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "HORMIGON ARMADO I",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "HORMIGON ARMADO I",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "COMPUTACION Y SOCIEDAD",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "COMPUTACION Y SOCIEDAD",
+      "docente": "PATRICIO GUSTAVO LARA ALVAREZ",
+      "carrera": "MEDICINA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "MATEMATICAS",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "MATEMATICAS",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "CALIDAD TOTAL Y PRODUCTIVIDAD",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "CALIDAD TOTAL Y PRODUCTIVIDAD",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    }
+  ]
+}
