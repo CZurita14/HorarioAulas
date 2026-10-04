@@ -508,7 +508,7 @@
       "horaInicio": "08:00",
       "horaFin": "08:59",
       "materia": "INGLES I",
-      "docente": "null",
+      "docente": "POR DEFINIR",
       "carrera": "INGLES",
       "nivel": "1RO",
       "paralelo": "18"
@@ -518,7 +518,7 @@
       "horaInicio": "09:00",
       "horaFin": "09:59",
       "materia": "INGLES I",
-      "docente": "null",
+      "docente": "POR DEFINIR",
       "carrera": "INGLES",
       "nivel": "1RO",
       "paralelo": "18"
@@ -528,7 +528,7 @@
       "horaInicio": "10:00",
       "horaFin": "10:59",
       "materia": "INGLES I",
-      "docente": "null",
+      "docente": "POR DEFINIR",
       "carrera": "INGLES",
       "nivel": "1RO",
       "paralelo": "18"
@@ -538,17 +538,7 @@
       "horaInicio": "11:00",
       "horaFin": "11:59",
       "materia": "INGLES I",
-      "docente": "null",
-      "carrera": "INGLES",
-      "nivel": "1RO",
-      "paralelo": "18"
-    },
-    {
-      "dia": "sabado",
-      "horaInicio": "12:00",
-      "horaFin": "12:00",
-      "materia": "INGLES I",
-      "docente": "null",
+      "docente": "POR DEFINIR",
       "carrera": "INGLES",
       "nivel": "1RO",
       "paralelo": "18"
@@ -558,7 +548,7 @@
       "horaInicio": "12:30",
       "horaFin": "13:29",
       "materia": "INGLES I",
-      "docente": "null",
+      "docente": "POR DEFINIR",
       "carrera": "INGLES",
       "nivel": "1RO",
       "paralelo": "18"
