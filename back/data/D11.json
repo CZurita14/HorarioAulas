@@ -1,0 +1,327 @@
+{
+  "aula": "D11",
+  "campus": "Manuela Sáenz",
+  "capacidad": 32,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "09:29",
+      "materia": "PATOLOGIA ESTOMATOLOGICA",
+      "docente": "AURA ALEJANDRA VITERI RENTERIA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "COMUNICACION EFECTIVA",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "LENGUAJE Y COMUNICACION",
+      "docente": "MARCIA ESTER HIDALGO FERNANDEZ",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA INFORMACION",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "BIOSEGURIDAD Y ERGONOMIA",
+      "docente": "JUAN MARCOS PARISE VASCO",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "ENFERMERIA DEL ADULTO Y ADULTO MAYOR",
+      "docente": "LUIS ENRIQUE NAULA CHUCAY",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "BIOMATERIALES II",
+      "docente": "GISSELA LISSETTE LUCERO COCA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PATOLOGIA ESTOMATOLOGICA",
+      "docente": "AURA ALEJANDRA VITERI RENTERIA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "KAREN ARACELLY TOBAR ARMENDARIZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "ELECTIVA I",
+      "docente": "CLAUDIA MARIA REYTOR GONZALEZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "19:29",
+      "materia": "HEMATOLOGIA",
+      "docente": "MARIA PAULINA MOLINA ESPINOSA",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "BIOMATERIALES II",
+      "docente": "GISSELA LISSETTE LUCERO COCA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "MICROBIOLOGIA",
+      "docente": "KAREN ARACELLY TOBAR ARMENDARIZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "13:29",
+      "materia": "QUIMICA GENERAL",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "FARMACOLOGIA BASICA",
+      "docente": "ANDRES ALEXANDER CASTILLO CHACON",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "DERMATOLOGIA",
+      "docente": "PABLO ANTONIO ESPIN DE LA TORRE",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "09:29",
+      "materia": "CARIOLOGIA Y OPERATORIA DENTAL AVANZADA",
+      "docente": "LORENA MARIBEL SERNA HERRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "CIRUGIA ORAL I",
+      "docente": "AURA ALEJANDRA VITERI RENTERIA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "IMAGENOLOGIA II",
+      "docente": "LORENA MARIBEL SERNA HERRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "IMAGENOLOGIA I",
+      "docente": "LORENA MARIBEL SERNA HERRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "OCLUSION I",
+      "docente": "DANIELA MONSERRATH AGUAYO ESCOBAR",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DERMATOLOGIA",
+      "docente": "PABLO ANTONIO ESPIN DE LA TORRE",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "MAYRA ALEJANDRA MORENO GENOVES",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PATOLOGIA ESTOMATOLOGICA",
+      "docente": "AURA ALEJANDRA VITERI RENTERIA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "CARIOLOGIA Y OPERATORIA DENTAL AVANZADA",
+      "docente": "LORENA MARIBEL SERNA HERRERA",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "FARMACOLOGIA BASICA",
+      "docente": "ANDRES ALEXANDER CASTILLO CHACON",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "MICROBIOLOGIA Y PARASITOLOGIA",
+      "docente": "GRIMANESA THALIA TOBAR MARTINEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    }
+  ]
+}
