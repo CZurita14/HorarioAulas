@@ -43,21 +43,26 @@ verificarse a mano contra el PDF original** — el script garantiza que el
 resultado no tenga clases solapadas, no que capture perfectamente cada
 sesión cuando el PDF mismo es ambiguo.
 
-## Pendiente: B8
+## Las 37 aulas ya están publicadas
 
 Originalmente 8 aulas (B4, B8, C7, C9, D8, D9, D11, Taller_4) habían sido
 descargadas y parseadas en una sesión aparte (fuera de este flujo, con un
 parser distinto a `parse_pdf.py`) que no manejaba bien una carrera que
 ocupa más de una línea en el PDF — todos los campos del bloque quedaban
-corridos uno de más. Se consiguieron los PDF originales de las 7 aulas
-(B4, C7, C9, D8, D9, D11, Taller_4) y se reparsearon con `parse_pdf.py`
-(ya publicadas en `back/data/`).
+corridos uno de más. Se consiguieron los PDF originales de las 7 primeras
+y se reparsearon con `parse_pdf.py`.
 
-Solo queda **B8**: tiene una celda que ocupa varias horas y se corta
-justo en el borde entre dos páginas del documento — la página siguiente
-retoma el contenido sin ninguna fila de hora al lado, así que no hay cómo
-saber automáticamente a qué hora pertenece esa continuación. Necesita
-transcripción manual contra el PDF visual en vez del parser automático.
+**B8** fue la excepción: tiene una celda que ocupa varias horas y se
+corta justo en el borde entre dos páginas del documento, retomando el
+contenido en la página siguiente sin ninguna fila de hora al lado —
+`parse_pdf.py` no podía saber automáticamente a qué hora pertenecía esa
+continuación (ver `_slots_contiguos` en el script: eso es justamente lo
+que evita que se fusione mal, pero no reconstruye la hora real por sí
+solo). Se transcribió a mano usando `pdfplumber` para extraer tabla por
+tabla *solo de la primera repetición del documento* (lunes–viernes, cada
+columna leída por separado, cruzando contra el PDF renderizado como
+imagen cuando el texto plano no alcanzaba) y se verificó visualmente en
+la app contra el PDF antes de publicar.
 
 ## Por qué no es automático todavía
 
