@@ -121,6 +121,21 @@ def parsear_texto_bloque(texto):
     }
 
 
+def _minutos(hhmm):
+    h, m = hhmm.split(':')
+    return int(h) * 60 + int(m)
+
+
+def _slots_contiguos(slots_canonicos, slot_anterior, slot_nuevo):
+    """True si el fin de slot_anterior y el inicio de slot_nuevo son horas
+    consecutivas de verdad (no solo índices de slot consecutivos) — evita
+    fusionar a través de un reinicio del documento (ej. una página de más
+    que repite el día entero desde las 7:30 otra vez)."""
+    fin_anterior = _minutos(slots_canonicos[slot_anterior][2])
+    inicio_nuevo = _minutos(slots_canonicos[slot_nuevo][1])
+    return inicio_nuevo - fin_anterior == 1
+
+
 def extraer_bloques(filas, slots_canonicos, aula_id):
     slot_filas = [s[0] for s in slots_canonicos]
     bloques_por_dia = {d: [] for d in range(7)}  # (slot_inicio, slot_fin, texto)
@@ -138,9 +153,16 @@ def extraer_bloques(filas, slots_canonicos, aula_id):
             if not texto:
                 continue
             bloques_dia = bloques_por_dia[d]
-            if bloques_dia and bloques_dia[-1][2] == texto and slot_idx - bloques_dia[-1][1] <= 1:
-                # Mismo texto, mismo slot o el inmediato siguiente: es el
-                # mismo bloque repetido/extendido por el desalineo de grilla.
+            continuacion = (
+                bloques_dia
+                and bloques_dia[-1][2] == texto
+                and slot_idx - bloques_dia[-1][1] <= 1
+                and (slot_idx == bloques_dia[-1][1] or _slots_contiguos(slots_canonicos, bloques_dia[-1][1], slot_idx))
+            )
+            if continuacion:
+                # Mismo texto, mismo slot o el inmediato siguiente en hora
+                # real: es el mismo bloque repetido/extendido por el
+                # desalineo de grilla.
                 inicio, _, t = bloques_dia[-1]
                 bloques_dia[-1] = (inicio, slot_idx, t)
             elif bloques_dia and bloques_dia[-1][1] == slot_idx and bloques_dia[-1][2] != texto:

@@ -1,0 +1,327 @@
+{
+  "aula": "C7",
+  "campus": "Manuela Sáenz",
+  "capacidad": 24,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "FRANCISCO JAVIER MARIÑO ARBOLEDA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA DE LA ADULTEZ Y VEJEZ",
+      "docente": "PAOLA SILVANA VALENCIA MEDINA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ELECTIVA 3",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "PSICOPATOLOGIA",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "14:29",
+      "materia": "FISICA PARA INGENIERIA",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "METODOS NUMERICOS",
+      "docente": "NANCY DE LOURDES JORDAN BUENAÑO",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA INFORMACION",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "CALCULO INTEGRAL",
+      "docente": "LUIS GABRIEL ORTIZ ARMENDARIZ",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA INFORMACION",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "FRANCISCO JAVIER MARIÑO ARBOLEDA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "ETICA Y BIOETICA",
+      "docente": "NORMA VERONICA SILVA JIMENEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "PSICOLOGIA DE LA PERSONALIDAD",
+      "docente": "JORGE LUIS CISNEROS BEDON",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "14:29",
+      "materia": "LOGISTICA Y CADENA DE SUMINISTRO",
+      "docente": "EDUARDO SANTIAGO TENEDA RAMOS",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INTEGRACION CURRICULAR I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ANALISIS ESTRUCTURAL",
+      "docente": "DIEGO RICARDO LUCIO ALVAREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "18:29",
+      "materia": "IMAGENOLOGIA",
+      "docente": "ADRIANA ELIZABETH CALDERON FLORES",
+      "carrera": "MEDICINA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "FRANCISCO JAVIER MARIÑO ARBOLEDA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "METODOLOGIA DE LA INVESTIGACION",
+      "docente": "ANDREA NICOLE FAZ TAPIA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "PSICOMETRIA",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PSICOLOGIA DE LA PERSONALIDAD",
+      "docente": "JORGE LUIS CISNEROS BEDON",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "METODOS NUMERICOS",
+      "docente": "NANCY DE LOURDES JORDAN BUENAÑO",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA INFORMACION",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "17:29",
+      "materia": "GEOTECNIA",
+      "docente": "ANDRES OSWALDO MANOTOA SANTANA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "FRANCISCO JAVIER MARIÑO ARBOLEDA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOPATOLOGIA",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "11:29",
+      "materia": "PSICOLOGIA DE LA ADULTEZ Y VEJEZ",
+      "docente": "PAOLA SILVANA VALENCIA MEDINA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PSICOMETRIA",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "MODELOS Y TEORIAS PSICOLOGICAS II",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "16:29",
+      "materia": "ENFERMERIA DE URGENCIAS Y DESASTRES",
+      "docente": "JESSY MARICELA DELGADO JIMENEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "INGLES III",
+      "docente": "FRANCISCO JAVIER MARIÑO ARBOLEDA",
+      "carrera": "INGLES",
+      "nivel": "3RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "10:29",
+      "materia": "MODELOS Y TEORIAS PSICOLOGICAS II",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "12:29",
+      "materia": "PSICOLOGIA DE LA PERSONALIDAD",
+      "docente": "JORGE LUIS CISNEROS BEDON",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "3RO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "REALIDAD NACIONAL CULTURAL Y ECOLOGICA",
+      "docente": "JULIO CESAR FREIRE PAZMIÑO",
+      "carrera": "INGENIERIA EN TECNOLOGIAS DE LA INFORMACION",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "PAOLA FERNANDA OCHOA TORRES",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    }
+  ]
+}
