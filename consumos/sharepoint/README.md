@@ -43,6 +43,18 @@ verificarse a mano contra el PDF original** — el script garantiza que el
 resultado no tenga clases solapadas, no que capture perfectamente cada
 sesión cuando el PDF mismo es ambiguo.
 
+## Pendiente: B4, B8, C7, C9, D8, D9, D11, Taller_4
+
+Estas 8 aulas se descargaron y parsearon en una sesión aparte (fuera de
+este flujo, con un parser distinto a `parse_pdf.py`) que no manejaba bien
+una carrera que ocupa más de una línea en el PDF: cuando eso pasa, todos
+los campos del bloque (materia/docente/nivel/paralelo) quedan corridos
+uno de más. `B8.json` y `D9.json` quedaron especialmente afectados
+(~30-49% de sus bloques). Para publicarlas hay que conseguir sus PDF
+originales de SharePoint y correrlos con `parse_pdf.py`, que sí resuelve
+este caso (ver `parsear_texto_bloque` en el script: arma los campos desde
+el final de la celda hacia atrás, no desde el principio).
+
 ## Por qué no es automático todavía
 
 Para que un backend lea SharePoint por su cuenta (sin que una persona lo
