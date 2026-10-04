@@ -8,13 +8,13 @@ uno apunta a `https://horarioaulas.onrender.com/?aula=<ID>` — ver
 - `QR_<ID>.png`: tarjeta individual de cada aula, lista para imprimir y
   pegar en la puerta. Una por cada archivo en `back/data/`:
   A1, A2, A3, A4, A5, B1, B3, B4, B5, B6, B7, B9, C1, C2, C3, C4, C5, C6,
-  C7, C8, C9, D1, D2, D3, D4, D5, D6, D7, D9, D10, D12, D13, Taller_3
-  (33 en total).
+  C7, C8, C9, D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13,
+  Taller_3, Taller_4 (36 en total).
 - `tabla_qr_aulas.png`: todas las tarjetas juntas en una sola hoja, para
   revisar todas de un vistazo.
 
-**Pendientes (todavía no tienen QR):** B8, D8, D11, Taller_4 — ver
-`consumos/sharepoint/README.md` para el porqué de cada una.
+**Pendiente (todavía no tiene QR):** B8 — ver
+`consumos/sharepoint/README.md` para el porqué.
 
 Al agregar una aula nueva en `back/data/<ID>.json`, generar su QR con el
 mismo estilo:
