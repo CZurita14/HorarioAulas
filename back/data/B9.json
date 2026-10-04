@@ -1,0 +1,417 @@
+{
+  "aula": "B9",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANALISIS DE SISTEMAS DE PRODUCCION",
+      "docente": "PATRICIO EDUARDO SANCHEZ DIAZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANALISIS DE SISTEMAS DE PRODUCCION",
+      "docente": "PATRICIO EDUARDO SANCHEZ DIAZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "DINAMICA",
+      "docente": "DIEGO RICARDO LUCIO ALVAREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "DINAMICA",
+      "docente": "DIEGO RICARDO LUCIO ALVAREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "MECANICA DE SUELOS I",
+      "docente": "ANDRES OSWALDO MANOTOA SANTANA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INSTALACIONES HIDROSANITARIAS",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "FABIAN RAMIRO REVELO AGUILAR",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "FABIAN RAMIRO REVELO AGUILAR",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "MECANICA DE MATERIALES",
+      "docente": "ESTALIN JOSE ROMERO MORALES",
+      "carrera": "MECATRONICA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "MECANICA DE MATERIALES",
+      "docente": "ESTALIN JOSE ROMERO MORALES",
+      "carrera": "MECATRONICA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANALISIS DE CIRCUITOS ELECTRICOS",
+      "docente": "FREDDY JULIAN CHIPUGSI CALERO",
+      "carrera": "MECATRONICA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ANALISIS DE CIRCUITOS ELECTRICOS",
+      "docente": "FREDDY JULIAN CHIPUGSI CALERO",
+      "carrera": "MECATRONICA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "SILVANA ANDREA GALLEGOS SANCHEZ",
+      "carrera": "MEDICINA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO VIAL II",
+      "docente": "LUIS LEONARDO ZAMBRANO SALAZAR",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO VIAL II",
+      "docente": "LUIS LEONARDO ZAMBRANO SALAZAR",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "PROTECCIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "PROTECCIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "SISTEMAS DE COMUNICACIONES",
+      "docente": "PAMELA MONSERRATH ESPEJO VELASCO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "SISTEMAS DE COMUNICACIONES",
+      "docente": "PAMELA MONSERRATH ESPEJO VELASCO",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ESTADISTICA",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ESTADISTICA",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "HORMIGON ARMADO I",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "FABIAN RAMIRO REVELO AGUILAR",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "FABIAN RAMIRO REVELO AGUILAR",
+      "carrera": "ENFERMERIA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "MECATRONICA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "MECATRONICA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "DISEÑO DE PRODUCTO Y DESARROLLO DE",
+      "docente": "NANCY PIEDAD RODRIGUEZ SANCHEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO DE PRODUCTO Y DESARROLLO DE",
+      "docente": "NANCY PIEDAD RODRIGUEZ SANCHEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MATEMATICAS",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "ELECTIVA VII",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "ELECTIVA VII",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "ESTABILIDAD Y OPERACION DE SISTEMAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "ESTABILIDAD Y OPERACION DE SISTEMAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "BIOESTADISTICA",
+      "docente": "JOSE ALEJANDRO LOZADA JEREZ",
+      "carrera": "ODONTOLOGIA",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "AGUA POTABLE",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "AGUA POTABLE",
+      "docente": "CARLOS DAMIAN PINTO ALMEIDA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TECNOLOGIAS DE LA INFORMACION EN",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "TECNOLOGIAS DE LA INFORMACION EN",
+      "docente": "FATIMA ADRIANA AVILES CASTILLO",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    }
+  ]
+}

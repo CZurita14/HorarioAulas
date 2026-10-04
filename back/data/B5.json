@@ -1,0 +1,427 @@
+{
+  "aula": "B5",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "ENTREVISTA PSICOLOGICA",
+      "docente": "GABRIELA LORENA ABRIL LUCERO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "PSICODIAGNOSTICO INICIAL",
+      "docente": "LEONEL ALEXANDER LLERENA AGUIRRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PRUEBAS OBJETIVAS I",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "CALIDAD TOTAL Y PRODUCTIVIDAD",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "CALIDAD TOTAL Y PRODUCTIVIDAD",
+      "docente": "MARIA BELEN RUALES MARTINEZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PSICOTERAPIA I",
+      "docente": "LIZBETH CAROLINA EUGENIO ZUMBANA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "PSICOTERAPIA I",
+      "docente": "LIZBETH CAROLINA EUGENIO ZUMBANA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PRUEBAS OBJETIVAS I",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "STEFANIA DEL ROCIO LLERENA FREIRE",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INTERVENCION EN CRISIS Y URGENCIAS CLINICAS",
+      "docente": "GABRIELA LORENA ABRIL LUCERO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INTERVENCION GRUPAL",
+      "docente": "ANA CAROLINA MARQUEZ ALTAMIRANO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PRUEBAS PROYECTIVAS I",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ELECTIVA 1",
+      "docente": "VERONICA NATALY HIDALGO VASCONEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "PRUEBAS PROYECTIVAS II",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INTERVENCION EN CRISIS Y URGENCIAS CLINICAS",
+      "docente": "GABRIELA LORENA ABRIL LUCERO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INTERVENCION GRUPAL",
+      "docente": "ANA CAROLINA MARQUEZ ALTAMIRANO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLOGIA EXPERIMENTAL",
+      "docente": "VERONICA TATIANA SANCHEZ POMBOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "JUAN FRANCISCO PARREÑO FREIRE",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRUEBAS OBJETIVAS II",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "NEUROPSICOLOGIA",
+      "docente": "VERONICA ELIZABETH LABRE TARCO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "5TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INTERVENCION GRUPAL",
+      "docente": "ANA CAROLINA MARQUEZ ALTAMIRANO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "INTERVENCION GRUPAL",
+      "docente": "ANA CAROLINA MARQUEZ ALTAMIRANO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    }
+  ]
+}

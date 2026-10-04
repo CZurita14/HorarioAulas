@@ -1,0 +1,507 @@
+{
+  "aula": "D1",
+  "campus": "Manuela Sáenz",
+  "capacidad": 28,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LA EPOCA",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LA EPOCA",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "GESTION DE ENERGIAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "GESTION DE ENERGIAS",
+      "docente": "JUAN CARLOS ALMEIDA OÑATE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "LISSETTE PIEDAD GAVILANES FREIRE",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "10"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LA EPOCA",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LA EPOCA",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOLOGIA COMUNITARIA",
+      "docente": "CARMEN ESTHELA SUAREZ MENDOZA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOLOGIA JURIDICA",
+      "docente": "JORDY DANIEL ACURIO MORA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "LISSETTE PIEDAD GAVILANES FREIRE",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "10"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TECNOLOGIA Y CONSTRUCCION II",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TECNOLOGIA Y CONSTRUCCION II",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LA EPOCA",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "LISSETTE PIEDAD GAVILANES FREIRE",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "10"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ARQUITECTURA Y URBANISMO DE LA EPOCA",
+      "docente": "MARCELO ALEJANDRO BECERRA MARTINEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TECNOLOGIA Y CONSTRUCCION II",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "TECNOLOGIA Y CONSTRUCCION II",
+      "docente": "LUIS MANUEL FERNANDEZ DELGADO",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PSICOTERAPIA II",
+      "docente": "GUILLERMO DANIEL GAVILANES GOMEZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "LISSETTE PIEDAD GAVILANES FREIRE",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "10"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "TALLER ARQUITECTURA SOSTENIBLE",
+      "docente": "JUAN DANIEL CABRERA GOMEZ",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "DANIELA ALEJANDRA BONILLA YUCAILLA",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "05"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES V",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "DISEÑO URBANO Y PAISAJE",
+      "docente": "PAOLA CRISTINA VELASCO ESPIN",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "DISEÑO URBANO Y PAISAJE",
+      "docente": "PAOLA CRISTINA VELASCO ESPIN",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ELECTIVA VI",
+      "docente": "JAVIER JACINTO CARDET GARCIA",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "INGLES I",
+      "docente": "ADRIANA CECILIA BALSECA ACOSTA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "LISSETTE PIEDAD GAVILANES FREIRE",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "10"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "DISEÑO URBANO Y PAISAJE",
+      "docente": "PAOLA CRISTINA VELASCO ESPIN",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "DISEÑO URBANO Y PAISAJE",
+      "docente": "PAOLA CRISTINA VELASCO ESPIN",
+      "carrera": "ARQUITECTURA",
+      "nivel": "6TO",
+      "paralelo": "02"
+    }
+  ]
+}

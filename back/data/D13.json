@@ -1,0 +1,427 @@
+{
+  "aula": "D13",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "QUIMICA",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "QUIMICA",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "QUIMICA",
+      "docente": "OLGA MARISOL NARANJO MANTILLA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "HIDRAULICA I",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ANALISIS MATRICIAL DE LA ESTRUCTURAS",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "ANALISIS MATRICIAL DE LA ESTRUCTURAS",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ANALISIS MATRICIAL DE LA ESTRUCTURAS",
+      "docente": "ANDRES RAFAEL ABRIL CAMINO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "5TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "VIRGINIA LEONOR MARIÑO NUÑEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "INTEGRACION CURRICULAR II",
+      "docente": "VIRGINIA LEONOR MARIÑO NUÑEZ",
+      "carrera": "ENFERMERIA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ERGONOMIA",
+      "docente": "JORGE LUIS BUELE LEON",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ERGONOMIA",
+      "docente": "JORGE LUIS BUELE LEON",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "MATEMATICA PARA INGENIERIA",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "MATEMATICA PARA INGENIERIA",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "ANALISIS MATEMATICO II",
+      "docente": "LUIS GABRIEL ORTIZ ARMENDARIZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ANALISIS MATEMATICO II",
+      "docente": "LUIS GABRIEL ORTIZ ARMENDARIZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ANALISIS MATEMATICO II",
+      "docente": "LUIS GABRIEL ORTIZ ARMENDARIZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "ENDOCRINOLOGIA",
+      "docente": "OLIVIA ELIZABETH ALTAMIRANO GUERRERO",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "18:30",
+      "horaFin": "19:29",
+      "materia": "ENDOCRINOLOGIA",
+      "docente": "OLIVIA ELIZABETH ALTAMIRANO GUERRERO",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "19:30",
+      "horaFin": "20:29",
+      "materia": "ENDOCRINOLOGIA",
+      "docente": "OLIVIA ELIZABETH ALTAMIRANO GUERRERO",
+      "carrera": "MEDICINA",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ANALISIS DE DATOS Y ESTADISTICA PARA",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "MECANICA DE FLUIDOS",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MECANICA DE FLUIDOS",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MECANICA DE FLUIDOS",
+      "docente": "CARLA BETSABE VILLACIS HEREDIA",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "MATEMATICA PARA INGENIERIA",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "MATEMATICA PARA INGENIERIA",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANALISIS MATEMATICO I",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ANALISIS MATEMATICO I",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "FISICA PARA INGENIERIA",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "FISICA PARA INGENIERIA",
+      "docente": "ANDRES ROGELIO LARA CALLE",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "null",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "14"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MATEMATICAS",
+      "docente": "CARLOS ALBERTO ESPINOSA PINOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "1RO",
+      "paralelo": "03"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "PRACTICAS PREPROFESIONALES II",
+      "docente": "null",
+      "carrera": "DISEÑO GRAFICO",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "FERNANDO DAVID SAA TAPIA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PRACTICAS DE SERVICIO COMUNITARIO",
+      "docente": "FERNANDO DAVID SAA TAPIA",
+      "carrera": "INGENIERIA INDUSTRIAL",
+      "nivel": "7MO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ANALISIS MATEMATICO I",
+      "docente": "CARLOS MIGUEL LEGON PEREZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "1RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ELECTIVA I",
+      "docente": "MARIO FERMIN PACHECO VENEGAS",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "ELECTIVA I",
+      "docente": "MARIO FERMIN PACHECO VENEGAS",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "3RO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "GEOLOGIA Y SISMOLOGIA",
+      "docente": "FABIANA ELIZABETH CUNALATA VASQUEZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "GEOLOGIA Y SISMOLOGIA",
+      "docente": "FABIANA ELIZABETH CUNALATA VASQUEZ",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ESTATICA",
+      "docente": "JUAN PABLO SANCHEZ PAZMIÑO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "ESTATICA",
+      "docente": "JUAN PABLO SANCHEZ PAZMIÑO",
+      "carrera": "INGENIERIA CIVIL",
+      "nivel": "2DO",
+      "paralelo": "01"
+    }
+  ]
+}

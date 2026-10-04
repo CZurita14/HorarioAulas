@@ -1,0 +1,577 @@
+{
+  "aula": "C6",
+  "campus": "Manuela Sáenz",
+  "capacidad": 30,
+  "bloques": [
+    {
+      "dia": "lunes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "ENTREVISTA PSICOLOGICA",
+      "docente": "GABRIELA LORENA ABRIL LUCERO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ENTREVISTA PSICOLOGICA",
+      "docente": "GABRIELA LORENA ABRIL LUCERO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRUEBAS PROYECTIVAS I",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PRUEBAS PROYECTIVAS I",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "09"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "ENFERMERIA DE LA MADRE Y EL RECIEN NACIDO",
+      "docente": "ALVARO FERNANDO FLORES VILLACIS",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "ENFERMERIA DE LA MADRE Y EL RECIEN NACIDO",
+      "docente": "ALVARO FERNANDO FLORES VILLACIS",
+      "carrera": "ENFERMERIA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "SISTEMAS DIGITALES",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "SISTEMAS DIGITALES",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "TEORIA DE CONTROL",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "lunes",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "TEORIA DE CONTROL",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PRUEBAS OBJETIVAS I",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "ENTREVISTA PSICOLOGICA",
+      "docente": "GABRIELA LORENA ABRIL LUCERO",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRUEBAS PROYECTIVAS I",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "SEXOLOGIA",
+      "docente": "JORGE LUIS CISNEROS BEDON",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "09"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "INTEGRACION CURRICULAR I",
+      "docente": "ALEJANDRO ERNESTO LORENZO HIDALGO",
+      "carrera": "MEDICINA",
+      "nivel": "8VO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MEDICINA DEL TRABAJO",
+      "docente": "MARILYN JAZMINA OCAÑA TIBANQUIZA",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "martes",
+      "horaInicio": "17:30",
+      "horaFin": "18:29",
+      "materia": "MEDICINA DEL TRABAJO",
+      "docente": "MARILYN JAZMINA OCAÑA TIBANQUIZA",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PRUEBAS OBJETIVAS I",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PRUEBAS OBJETIVAS I",
+      "docente": "NOEMI VIVIANA RODRIGUEZ ORTIZ",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PSICOLOGIA DE LA SALUD",
+      "docente": "null",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PSICOLOGIA DE LA SALUD",
+      "docente": "null",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "09"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "15:30",
+      "horaFin": "16:29",
+      "materia": "MEDICINA DEL TRABAJO",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MEDICINA DEL TRABAJO",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "INSTALACIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "INSTALACIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "TEORIA DE CONTROL",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "miercoles",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "TEORIA DE CONTROL",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "07:30",
+      "horaFin": "08:29",
+      "materia": "FUNDAMENTOS DE ENFERMERIA DEL ADULTO Y",
+      "docente": "VALERIA KASANDRA GUEVARA GUAMAN",
+      "carrera": "ENFERMERIA",
+      "nivel": "6TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOPATOLOGIA DEL NIÑO Y DEL ADOLESCENTE",
+      "docente": "MARINA VALERIA MEDINA VARELA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOPATOLOGIA DEL NIÑO Y DEL ADOLESCENTE",
+      "docente": "MARINA VALERIA MEDINA VARELA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "ELECTIVA 4",
+      "docente": "ANDREA NICOLE FAZ TAPIA",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "SEXOLOGIA",
+      "docente": "JORGE LUIS CISNEROS BEDON",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "13:30",
+      "horaFin": "14:29",
+      "materia": "SEXOLOGIA",
+      "docente": "JORGE LUIS CISNEROS BEDON",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "09"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "16:30",
+      "horaFin": "17:29",
+      "materia": "MEDICINA DEL TRABAJO",
+      "docente": "DIANET GARCIA PEREZ",
+      "carrera": "MEDICINA",
+      "nivel": "9NO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "18:00",
+      "horaFin": "18:59",
+      "materia": "INSTALACIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "19:00",
+      "horaFin": "19:59",
+      "materia": "INSTALACIONES ELECTRICAS",
+      "docente": "PAUL ANDRES MASACHE ALMEIDA",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "20:00",
+      "horaFin": "20:59",
+      "materia": "SISTEMAS DIGITALES",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "jueves",
+      "horaInicio": "21:00",
+      "horaFin": "21:59",
+      "materia": "SISTEMAS DIGITALES",
+      "docente": "null",
+      "carrera": "ELECTRICIDAD",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES IV",
+      "docente": "MARITZA JACQUELINE VILLACIS LIZANO",
+      "carrera": "INGLES",
+      "nivel": "4TO",
+      "paralelo": "04"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "PSICOLOGIA CLINICA",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "PSICOLOGIA CLINICA",
+      "docente": "ISMAEL ALEXANDER SALVADOR REYES",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "PRUEBAS PROYECTIVAS I",
+      "docente": "YAJAIRA DAYANARA ORTEGA COBOS",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "PSICOLOGIA DE LA SALUD",
+      "docente": "null",
+      "carrera": "PSICOLOGIA CLINICA",
+      "nivel": "4TO",
+      "paralelo": "01"
+    },
+    {
+      "dia": "viernes",
+      "horaInicio": "14:30",
+      "horaFin": "15:29",
+      "materia": "INGLES I",
+      "docente": "PAMELA ELIZABETH CASA MOLINA",
+      "carrera": "INGLES",
+      "nivel": "1RO",
+      "paralelo": "09"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "08:30",
+      "horaFin": "09:29",
+      "materia": "INGLES VI",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "07"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "09:30",
+      "horaFin": "10:29",
+      "materia": "INGLES VI",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "07"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "10:30",
+      "horaFin": "11:29",
+      "materia": "INGLES VI",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "07"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "11:30",
+      "horaFin": "12:29",
+      "materia": "INGLES VI",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "07"
+    },
+    {
+      "dia": "sabado",
+      "horaInicio": "12:30",
+      "horaFin": "13:29",
+      "materia": "INGLES VI",
+      "docente": "ODALIS ANALIA TAMAYO VILLENA",
+      "carrera": "INGLES",
+      "nivel": "6TO",
+      "paralelo": "07"
+    }
+  ]
+}
