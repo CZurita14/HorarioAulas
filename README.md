@@ -8,39 +8,43 @@ la clase en curso y la siguiente en cada aula, más un horario completo navegabl
 Monolito organizado en tres carpetas con responsabilidades claras:
 
 ```
-/front       → la app web (Vite + JS vanilla). Lo único que corre en el navegador.
+/front       → la app web (React + Vite + TypeScript + Tailwind). Lo único que corre en el navegador.
 /back        → los datos del horario (back/data/<ID>.json, uno por aula) y su esquema.
 /consumos    → integraciones externas (hoy: el proceso de leer SharePoint).
 ```
 
 Hoy el sitio se despliega como estático: en build time, `/front` importa
-directamente los JSON de `/back/data`, sin un servidor corriendo en
-producción. `/consumos` documenta cómo llegan esos datos desde SharePoint
-(hoy manual; ver `consumos/sharepoint/README.md` para el detalle y qué
-falta para automatizarlo).
+directamente los JSON de `/back/data` (ver `front/src/services/aulaService.ts`),
+sin un servidor corriendo en producción. `/consumos` documenta cómo llegan esos
+datos desde SharePoint (hoy manual; ver `consumos/sharepoint/README.md` para el
+detalle y qué falta para automatizarlo).
 
 ## Desarrollo
 
 ```bash
+cd front
 npm install
 npm run dev
 ```
 
-## Tests
+## Build / Deploy (Render)
 
-```bash
-npm test
-```
+El servicio en Render debe construir desde la carpeta `front/`, no desde la raíz
+del repo:
+
+- **Root Directory:** `front`
+- **Build Command:** `npm install && npm run build`
+- **Publish Directory:** `dist`
 
 ## Datos
 
 Cada aula tiene su propio archivo `back/data/<ID>.json` (mismo esquema), por ejemplo
 `back/data/A4.json`. Agregar una aula nueva es agregar su JSON ahí — no hace falta
-tocar código. Ver el esquema en
+tocar código de front. Ver el esquema en
 `docs/superpowers/specs/2026-10-03-horarios-aula-design.md` y el detalle en
 `back/README.md`.
 
-## Aulas y QR
+## Aulas, QR y letreros
 
 La app es un solo sitio; cada aula se identifica con el parámetro `aula` en la URL:
 
@@ -48,13 +52,18 @@ La app es un solo sitio; cada aula se identifica con el parámetro `aula` en la 
 - `https://horarioaulas.onrender.com/?aula=B2`
 
 Cada QR impreso debe apuntar a la URL de su propia aula. Una URL sin el parámetro
-`aula` (QR antiguo que apunta a la raíz) sigue funcionando y muestra el Aula A4 por
-defecto. Si el valor de `aula` no corresponde a ningún archivo en `back/data/`, se
-muestra un mensaje de "Aula no encontrada" en vez de una pantalla rota.
+`aula` muestra el Aula A4 por defecto. Si el valor de `aula` no corresponde a
+ningún archivo en `back/data/`, la app muestra "Aula no encontrada" junto con la
+lista completa de aulas disponibles, en vez de una pantalla rota.
+
+Hay dos sets de material imprimible con el QR de cada aula:
+- `qr/`: tarjetas PNG genéricas, una por aula.
+- `letreros_individuales/`: letreros en PDF con el logo y colores oficiales de la
+  Universidad Indoamérica — son los que se deben imprimir y pegar en cada puerta.
 
 ## Estado
 
-Multi-aula, datos cargados manualmente desde SharePoint (ver `/consumos`) — sin
-panel administrativo, sin manejo de cambios/suspensiones, sin backend corriendo en
-producción todavía. Ver el spec de diseño para el alcance completo y lo diferido a
-fases futuras.
+Multi-aula (37 aulas del campus Manuela Sáenz), datos cargados manualmente desde
+SharePoint (ver `/consumos`) — sin panel administrativo, sin manejo de
+cambios/suspensiones, sin backend corriendo en producción todavía. Ver el spec de
+diseño para el alcance completo y lo diferido a fases futuras.

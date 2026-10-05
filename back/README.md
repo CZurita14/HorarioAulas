@@ -4,7 +4,7 @@ Esta es la capa de datos de la aplicación. Hoy no hay un servidor corriendo
 en producción: `back/data/` contiene un archivo JSON por aula, con el
 esquema documentado en `docs/superpowers/specs/2026-10-03-horarios-aula-design.md`,
 y el front (`/front`) los lee directamente en build time (ver
-`front/src/data.js`).
+`front/src/services/aulaService.ts`).
 
 ## Agregar una aula nueva
 
