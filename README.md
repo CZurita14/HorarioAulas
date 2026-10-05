@@ -36,6 +36,17 @@ del repo:
 - **Build Command:** `npm install && npm run build`
 - **Publish Directory:** `dist`
 
+## Docker
+
+```bash
+docker compose up --build
+```
+
+Sirve la app en `http://localhost:8080`. El `Dockerfile` vive en la raíz (no en
+`front/`) porque el build necesita ver `front/` y `back/` juntos — el front lee
+`back/data/*.json` en build time. Es un build multi-stage: compila con Node y
+sirve el resultado estático con nginx (`nginx.conf`).
+
 ## Datos
 
 Cada aula tiene su propio archivo `back/data/<ID>.json` (mismo esquema), por ejemplo
