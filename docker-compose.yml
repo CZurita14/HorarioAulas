@@ -1,9 +1,28 @@
 services:
-  horarios:
+  api:
+    build:
+      context: .
+      dockerfile: back/server/Dockerfile
+    container_name: horarios-api
+    environment:
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:?Definí ADMIN_PASSWORD en un archivo .env o en el entorno antes de levantar}
+      - JWT_SECRET=${JWT_SECRET:?Definí JWT_SECRET en un archivo .env o en el entorno antes de levantar}
+      - DATA_DIR=/app/data
+    volumes:
+      # Monta la carpeta real del repo: lo que el admin publique queda
+      # escrito directamente en back/data/ en el servidor (y por lo tanto
+      # visible con git status ahí, para poder respaldarlo con un commit).
+      - ./back/data:/app/data
+    restart: unless-stopped
+
+  front:
     build:
       context: .
       dockerfile: Dockerfile
     container_name: horarios
+    depends_on:
+      - api
     ports:
       - "8080:80"
     restart: unless-stopped

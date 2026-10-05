@@ -1,32 +1,66 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Shield } from 'lucide-react';
 import { Navbar } from './components/Navbar';
 import {
   obtenerDatosAula,
   obtenerAulasDisponibles,
   obtenerIdAulaDesdeUrl,
   AULA_POR_DEFECTO,
+  DatosAula,
 } from './services/aulaService';
+import { sesionActiva } from './services/aulaAdminService';
 import { AulaHeader } from './components/AulaHeader';
 import { AulaVistaPrincipal } from './components/AulaVistaPrincipal';
 import { AulaVistaCompleta } from './components/AulaVistaCompleta';
 import { AulaNoEncontrada } from './components/AulaNoEncontrada';
+import { AdminLogin } from './components/AdminLogin';
+import { AdminPanel } from './components/AdminPanel';
 
 export const App: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
-  // Estado del Aula seleccionada y vista (principal / completa)
   const [idAulaActual, setIdAulaActual] = useState<string>(() => {
     return obtenerIdAulaDesdeUrl() || AULA_POR_DEFECTO;
   });
   const [vistaAula, setVistaAula] = useState<'principal' | 'completa'>('principal');
 
-  // Reloj sincronizado al segundo cero de cada minuto
+  const [datosAula, setDatosAula] = useState<DatosAula | null | undefined>(undefined);
+  const [aulasDisponibles, setAulasDisponibles] = useState<string[]>([]);
+
+  const [vistaRaiz, setVistaRaiz] = useState<'aula' | 'admin'>('aula');
+  const [adminUsuario, setAdminUsuario] = useState<string | null>(null);
+  const [verificandoSesion, setVerificandoSesion] = useState(true);
+
   const [fecha, setFecha] = useState<Date>(new Date());
 
-  const aulasDisponibles = obtenerAulasDisponibles();
-  const datosAula = obtenerDatosAula(idAulaActual);
+  // Lista de aulas (para el selector y la pantalla de "no encontrada")
+  const cargarAulasDisponibles = useCallback(() => {
+    obtenerAulasDisponibles().then(setAulasDisponibles);
+  }, []);
 
-  // Sincronización del tema oscuro
+  useEffect(() => {
+    cargarAulasDisponibles();
+  }, [cargarAulasDisponibles]);
+
+  // Datos del aula activa
+  useEffect(() => {
+    let vigente = true;
+    setDatosAula(undefined);
+    obtenerDatosAula(idAulaActual).then((datos) => {
+      if (vigente) setDatosAula(datos);
+    });
+    return () => {
+      vigente = false;
+    };
+  }, [idAulaActual]);
+
+  // Sesión de admin ya activa (ej. tras refrescar la página)
+  useEffect(() => {
+    sesionActiva()
+      .then(setAdminUsuario)
+      .finally(() => setVerificandoSesion(false));
+  }, []);
+
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
@@ -35,7 +69,6 @@ export const App: React.FC = () => {
     }
   }, [isDarkMode]);
 
-  // Actualizar título de la página según el aula activa
   useEffect(() => {
     if (datosAula) {
       document.title = `Horario Aula ${datosAula.aula} — Universidad Indoamérica`;
@@ -44,7 +77,6 @@ export const App: React.FC = () => {
     }
   }, [datosAula]);
 
-  // Manejo del reloj en tiempo real con alineación precisa al minuto
   useEffect(() => {
     let timerId: ReturnType<typeof setTimeout>;
 
@@ -77,6 +109,7 @@ export const App: React.FC = () => {
   const handleCambiarAula = (nuevaAula: string) => {
     setIdAulaActual(nuevaAula.toUpperCase());
     setVistaAula('principal');
+    setVistaRaiz('aula');
     try {
       const url = new URL(window.location.href);
       url.searchParams.set('aula', nuevaAula.toUpperCase());
@@ -86,19 +119,40 @@ export const App: React.FC = () => {
     }
   };
 
+  const handlePublicado = (aulaPublicada: string) => {
+    cargarAulasDisponibles();
+    if (aulaPublicada.toUpperCase() === idAulaActual.toUpperCase()) {
+      obtenerDatosAula(idAulaActual).then(setDatosAula);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-[#f4f0f9] dark:bg-[#150b24] text-[#2c1547] dark:text-[#f5f0fb] transition-colors duration-200 flex flex-col justify-between">
-      
+
       <div>
-        {/* Navbar Institucional UTI con Logo y Toggle de Tema */}
         <Navbar
           isDarkMode={isDarkMode}
           onToggleTheme={() => setIsDarkMode(!isDarkMode)}
         />
 
-        {/* Contenido Principal — Horario del Aula */}
         <main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 space-y-6">
-          {datosAula ? (
+          {vistaRaiz === 'admin' ? (
+            verificandoSesion ? null : adminUsuario ? (
+              <AdminPanel
+                usuario={adminUsuario}
+                aulasDisponibles={aulasDisponibles}
+                onCerrarSesion={() => { setAdminUsuario(null); setVistaRaiz('aula'); }}
+                onPublicado={handlePublicado}
+              />
+            ) : (
+              <AdminLogin
+                onLoggedIn={() => sesionActiva().then(setAdminUsuario)}
+                onCerrar={() => setVistaRaiz('aula')}
+              />
+            )
+          ) : datosAula === undefined ? (
+            <div className="text-center py-20 text-sm text-[#6e5987] dark:text-[#b7a7cc]">Cargando horario…</div>
+          ) : datosAula ? (
             <>
               <AulaHeader
                 datosAula={datosAula}
@@ -131,9 +185,17 @@ export const App: React.FC = () => {
         </main>
       </div>
 
-      {/* Pie de página institucional */}
-      <footer className="border-t border-[#e2d9ee] dark:border-[#3b2259] py-6 text-center text-xs text-[#6e5987] dark:text-[#b7a7cc]">
-        Universidad Tecnológica Indoamérica · Sistema de Horarios por Aula © 2026
+      <footer className="border-t border-[#e2d9ee] dark:border-[#3b2259] py-6 text-center text-xs text-[#6e5987] dark:text-[#b7a7cc] space-y-2">
+        <p>Universidad Tecnológica Indoamérica · Sistema de Horarios por Aula © 2026</p>
+        {vistaRaiz === 'aula' && (
+          <button
+            onClick={() => setVistaRaiz('admin')}
+            className="inline-flex items-center space-x-1 text-[10px] text-[#6e5987] dark:text-[#b7a7cc] hover:text-[#f57021] opacity-70 hover:opacity-100 transition-all"
+          >
+            <Shield className="w-3 h-3" />
+            <span>Admin</span>
+          </button>
+        )}
       </footer>
 
     </div>

@@ -23,71 +23,89 @@ cd HorarioAulas
 git pull origin main
 ```
 
-## 3. Build de la imagen
+## 3. Configurar las credenciales del admin
+
+Antes de levantar nada, crear un archivo `.env` en la raíz del repo (no se
+sube a git) con:
+
+```bash
+ADMIN_USER=admin
+ADMIN_PASSWORD=<una contraseña fuerte, elegida por ustedes>
+JWT_SECRET=<una cadena larga y aleatoria, ej. salida de 'openssl rand -hex 32'>
+```
+
+Esto protege el panel de administración (`/` → botón "Admin" al pie de la
+página) donde se sube un horario nuevo para un aula. Sin estas variables el
+backend se niega a arrancar.
+
+## 4. Build de las imágenes
 
 ```bash
 docker compose build
 ```
 
-Esto compila el frontend (React + Vite + TypeScript) leyendo los horarios de
-las 37 aulas desde `back/data/*.json` y arma una imagen con nginx sirviendo
-el resultado — no necesita Node.js instalado en el servidor, todo el build
-pasa dentro del contenedor.
+Esto compila dos servicios:
+- **`front`**: el frontend (React + Vite + TypeScript) con nginx sirviéndolo.
+- **`api`**: el backend (Node/Express) que sirve los datos, autentica al
+  admin y procesa los PDF subidos (necesita Python/pdfplumber, ya incluido
+  en su imagen — no hace falta instalar nada aparte en el servidor).
 
-## 4. Levantar el contenedor
+No necesita Node ni Python instalados en el servidor, todo el build pasa
+dentro de los contenedores.
+
+## 5. Levantar los contenedores
 
 ```bash
 docker compose up -d
 ```
 
-Por defecto queda escuchando en el puerto **8080** del servidor
-(`docker-compose.yml`: `"8080:80"`). Si ese puerto ya está ocupado o el
-equipo de TI pide otro, editar esa línea antes de levantar, por ejemplo:
+Por defecto el sitio queda escuchando en el puerto **8080** del servidor
+(`docker-compose.yml`, servicio `front`: `"8080:80"`). Si ese puerto ya está
+ocupado o el equipo de TI pide otro, editar esa línea antes de levantar.
 
-```yaml
-ports:
-  - "3000:80"
-```
-
-## 5. Verificar que responde
+## 6. Verificar que responde
 
 Desde el propio servidor:
 
 ```bash
 curl -I http://localhost:8080/
+curl http://localhost:8080/api/aulas
 ```
 
-Debe devolver `HTTP/1.1 200 OK`. Desde un navegador, entrar a
-`http://<IP-del-servidor>:8080/?aula=A4` y confirmar que carga el horario
-real del Aula A4 (no un error ni una pantalla en blanco).
+El primero debe devolver `200 OK`; el segundo, la lista de las 37 aulas en
+JSON. Desde un navegador, entrar a `http://<IP-del-servidor>:8080/?aula=A4`
+y confirmar que carga el horario real.
 
-## 6. Dominio y HTTPS
+Para probar el panel de admin: ir al botón "Admin" del pie de página,
+loguearse con lo definido en el paso 3, elegir un aula, subir su PDF y
+confirmar que la vista previa se ve bien antes de publicar.
+
+## 7. Dominio y HTTPS
 
 Esto lo arma quien administre el dominio/DNS de la universidad. Lo que
 necesitan saber:
 
-- La app es un **sitio estático puro** servido por nginx dentro del
-  contenedor — no requiere base de datos, backend aparte, ni variables de
-  entorno.
-- El contenedor escucha HTTP en el puerto 80 **dentro** de sí mismo (lo que
-  se mapea a 8080 u otro puerto del host en el paso 4).
+- El contenedor `front` escucha HTTP en el puerto 80 **dentro** de sí mismo
+  (mapeado a 8080 u otro puerto del host en el paso 5) y hace de proxy
+  hacia `api` internamente — no hace falta exponer el puerto del backend
+  (3001) hacia afuera, solo el 8080/443 de `front`.
 - Dos formas típicas de conectar el dominio:
   1. **Reverse proxy ya existente en el servidor** (nginx/Apache/Traefik a
      nivel de host): apuntar ese proxy a `http://127.0.0.1:8080` (o el
      puerto elegido) y manejar el certificado TLS ahí.
   2. **Sin proxy existente**: agregar uno (ej. Caddy, que gestiona HTTPS
-     automático con Let's Encrypt) delante de este contenedor. Avisar si
-     hace falta que prepare esa pieza también, una vez se sepa el dominio
-     exacto.
+     automático con Let's Encrypt) delante de este contenedor.
 - **Importante:** si el servidor solo es alcanzable desde la red interna
   del campus (no tiene IP pública ni DNS resuelto desde internet), los QR
   no van a funcionar para quien los escanee fuera de esa red — confirmar
   con TI que el dominio que van a dar resuelve y es alcanzable desde
   internet, no solo desde dentro del campus.
 
-## 7. Actualizar en el futuro
+## 8. Actualizar en el futuro
 
-Cuando haya cambios nuevos en `main` (más aulas, ajustes de diseño, etc.):
+Cuando haya cambios nuevos en `main` (código, diseño, etc. — **no** hace
+falta esto para los horarios que suba el admin desde el panel, eso ya
+queda guardado sin redeploy):
 
 ```bash
 cd HorarioAulas
@@ -95,20 +113,39 @@ git pull origin main
 docker compose up -d --build
 ```
 
-Esto reconstruye la imagen con el código actualizado y reemplaza el
-contenedor corriendo sin downtime perceptible.
-
-## 8. Logs y diagnóstico
+## 9. Logs y diagnóstico
 
 ```bash
-docker compose logs -f        # ver logs en vivo
-docker compose ps             # estado del contenedor
-docker compose down           # detener y quitar el contenedor
+docker compose logs -f           # ver logs en vivo (los dos servicios)
+docker compose logs -f api       # solo el backend
+docker compose ps                # estado de los contenedores
+docker compose down              # detener y quitar los contenedores
 ```
 
-## 9. Agregar una aula nueva
+## 10. Respaldar los horarios que publique el admin
 
-No requiere redeploy especial del contenedor, solo:
-1. Agregar `back/data/<ID>.json` con el horario (ver `back/README.md`).
-2. Commit + push a `main`.
-3. En el servidor: `git pull origin main && docker compose up -d --build`.
+`back/data/` está montado como volumen dentro del contenedor `api`
+(`docker-compose.yml`), así que cualquier horario que el admin publique
+desde el panel se escribe directamente en esa carpeta **en el servidor**,
+no solo dentro del contenedor. Para no perder esos cambios si el servidor
+se reinstala:
+
+```bash
+cd HorarioAulas
+git status back/data/     # ver qué aulas cambiaron desde el último commit
+git add back/data/
+git commit -m "Actualizar horarios publicados desde el panel de admin"
+git push origin main
+```
+
+Conviene hacerlo cada tanto (ej. semanal) o después de una actualización
+importante.
+
+## 11. Agregar una aula nueva desde cero
+
+No requiere redeploy especial del contenedor:
+1. Desde el panel de admin, publicar su PDF por primera vez (el backend
+   crea `back/data/<ID>.json` si no existía), **o** agregarlo a mano.
+2. Generar su QR (ver `qr/README.md`) y su letrero (ver
+   `letreros_individuales/`).
+3. Respaldar con git (paso 10).

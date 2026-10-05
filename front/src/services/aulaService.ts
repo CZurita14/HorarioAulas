@@ -16,16 +16,9 @@ export interface DatosAula {
   bloques: BloqueAula[];
 }
 
-// Carga estática en tiempo de empaquetado de las 37 aulas
-const modulos = import.meta.glob<DatosAula>('../../../back/data/*.json', { eager: true, import: 'default' });
-
-const aulasPorId: Record<string, DatosAula> = {};
-for (const ruta in modulos) {
-  const datos = modulos[ruta];
-  if (datos && datos.aula) {
-    aulasPorId[datos.aula.toUpperCase()] = datos;
-  }
-}
+// Los datos ya no se importan en build time: se piden al backend (ver
+// back/server/index.js), para que un admin pueda publicar un horario
+// nuevo y que se refleje sin tener que reconstruir el sitio.
 
 export const AULA_POR_DEFECTO = 'A4';
 
@@ -38,11 +31,15 @@ export function obtenerIdAulaDesdeUrl(url = typeof window !== 'undefined' ? wind
   }
 }
 
-export function obtenerDatosAula(idAula: string | null = obtenerIdAulaDesdeUrl()): DatosAula | null {
+export async function obtenerDatosAula(idAula: string | null): Promise<DatosAula | null> {
   const id = (idAula ?? AULA_POR_DEFECTO).toUpperCase();
-  return aulasPorId[id] ?? null;
+  const resp = await fetch(`/api/aulas/${encodeURIComponent(id)}`);
+  if (!resp.ok) return null;
+  return resp.json();
 }
 
-export function obtenerAulasDisponibles(): string[] {
-  return Object.keys(aulasPorId).sort();
+export async function obtenerAulasDisponibles(): Promise<string[]> {
+  const resp = await fetch('/api/aulas');
+  if (!resp.ok) return [];
+  return resp.json();
 }

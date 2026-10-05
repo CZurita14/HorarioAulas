@@ -1,82 +1,66 @@
-# 🎨 Plantilla UTI — Sistema de Diseño e Interfaz Institucional Reutilizable
+# /front — App web (Horarios por Aula)
 
-Esta carpeta **`plantilla UTI`** contiene la plantilla oficial completa, ejecutable y reutilizable de la interfaz de usuario para la **Universidad Tecnológica Indoamérica (UTI)**.
+React + Vite + TypeScript + Tailwind, con el diseño institucional de la
+Universidad Tecnológica Indoamérica (UTI). No importa los datos en build
+time — los pide en tiempo real al backend (`/back/server`, ver
+`src/services/aulaService.ts`).
 
-Está lista para ser copiada a cualquier nuevo proyecto o utilizada por cualquier agente de IA.
+## Componentes
 
----
+- **`App.tsx`**: raíz de la app. Decide entre la vista pública de una aula
+  y el panel de admin (`vistaRaiz`), carga los datos del aula activa de
+  forma asíncrona.
+- **`Navbar.tsx`**: encabezado institucional (logo, nombre, switch de tema).
+- **`AulaHeader.tsx`**: identidad del aula activa + selector para cambiar de aula.
+- **`AulaVistaPrincipal.tsx`**: clase en curso / siguiente / resto del día.
+- **`AulaVistaCompleta.tsx`**: horario completo navegable por día.
+- **`AulaNoEncontrada.tsx`**: pantalla cuando `?aula=` no existe, con la
+  lista de las aulas disponibles.
+- **`AdminLogin.tsx`** / **`AdminPanel.tsx`**: login y flujo de
+  subir PDF → previsualizar → publicar, detrás del botón "Admin" del pie
+  de página. Nunca aparece para un visitante normal.
 
-## 📌 Estructura de Componentes Incluidos en `src/components/`
+Los componentes `CaseDetail.tsx`, `CaseHistoryTable.tsx`,
+`HealthStatusCard.tsx`, `RulesConfigModal.tsx`, `ScheduleGrid.tsx` y
+`UploadZone.tsx` vinieron de la plantilla institucional genérica de la
+que se partió, pero **no los usa esta app** (pertenecen a un sistema de
+cruce de horarios distinto). Se pueden borrar sin afectar nada, o
+quedarse como referencia de estilo para pantallas futuras.
 
-1. **[`Navbar.tsx`](src/components/Navbar.tsx):**  
-   Encabezado institucional con el logotipo oficial `logo-uti.png`, selector de roles RBAC (`Administrador`, `Coordinador`, `Infraestructura`, `Decano`), switcher de tema claro/oscuro y botón de ajustes.
+## Servicios (`src/services/`)
 
-2. **[`UploadZone.tsx`](src/components/UploadZone.tsx):**  
-   Zona de carga de archivos drag-and-drop (.pdf, .xlsx, .csv, .txt) con botones de prueba rápida para casos sintéticos.
+- **`aulaService.ts`**: fetch de los datos públicos (`GET /api/aulas`,
+  `GET /api/aulas/:id`).
+- **`aulaAdminService.ts`**: login/logout/sesión y el flujo de
+  previsualizar + publicar un PDF (`/api/admin/*`).
+- **`scheduleUtils.ts`**: lógica pura de horario (clase actual/siguiente,
+  fusión de bloques consecutivos) — sin dependencias de React.
 
-3. **[`CaseDetail.tsx`](src/components/CaseDetail.tsx):**  
-   Visor completo del dictamen del caso con badges institucionales por estado (`SIN_CRUCE`, `CRUCE_DOCENTE`, `CRUCE_AULA`, `CRUCE_DOCENTE_AULA`, `HORARIO_NO_PERMITIDO_10_10_30`, `DATO_FALTANTE`, `NO_APLICA`), citas de evidencia literal por fila e inspector del contrato JSON.
+## Paleta de colores institucional UTI
 
-4. **[`ScheduleGrid.tsx`](src/components/ScheduleGrid.tsx):**  
-   Matriz visual de cronograma semanal (Lunes a Sábado, 07:00 a 20:00) con resaltado gráfico de franjas horarias, marcado de cruces en rojo y franja prohibida `10:00–10:30` parametrizada.
+### Modo claro (default)
+- Brand (morado principal): `#2c1547`
+- Highlight (naranja acento): `#f57021`
+- Fondo general: `#f4f0f9`
+- Superficie / cards: `#ffffff`
+- Texto principal: `#2c1547`
+- Texto mudo: `#6e5987`
+- Bordes: `#e2d9ee`
 
-5. **[`CaseHistoryTable.tsx`](src/components/CaseHistoryTable.tsx):**  
-   Tabla de historial de casos auditados con filtrado y resaltado dinámico según el rol activo (RBAC - Sección 41 del SPEC).
+### Modo oscuro (`.dark`)
+- Fondo: `#150b24`
+- Superficie: `#26163d`
+- Brand: `#8a4ed9`
+- Highlight: `#f57021`
+- Texto: `#f5f0fb`
 
-6. **[`HealthStatusCard.tsx`](src/components/HealthStatusCard.tsx):**  
-   Widget de monitoreo en tiempo real del estado de la API FastAPI, Core determinístico, SGA (Vivo vs Snapshot) y LLM Gateway.
+## Desarrollo
 
-7. **[`RulesConfigModal.tsx`](src/components/RulesConfigModal.tsx):**  
-   Modal interactivo para ajustar dinámicamente la regla de la franja prohibida (inicio, fin, activa) sin modificar código.
-
----
-
-## 🎨 Paleta de Colores Oficial UTI
-
-### Modo Claro (Default)
-* **Brand (Morado Principal):** `#2c1547`
-* **Highlight (Naranja Acento):** `#f57021`
-* **Fondo General (`--color-bg`):** `#f4f0f9`
-* **Superficie / Cards (`--color-surface`):** `#ffffff`
-* **Texto Principal (`--color-text`):** `#2c1547`
-* **Texto Mudo (`--color-text-muted`):** `#6e5987`
-* **Bordes (`--color-border`):** `#e2d9ee`
-
-### Modo Oscuro (`.dark`)
-* **Fondo Noche (`--color-bg`):** `#150b24`
-* **Superficie Oscura (`--color-surface`):** `#26163d`
-* **Brand Oscuro (`--color-brand`):** `#8a4ed9`
-* **Highlight (`--color-highlight`):** `#f57021`
-* **Texto Claro (`--color-text`):** `#f5f0fb`
-
----
-
-## 📁 Estructura del Proyecto Plantilla
-
-```text
-plantilla UTI/
-├── public/
-│   ├── logo-uti.png
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   ├── Navbar.tsx
-│   │   ├── UploadZone.tsx
-│   │   ├── CaseDetail.tsx
-│   │   ├── ScheduleGrid.tsx
-│   │   ├── CaseHistoryTable.tsx
-│   │   ├── HealthStatusCard.tsx
-│   │   └── RulesConfigModal.tsx
-│   ├── css/
-│   │   └── styles.css
-│   ├── services/
-│   │   └── api.ts
-│   ├── theme/
-│   │   └── theme.ts
-│   ├── App.tsx
-│   └── main.tsx
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
+```bash
+npm install
+npm run dev
 ```
+
+Necesita el backend corriendo en paralelo (`back/server`, puerto 3001 por
+defecto) — ver `back/README.md`. El proxy de `/api` está configurado en
+`vite.config.ts`.
