@@ -27,13 +27,13 @@ export const AulaProgressBar: React.FC<AulaProgressBarProps> = ({ bloque, minuto
             key={i}
             className={`rounded-sm transition-all duration-500 ${
               i < llenos
-                ? 'bg-[#f57021] shadow-sm'
-                : 'bg-[#e2d9ee] dark:bg-[#3b2259]'
+                ? 'bg-accent shadow-sm'
+                : 'bg-border'
             }`}
           />
         ))}
       </div>
-      <div className="flex justify-between text-[11px] font-mono font-bold text-[#6e5987] dark:text-[#b7a7cc]">
+      <div className="flex justify-between text-[11px] font-mono font-bold text-text-muted">
         <span>{bloque.horaInicio}</span>
         <span>{bloque.horaFin}</span>
       </div>

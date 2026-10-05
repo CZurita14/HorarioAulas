@@ -19,38 +19,38 @@ export const AulaHeader: React.FC<AulaHeaderProps> = ({
   });
 
   return (
-    <header className="bg-white dark:bg-[#26163d] rounded-2xl border border-[#e2d9ee] dark:border-[#3b2259] p-6 shadow-sm">
+    <header className="bg-surface motion-safe:transition-colors motion-safe:duration-700 rounded-2xl border border-border p-6 shadow-sm">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         
         {/* Identidad y Aula */}
         <div className="space-y-2">
-          <div className="flex items-center space-x-2 text-xs font-semibold text-[#6e5987] dark:text-[#b7a7cc] uppercase tracking-wider">
+          <div className="flex items-center space-x-2 text-xs font-semibold text-text-muted uppercase tracking-wider">
             <span>Universidad Indoamérica</span>
             <span>•</span>
             <span className="flex items-center space-x-1">
-              <MapPin className="w-3.5 h-3.5 text-[#f57021]" />
+              <MapPin className="w-3.5 h-3.5 text-accent" />
               <span>Campus {datosAula.campus}</span>
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#2c1547] dark:text-[#f5f0fb] tracking-tight">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-text tracking-tight">
             AULA {datosAula.aula}
           </h1>
 
-          <div className="flex items-center space-x-4 text-xs text-[#6e5987] dark:text-[#b7a7cc]">
+          <div className="flex items-center space-x-4 text-xs text-text-muted">
             <span className="capitalize font-medium">{fechaTexto}</span>
             <span>•</span>
             <span className="flex items-center space-x-1">
-              <Users className="w-3.5 h-3.5 text-[#f57021]" />
+              <Users className="w-3.5 h-3.5 text-accent" />
               <span>Capacidad: {datosAula.capacidad} estudiantes</span>
             </span>
           </div>
         </div>
 
         {/* Reloj en vivo */}
-        <div className="flex md:flex-col items-center md:items-end justify-between border-t md:border-t-0 pt-3 md:pt-0 border-[#e2d9ee] dark:border-[#3b2259]">
-          <div className="text-xl md:text-2xl font-mono font-bold text-[#2c1547] dark:text-[#f5f0fb] mt-1 flex items-center space-x-1.5">
-            <Clock className="w-4 h-4 text-[#f57021]" />
+        <div className="flex md:flex-col items-center md:items-end justify-between border-t md:border-t-0 pt-3 md:pt-0 border-border">
+          <div className="text-xl md:text-2xl font-mono font-bold text-text mt-1 flex items-center space-x-1.5">
+            <Clock className="w-4 h-4 text-accent" />
             <span>{formatearHora12(fecha)}</span>
           </div>
         </div>

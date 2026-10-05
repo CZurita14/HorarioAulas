@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Tema adaptativo — variables CSS en triplete "r g b" (sin rgb() alrededor,
+ * así las usan directamente los componentes vía Tailwind — ver
+ * tailwind.config.js — y también estas reglas de base).
+ *
+ * Estos son solo los valores por defecto (paleta "mañana"), para que no
+ * haya parpadeo antes de que React monte y el hook useTemaAdaptativo
+ * calcule y aplique los valores reales según la hora. Ver src/theme/.
+ */
 :root {
-	--color-bg: #f4f0f9;
-	--color-bg-soft: #eae3f4;
-	--color-surface: #ffffff;
-	--color-text: #2c1547;
-	--color-text-muted: #6e5987;
-	--color-border: #e2d9ee;
-	--color-brand: #2c1547;
-	--color-highlight: #f57021;
-}
-
-.dark {
-	--color-bg: #150b24;
-	--color-bg-soft: #211336;
-	--color-surface: #26163d;
-	--color-text: #f5f0fb;
-	--color-text-muted: #b7a7cc;
-	--color-border: #3b2259;
-	--color-brand: #8a4ed9;
-	--color-highlight: #f57021;
+	--color-bg: 244 240 249;
+	--color-bg-soft: 234 227 244;
+	--color-surface: 255 255 255;
+	--color-border: 226 217 238;
+	--color-text: 44 21 71;
+	--color-text-muted: 110 89 135;
+	--color-text-on-bg: 44 21 71;
+	--color-text-muted-on-bg: 110 89 135;
+	--color-brand: 44 21 71;
+	--color-brand-strong: 59 34 89;
+	--color-accent: 245 112 33;
+	--color-accent-strong: 224 94 16;
 }
 
 html,
@@ -33,8 +35,21 @@ body,
 }
 
 body {
-	background-color: var(--color-bg);
-	color: var(--color-text);
+	/* Degradado ambiental discreto: evoluciona solo porque --color-bg y
+	   --color-bg-soft cambian con la hora (ver useTemaAdaptativo). */
+	background: linear-gradient(180deg, rgb(var(--color-bg)) 0%, rgb(var(--color-bg-soft)) 100%);
+	background-attachment: fixed;
+	color: rgb(var(--color-text-on-bg));
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-	transition: background-color 220ms ease, color 220ms ease;
+}
+
+/* El body no es parte del árbol de React (no se le pueden poner clases de
+   Tailwind con motion-safe:), así que su transición se controla a mano acá.
+   El resto de la app usa las utilidades motion-safe:transition-colors de
+   Tailwind directamente en los componentes — ambas respetan
+   prefers-reduced-motion. */
+@media (prefers-reduced-motion: no-preference) {
+	body {
+		transition: background-color 700ms ease, color 700ms ease;
+	}
 }

@@ -14,10 +14,11 @@ import { AulaVistaCompleta } from './components/AulaVistaCompleta';
 import { AulaNoEncontrada } from './components/AulaNoEncontrada';
 import { AdminLogin } from './components/AdminLogin';
 import { AdminPanel } from './components/AdminPanel';
+import { TemaDevPreview } from './components/TemaDevPreview';
+import { useTemaAdaptativo } from './theme/useTemaAdaptativo';
+import { construirFechaConMinutosGuayaquil } from './theme/calcularColoresTema';
 
 export const App: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-
   const [idAulaActual, setIdAulaActual] = useState<string>(() => {
     return obtenerIdAulaDesdeUrl() || AULA_POR_DEFECTO;
   });
@@ -35,6 +36,14 @@ export const App: React.FC = () => {
   const [verificandoSesion, setVerificandoSesion] = useState(true);
 
   const [fecha, setFecha] = useState<Date>(new Date());
+
+  // Previsualización de tema (solo desarrollo): minutos del día simulados,
+  // o null si se está mostrando la hora real. No toca `fecha` ni la lógica
+  // de clases — solo cambia qué instante calcula el tema adaptativo.
+  const [minutosSimulados, setMinutosSimulados] = useState<number | null>(null);
+  const fechaSimuladaTema =
+    minutosSimulados === null ? null : construirFechaConMinutosGuayaquil(minutosSimulados, fecha);
+  const { modo: modoTema, setModo: setModoTema, franjaActual } = useTemaAdaptativo(fecha, fechaSimuladaTema);
 
   // Lista de aulas (para el selector y la pantalla de "no encontrada")
   const cargarAulasDisponibles = useCallback(() => {
@@ -63,14 +72,6 @@ export const App: React.FC = () => {
       .then(setAdminUsuario)
       .finally(() => setVerificandoSesion(false));
   }, []);
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [isDarkMode]);
 
   useEffect(() => {
     if (datosAula) {
@@ -139,13 +140,10 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#f4f0f9] dark:bg-[#150b24] text-[#2c1547] dark:text-[#f5f0fb] transition-colors duration-200 flex flex-col justify-between">
+    <div className="min-h-screen text-text-on-bg motion-safe:transition-colors motion-safe:duration-700 flex flex-col justify-between">
 
       <div>
-        <Navbar
-          isDarkMode={isDarkMode}
-          onToggleTheme={() => setIsDarkMode(!isDarkMode)}
-        />
+        <Navbar modoTema={modoTema} onCambiarModoTema={setModoTema} />
 
         <main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 space-y-6">
           {vistaRaiz === 'admin' ? (
@@ -164,7 +162,7 @@ export const App: React.FC = () => {
               />
             )
           ) : datosAula === undefined ? (
-            <div className="text-center py-20 text-sm text-[#6e5987] dark:text-[#b7a7cc]">Cargando horario…</div>
+            <div className="text-center py-20 text-sm text-text-muted-on-bg">Cargando horario…</div>
           ) : datosAula ? (
             <>
               <AulaHeader
@@ -196,9 +194,17 @@ export const App: React.FC = () => {
         </main>
       </div>
 
-      <footer className="border-t border-[#e2d9ee] dark:border-[#3b2259] py-6 text-center text-xs text-[#6e5987] dark:text-[#b7a7cc] space-y-2">
+      <footer className="border-t border-border py-6 text-center text-xs text-text-muted-on-bg space-y-2 motion-safe:transition-colors motion-safe:duration-700">
         <p>Universidad Tecnológica Indoamérica · Sistema de Horarios por Aula © 2026</p>
       </footer>
+
+      {import.meta.env.DEV && (
+        <TemaDevPreview
+          minutosSimulados={minutosSimulados}
+          onCambiarMinutos={setMinutosSimulados}
+          franjaActual={franjaActual}
+        />
+      )}
 
     </div>
   );

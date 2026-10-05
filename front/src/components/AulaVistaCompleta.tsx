@@ -37,17 +37,17 @@ export const AulaVistaCompleta: React.FC<AulaVistaCompletaProps> = ({
     <div className="space-y-6">
       
       {/* Barra Superior con Botón Volver */}
-      <div className="flex items-center justify-between bg-white dark:bg-[#26163d] p-4 rounded-2xl border border-[#e2d9ee] dark:border-[#3b2259] shadow-sm">
+      <div className="flex items-center justify-between bg-surface motion-safe:transition-colors motion-safe:duration-700 p-4 rounded-2xl border border-border shadow-sm">
         <button
           onClick={onVolver}
-          className="inline-flex items-center space-x-2 text-xs md:text-sm font-bold text-[#2c1547] dark:text-[#f5f0fb] hover:text-[#f57021] dark:hover:text-[#f57021] transition-colors"
+          className="inline-flex items-center space-x-2 text-xs md:text-sm font-bold text-text hover:text-accent transition-colors"
         >
-          <ArrowLeft className="w-4 h-4 text-[#f57021]" />
+          <ArrowLeft className="w-4 h-4 text-accent" />
           <span>Volver a Clase Actual</span>
         </button>
 
-        <div className="flex items-center space-x-2 text-xs font-semibold text-[#6e5987] dark:text-[#b7a7cc]">
-          <Calendar className="w-4 h-4 text-[#f57021]" />
+        <div className="flex items-center space-x-2 text-xs font-semibold text-text-muted">
+          <Calendar className="w-4 h-4 text-accent" />
           <span>Horario Completo</span>
         </div>
       </div>
@@ -67,8 +67,8 @@ export const AulaVistaCompleta: React.FC<AulaVistaCompletaProps> = ({
                 onClick={() => setDiaSeleccionado(dia)}
                 className={`flex-shrink-0 flex items-center space-x-1.5 px-4 py-2.5 rounded-xl text-xs font-bold transition-all ${
                   activo
-                    ? 'bg-[#f57021] text-white shadow-md scale-[1.02]'
-                    : 'bg-white dark:bg-[#26163d] text-[#2c1547] dark:text-[#f5f0fb] border border-[#e2d9ee] dark:border-[#3b2259] hover:border-[#f57021]'
+                    ? 'bg-accent text-white shadow-md scale-[1.02]'
+                    : 'bg-surface motion-safe:transition-colors motion-safe:duration-700 text-text border border-border hover:border-accent'
                 }`}
               >
                 <span>{DIAS_LABORABLES_LABEL[dia]}</span>
@@ -79,7 +79,7 @@ export const AulaVistaCompleta: React.FC<AulaVistaCompletaProps> = ({
                   className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
                     activo
                       ? 'bg-white/20 text-white'
-                      : 'bg-[#f4f0f9] dark:bg-[#211336] text-[#6e5987] dark:text-[#b7a7cc]'
+                      : 'bg-bg-soft text-text-muted'
                   }`}
                 >
                   {cantidadBloques}
@@ -100,12 +100,12 @@ export const AulaVistaCompleta: React.FC<AulaVistaCompletaProps> = ({
                   key={idx}
                   className={`p-5 rounded-2xl border transition-all ${
                     esLaClaseEnCurso
-                      ? 'bg-white dark:bg-[#26163d] border-emerald-400 dark:border-emerald-600 ring-2 ring-emerald-500/20 shadow-md'
-                      : 'bg-white dark:bg-[#26163d] border-[#e2d9ee] dark:border-[#3b2259] shadow-sm'
+                      ? 'bg-surface motion-safe:transition-colors motion-safe:duration-700 border-emerald-400 dark:border-emerald-600 ring-2 ring-emerald-500/20 shadow-md'
+                      : 'bg-surface motion-safe:transition-colors motion-safe:duration-700 border-border shadow-sm'
                   }`}
                 >
-                  <div className="flex items-center justify-between pb-2 border-b border-[#e2d9ee]/60 dark:border-[#3b2259]/60">
-                    <span className="text-xs font-mono font-bold text-[#f57021] flex items-center space-x-1.5">
+                  <div className="flex items-center justify-between pb-2 border-b border-border/60">
+                    <span className="text-xs font-mono font-bold text-accent flex items-center space-x-1.5">
                       <Clock className="w-3.5 h-3.5" />
                       <span>{bloque.horaInicio} – {bloque.horaFin}</span>
                     </span>
@@ -119,14 +119,14 @@ export const AulaVistaCompleta: React.FC<AulaVistaCompletaProps> = ({
                   </div>
 
                   <div className="pt-3">
-                    <h4 className="text-lg font-bold text-[#2c1547] dark:text-[#f5f0fb]">
+                    <h4 className="text-lg font-bold text-text">
                       {bloque.materia}
                     </h4>
-                    <p className="text-xs font-semibold text-[#6e5987] dark:text-[#b7a7cc] mt-1 flex items-center space-x-1.5">
-                      <User className="w-3.5 h-3.5 text-[#f57021]" />
+                    <p className="text-xs font-semibold text-text-muted mt-1 flex items-center space-x-1.5">
+                      <User className="w-3.5 h-3.5 text-accent" />
                       <span>{bloque.docente}</span>
                     </p>
-                    <p className="text-[11px] text-[#6e5987] dark:text-[#b7a7cc] mt-1">
+                    <p className="text-[11px] text-text-muted mt-1">
                       {formatearDetalle(bloque)}
                     </p>
                   </div>
@@ -134,12 +134,12 @@ export const AulaVistaCompleta: React.FC<AulaVistaCompletaProps> = ({
               );
             })
           ) : (
-            <div className="bg-white dark:bg-[#26163d] rounded-2xl border border-[#e2d9ee] dark:border-[#3b2259] p-10 text-center space-y-2">
-              <Calendar className="w-8 h-8 text-[#6e5987] dark:text-[#b7a7cc] mx-auto opacity-60" />
-              <h4 className="text-base font-bold text-[#2c1547] dark:text-[#f5f0fb]">
+            <div className="bg-surface motion-safe:transition-colors motion-safe:duration-700 rounded-2xl border border-border p-10 text-center space-y-2">
+              <Calendar className="w-8 h-8 text-text-muted mx-auto opacity-60" />
+              <h4 className="text-base font-bold text-text">
                 Sin clases programadas
               </h4>
-              <p className="text-xs text-[#6e5987] dark:text-[#b7a7cc]">
+              <p className="text-xs text-text-muted">
                 No existen asignaturas registradas para el día {DIAS_LABORABLES_LABEL[diaSeleccionado]} en el Aula {datosAula.aula}.
               </p>
             </div>
