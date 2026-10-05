@@ -72,10 +72,6 @@ export const AulaHeader: React.FC<AulaHeaderProps> = ({
 
         {/* Reloj en vivo */}
         <div className="flex md:flex-col items-center md:items-end justify-between border-t md:border-t-0 pt-3 md:pt-0 border-[#e2d9ee] dark:border-[#3b2259]">
-          <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 text-xs font-bold">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>EN VIVO</span>
-          </div>
           <div className="text-xl md:text-2xl font-mono font-bold text-[#2c1547] dark:text-[#f5f0fb] mt-1 flex items-center space-x-1.5">
             <Clock className="w-4 h-4 text-[#f57021]" />
             <span>{formatearHora12(fecha)}</span>
