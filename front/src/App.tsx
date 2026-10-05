@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Shield } from 'lucide-react';
 import { Navbar } from './components/Navbar';
 import {
   obtenerDatosAula,
@@ -27,7 +26,11 @@ export const App: React.FC = () => {
   const [datosAula, setDatosAula] = useState<DatosAula | null | undefined>(undefined);
   const [aulasDisponibles, setAulasDisponibles] = useState<string[]>([]);
 
-  const [vistaRaiz, setVistaRaiz] = useState<'aula' | 'admin'>('aula');
+  // Acceso al panel de admin: solo por la ruta /admin, sin ningún enlace
+  // visible en la página pública.
+  const [vistaRaiz, setVistaRaiz] = useState<'aula' | 'admin'>(() => {
+    return typeof window !== 'undefined' && window.location.pathname === '/admin' ? 'admin' : 'aula';
+  });
   const [adminUsuario, setAdminUsuario] = useState<string | null>(null);
   const [verificandoSesion, setVerificandoSesion] = useState(true);
 
@@ -119,6 +122,15 @@ export const App: React.FC = () => {
     }
   };
 
+  const salirDeAdmin = () => {
+    setVistaRaiz('aula');
+    try {
+      window.history.replaceState(null, '', '/');
+    } catch {
+      // Ignorar si no está en navegador
+    }
+  };
+
   const handlePublicado = (aulaPublicada: string) => {
     cargarAulasDisponibles();
     if (aulaPublicada.toUpperCase() === idAulaActual.toUpperCase()) {
@@ -141,14 +153,14 @@ export const App: React.FC = () => {
               <AdminPanel
                 usuario={adminUsuario}
                 aulasDisponibles={aulasDisponibles}
-                onCerrarSesion={() => { setAdminUsuario(null); setVistaRaiz('aula'); }}
-                onVolver={() => setVistaRaiz('aula')}
+                onCerrarSesion={() => { setAdminUsuario(null); salirDeAdmin(); }}
+                onVolver={salirDeAdmin}
                 onPublicado={handlePublicado}
               />
             ) : (
               <AdminLogin
                 onLoggedIn={() => sesionActiva().then(setAdminUsuario)}
-                onCerrar={() => setVistaRaiz('aula')}
+                onCerrar={salirDeAdmin}
               />
             )
           ) : datosAula === undefined ? (
@@ -186,15 +198,6 @@ export const App: React.FC = () => {
 
       <footer className="border-t border-[#e2d9ee] dark:border-[#3b2259] py-6 text-center text-xs text-[#6e5987] dark:text-[#b7a7cc] space-y-2">
         <p>Universidad Tecnológica Indoamérica · Sistema de Horarios por Aula © 2026</p>
-        {vistaRaiz === 'aula' && (
-          <button
-            onClick={() => setVistaRaiz('admin')}
-            className="inline-flex items-center space-x-1 text-[10px] text-[#6e5987] dark:text-[#b7a7cc] hover:text-[#f57021] opacity-70 hover:opacity-100 transition-all"
-          >
-            <Shield className="w-3 h-3" />
-            <span>Admin</span>
-          </button>
-        )}
       </footer>
 
     </div>

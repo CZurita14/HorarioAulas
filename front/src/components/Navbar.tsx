@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 Horario de Aulas
               </h1>
               <p className="text-[11px] text-[#b7a7cc] font-medium">
-                Universidad Indoamérica · Consulta en Vivo
+                Universidad Indoamérica
               </p>
             </div>
           </div>
