@@ -172,12 +172,20 @@ solo para mirarla funcionando.
    Render detecta automáticamente `render.yaml` (en la raíz del repo) y
    propone crear dos servicios: `horarios-api` y `horarios-front`.
 3. Antes de confirmar, Render pide un valor para `ADMIN_PASSWORD` (la
-   contraseña del panel de admin para esta demo) — escribir una. El
+   contraseña del panel de admin para esta demo) — escribir una. Dejar
+   `API_BASE_URL` vacío por ahora (se completa en el paso 5). El
    `JWT_SECRET` se genera solo.
-4. **Apply** / **Create New Resources**. Render construye las dos imágenes
-   Docker (tarda unos minutos la primera vez).
-5. Cuando ambos servicios digan **Live**, abrir la URL de `horarios-front`
-   (algo como `https://horarios-front.onrender.com`) — ahí está la app.
+4. **Deploy Blueprint**. Render construye las dos imágenes Docker (tarda
+   unos minutos). `horarios-api` debería quedar **Live**; `horarios-front`
+   va a fallar al arrancar — es esperado, falta el paso siguiente.
+5. Entrar al servicio **`horarios-api`** y copiar su URL pública (arriba
+   del todo, algo como `https://horarios-api-xxxx.onrender.com`). Entrar a
+   **`horarios-front`** → pestaña **Environment** → pegar esa URL completa
+   (con `https://`, sin `/` al final) en la variable `API_BASE_URL` →
+   **Save Changes**. Esto dispara un redeploy automático de `horarios-front`.
+6. Cuando `horarios-front` diga **Live**, abrir su URL (arriba de su
+   página, algo como `https://horarios-front.onrender.com`) — ahí está la
+   app funcionando.
 
 **Limitaciones de esta demo** (por ser plan gratuito de Render, no por la
 app en sí):

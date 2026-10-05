@@ -16,11 +16,11 @@ FROM nginx:alpine AS runtime
 COPY --from=build /app/front/dist /usr/share/nginx/html
 COPY nginx.conf.template /etc/nginx/templates/default.conf.template
 # Dónde vive el backend al que /api/ hace de proxy. docker-compose.yml ya
-# levanta un servicio llamado "api" en el puerto 3001 (estos valores por
+# levanta un servicio llamado "api" en el puerto 3001 (este valor por
 # defecto), así que no necesita configurarse ahí. Para desplegar el front y
 # el backend como servicios separados (ej. Render), sobreescribir con la URL
-# pública real del backend, ej. API_SCHEME=https API_HOST=horarios-api.onrender.com.
-ENV API_SCHEME=http
-ENV API_HOST=api:3001
+# pública real del backend, ej. API_BASE_URL=https://horarios-api-xxxx.onrender.com
+# (sin resolución DNS interna: la red privada de Render no se usa acá).
+ENV API_BASE_URL=http://api:3001
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

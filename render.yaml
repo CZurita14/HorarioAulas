@@ -19,6 +19,10 @@ services:
         value: /app/data
 
   # Front: la app web, con nginx haciendo de proxy hacia horarios-api.
+  # API_BASE_URL se completa a mano después del primer deploy (ver DEPLOY.md,
+  # sección "Demo rápida en Render"): la resolución DNS interna de Render
+  # entre dos Web Services no funcionó de forma confiable, así que el proxy
+  # usa la URL pública real de horarios-api en vez de un nombre interno.
   - type: web
     name: horarios-front
     runtime: docker
@@ -28,10 +32,5 @@ services:
     dockerContext: .
     plan: free
     envVars:
-      - key: API_SCHEME
-        value: https
-      - key: API_HOST
-        fromService:
-          type: web
-          name: horarios-api
-          property: host
+      - key: API_BASE_URL
+        sync: false

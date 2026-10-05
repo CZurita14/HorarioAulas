@@ -5,7 +5,7 @@ server {
     index index.html;
 
     location /api/ {
-        proxy_pass ${API_SCHEME}://${API_HOST};
+        proxy_pass ${API_BASE_URL};
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
     }
