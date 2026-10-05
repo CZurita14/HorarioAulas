@@ -11,8 +11,13 @@ está dockerizada y probada — este documento es el paso a paso para subirla.
 
 ## 2. Traer el código
 
+**Importante:** este servidor debe correr la rama `produccion`, no `main`.
+`main` es la versión sin backend/panel de admin que sigue sirviendo el QR
+ya impreso desde Render — no tiene las variables de entorno ni el
+backend que este documento configura, así que no funciona para esto.
+
 ```bash
-git clone https://github.com/CZurita14/HorarioAulas.git
+git clone -b produccion https://github.com/CZurita14/HorarioAulas.git
 cd HorarioAulas
 ```
 
@@ -20,7 +25,8 @@ Si ya estaba clonado antes, actualizar:
 
 ```bash
 cd HorarioAulas
-git pull origin main
+git checkout produccion
+git pull origin produccion
 ```
 
 ## 3. Configurar las credenciales del admin
@@ -103,13 +109,13 @@ necesitan saber:
 
 ## 8. Actualizar en el futuro
 
-Cuando haya cambios nuevos en `main` (código, diseño, etc. — **no** hace
-falta esto para los horarios que suba el admin desde el panel, eso ya
-queda guardado sin redeploy):
+Cuando haya cambios nuevos en `produccion` (código, diseño, etc. — **no**
+hace falta esto para los horarios que suba el admin desde el panel, eso
+ya queda guardado sin redeploy):
 
 ```bash
 cd HorarioAulas
-git pull origin main
+git pull origin produccion
 docker compose up -d --build
 ```
 
@@ -135,7 +141,7 @@ cd HorarioAulas
 git status back/data/     # ver qué aulas cambiaron desde el último commit
 git add back/data/
 git commit -m "Actualizar horarios publicados desde el panel de admin"
-git push origin main
+git push origin produccion
 ```
 
 Conviene hacerlo cada tanto (ej. semanal) o después de una actualización

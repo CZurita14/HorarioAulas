@@ -1,5 +1,11 @@
 # Horarios por Aula
 
+> **Rama `produccion`.** Esta rama tiene backend + panel de administrador y
+> está pensada para el servidor propio (ver `DEPLOY.md`). El QR ya impreso
+> apunta a Render, que sigue sirviendo la rama `main` (sin backend, sitio
+> 100% estático) — no fusionar `produccion` ahí hasta que Render (o el
+> dominio del QR) se mueva al servidor con backend.
+
 Reemplaza el flujo QR → SharePoint → PDF por una página web que muestra automáticamente
 la clase en curso y la siguiente en cada aula, más un horario completo navegable por día.
 Un administrador puede subir un horario actualizado (PDF) para una aula puntual sin
