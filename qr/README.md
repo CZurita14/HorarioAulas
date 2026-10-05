@@ -2,8 +2,14 @@
 
 Un QR listo para imprimir por cada aula, con el mismo estilo visual de la
 app (fondo azul institucional, "AULA <ID>", Campus Manuela Sáenz). Cada
-uno apunta a `https://horarioaulas.onrender.com/?aula=<ID>` — ver
+uno apunta a `https://horarios-front.onrender.com/?aula=<ID>` — ver
 `back/README.md` para cómo se arma esa URL por aula.
+
+> **Esta URL es temporal** (demo gratuita de Render para la rama
+> `produccion`, sin disco persistente). Cuando la app se mude al servidor
+> propio de la universidad con su dominio final (ver `DEPLOY.md`), hay que
+> regenerar estos QR y los de `letreros_individuales/` una sola vez con la
+> URL definitiva.
 
 - `QR_<ID>.png`: tarjeta individual de cada aula, lista para imprimir y
   pegar en la puerta. Una por cada archivo en `back/data/` — las 37 aulas
@@ -22,7 +28,7 @@ import qrcode
 from PIL import Image, ImageDraw, ImageFont
 
 AULA = 'A6'  # cambiar por el ID nuevo
-URL = f'https://horarioaulas.onrender.com/?aula={AULA}'
+URL = f'https://horarios-front.onrender.com/?aula={AULA}'
 AZUL, NARANJA = (43, 58, 103), (232, 98, 44)
 FONT_DIR = '/usr/share/fonts/truetype/liberation/'
 f_bold = lambda s: ImageFont.truetype(FONT_DIR + 'LiberationSans-Bold.ttf', s)
