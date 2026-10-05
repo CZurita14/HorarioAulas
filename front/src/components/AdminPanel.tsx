@@ -4,6 +4,12 @@ import { DatosAula } from '../services/aulaService';
 import { previsualizarPdf, publicarAula, logout, PreviewResultado } from '../services/aulaAdminService';
 import { DIAS_LABORABLES, DIAS_LABORABLES_LABEL, obtenerBloquesDia, agruparBloquesConsecutivos, formatearDetalle } from '../services/scheduleUtils';
 
+// De momento todas las aulas existentes son del campus Manuela Sáenz. Al
+// agregar aulas de los otros dos campus, este selector ya queda listo —
+// falta filtrar "Aula" por campus y crear aulas nuevas desde acá (hoy el
+// combo "Aula" solo lista las que ya existen).
+const CAMPUS = ['Manuela Sáenz', 'Simón Bolívar', 'Parque Tecnológico Santa Rosa'];
+
 interface AdminPanelProps {
   usuario: string;
   aulasDisponibles: string[];
@@ -13,6 +19,7 @@ interface AdminPanelProps {
 }
 
 export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponibles, onCerrarSesion, onVolver, onPublicado }) => {
+  const [campusSeleccionado, setCampusSeleccionado] = useState(CAMPUS[0]);
   const [aulaSeleccionada, setAulaSeleccionada] = useState(aulasDisponibles[0] ?? '');
   const [archivo, setArchivo] = useState<File | null>(null);
   const [cargando, setCargando] = useState(false);
@@ -29,6 +36,9 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponible
     setCargando(true);
     try {
       const res = await previsualizarPdf(aulaSeleccionada, archivo);
+      // El parser no sabe de qué campus es el PDF (hoy solo existe uno) —
+      // el campus que se publica es el que elige el admin acá.
+      res.datos.campus = campusSeleccionado;
       setResultado(res);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'No se pudo previsualizar el PDF.');
@@ -82,6 +92,18 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponible
 
         <div className="mt-5 grid sm:grid-cols-2 gap-4">
           <div>
+            <label className="block text-xs font-semibold text-[#6e5987] dark:text-[#b7a7cc] mb-1">Campus</label>
+            <select
+              value={campusSeleccionado}
+              onChange={(e) => { setCampusSeleccionado(e.target.value); setResultado(null); setMensajeExito(null); }}
+              className="w-full px-3 py-2 rounded-lg border border-[#e2d9ee] dark:border-[#3b2259] bg-[#f4f0f9] dark:bg-[#211336] text-[#2c1547] dark:text-[#f5f0fb] text-sm"
+            >
+              {CAMPUS.map((c) => (
+                <option key={c} value={c}>{c}</option>
+              ))}
+            </select>
+          </div>
+          <div>
             <label className="block text-xs font-semibold text-[#6e5987] dark:text-[#b7a7cc] mb-1">Aula</label>
             <select
               value={aulaSeleccionada}
@@ -93,7 +115,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponible
               ))}
             </select>
           </div>
-          <div>
+          <div className="sm:col-span-2">
             <label className="block text-xs font-semibold text-[#6e5987] dark:text-[#b7a7cc] mb-1">PDF "USO DE AULAS"</label>
             <input
               type="file"
