@@ -1,0 +1,37 @@
+services:
+  # Backend: datos, login de admin, parseo de PDF.
+  - type: web
+    name: horarios-api
+    runtime: docker
+    repo: https://github.com/CZurita14/HorarioAulas
+    branch: produccion
+    dockerfilePath: ./back/server/Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATA_DIR
+        value: /app/data
+
+  # Front: la app web, con nginx haciendo de proxy hacia horarios-api.
+  - type: web
+    name: horarios-front
+    runtime: docker
+    repo: https://github.com/CZurita14/HorarioAulas
+    branch: produccion
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: API_SCHEME
+        value: https
+      - key: API_HOST
+        fromService:
+          type: web
+          name: horarios-api
+          property: host

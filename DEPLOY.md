@@ -3,6 +3,10 @@
 Para quien vaya a instalar esto en el servidor de la universidad. La app ya
 está dockerizada y probada — este documento es el paso a paso para subirla.
 
+> **¿Solo quieres ver la app funcionando en una URL ya?** Ver la sección
+> [Demo rápida en Render](#demo-rápida-en-render-blueprint) al final — no
+> reemplaza este despliegue, es para probar mientras se gestiona el servidor.
+
 ## 1. Requisitos en el servidor
 
 - Docker y Docker Compose instalados (`docker --version`, `docker compose version`).
@@ -155,3 +159,32 @@ No requiere redeploy especial del contenedor:
 2. Generar su QR (ver `qr/README.md`) y su letrero (ver
    `letreros_individuales/`).
 3. Respaldar con git (paso 10).
+
+## Demo rápida en Render (Blueprint)
+
+Para ver la app funcionando en una URL pública sin esperar al servidor del
+campus. No usa el dominio final ni reemplaza el paso a paso de arriba — es
+solo para mirarla funcionando.
+
+1. En el [dashboard de Render](https://dashboard.render.com), **New +** →
+   **Blueprint**.
+2. Conectar el repo `CZurita14/HorarioAulas` y elegir la rama `produccion`.
+   Render detecta automáticamente `render.yaml` (en la raíz del repo) y
+   propone crear dos servicios: `horarios-api` y `horarios-front`.
+3. Antes de confirmar, Render pide un valor para `ADMIN_PASSWORD` (la
+   contraseña del panel de admin para esta demo) — escribir una. El
+   `JWT_SECRET` se genera solo.
+4. **Apply** / **Create New Resources**. Render construye las dos imágenes
+   Docker (tarda unos minutos la primera vez).
+5. Cuando ambos servicios digan **Live**, abrir la URL de `horarios-front`
+   (algo como `https://horarios-front.onrender.com`) — ahí está la app.
+
+**Limitaciones de esta demo** (por ser plan gratuito de Render, no por la
+app en sí):
+- Los servicios gratuitos de Render "duermen" tras ~15 min sin tráfico; la
+  primera visita después de eso tarda más en responder (arranca de nuevo).
+- `horarios-api` no tiene disco persistente en el plan gratuito: un horario
+  publicado desde el panel de admin se pierde si el servicio se reinicia o
+  se redespliega (vuelve a los datos del último commit en `back/data/`).
+  Para que lo publicado quede permanente hace falta un disco (plan pago de
+  Render) o el servidor propio del paso a paso de arriba.
