@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, LogOut, CheckCircle, AlertTriangle, Clock, User } from 'lucide-react';
+import { Upload, LogOut, ArrowLeft, CheckCircle, AlertTriangle, Clock, User } from 'lucide-react';
 import { DatosAula } from '../services/aulaService';
 import { previsualizarPdf, publicarAula, logout, PreviewResultado } from '../services/aulaAdminService';
 import { DIAS_LABORABLES, DIAS_LABORABLES_LABEL, obtenerBloquesDia, agruparBloquesConsecutivos, formatearDetalle } from '../services/scheduleUtils';
@@ -8,10 +8,11 @@ interface AdminPanelProps {
   usuario: string;
   aulasDisponibles: string[];
   onCerrarSesion: () => void;
+  onVolver: () => void;
   onPublicado: (aula: string) => void;
 }
 
-export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponibles, onCerrarSesion, onPublicado }) => {
+export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponibles, onCerrarSesion, onVolver, onPublicado }) => {
   const [aulaSeleccionada, setAulaSeleccionada] = useState(aulasDisponibles[0] ?? '');
   const [archivo, setArchivo] = useState<File | null>(null);
   const [cargando, setCargando] = useState(false);
@@ -61,13 +62,22 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponible
             <h2 className="text-lg font-bold text-[#2c1547] dark:text-[#f5f0fb]">Actualizar horario de un aula</h2>
             <p className="text-xs text-[#6e5987] dark:text-[#b7a7cc] mt-0.5">Sesión: {usuario}</p>
           </div>
-          <button
-            onClick={async () => { await logout(); onCerrarSesion(); }}
-            className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#6e5987] dark:text-[#b7a7cc] hover:text-rose-600 dark:hover:text-rose-400"
-          >
-            <LogOut className="w-4 h-4" />
-            <span>Cerrar sesión</span>
-          </button>
+          <div className="flex items-center space-x-4">
+            <button
+              onClick={onVolver}
+              className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#6e5987] dark:text-[#b7a7cc] hover:text-[#f57021]"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              <span>Volver a vista pública</span>
+            </button>
+            <button
+              onClick={async () => { await logout(); onCerrarSesion(); }}
+              className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#6e5987] dark:text-[#b7a7cc] hover:text-rose-600 dark:hover:text-rose-400"
+            >
+              <LogOut className="w-4 h-4" />
+              <span>Cerrar sesión</span>
+            </button>
+          </div>
         </div>
 
         <div className="mt-5 grid sm:grid-cols-2 gap-4">

@@ -142,6 +142,7 @@ export const App: React.FC = () => {
                 usuario={adminUsuario}
                 aulasDisponibles={aulasDisponibles}
                 onCerrarSesion={() => { setAdminUsuario(null); setVistaRaiz('aula'); }}
+                onVolver={() => setVistaRaiz('aula')}
                 onPublicado={handlePublicado}
               />
             ) : (
