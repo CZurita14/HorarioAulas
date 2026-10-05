@@ -157,8 +157,6 @@ export const App: React.FC = () => {
               <AulaHeader
                 datosAula={datosAula}
                 fecha={fecha}
-                aulasDisponibles={aulasDisponibles}
-                onCambiarAula={handleCambiarAula}
               />
 
               {vistaAula === 'principal' ? (

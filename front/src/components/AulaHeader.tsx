@@ -1,20 +1,16 @@
 import React from 'react';
-import { Clock, MapPin, Users, ChevronDown } from 'lucide-react';
+import { Clock, MapPin, Users } from 'lucide-react';
 import { DatosAula } from '../services/aulaService';
 import { formatearHora12 } from '../services/scheduleUtils';
 
 interface AulaHeaderProps {
   datosAula: DatosAula;
   fecha: Date;
-  aulasDisponibles: string[];
-  onCambiarAula: (nuevaAula: string) => void;
 }
 
 export const AulaHeader: React.FC<AulaHeaderProps> = ({
   datosAula,
   fecha,
-  aulasDisponibles,
-  onCambiarAula,
 }) => {
   const fechaTexto = fecha.toLocaleDateString('es-EC', {
     weekday: 'long',
@@ -37,28 +33,9 @@ export const AulaHeader: React.FC<AulaHeaderProps> = ({
             </span>
           </div>
 
-          <div className="flex items-center space-x-3">
-            <h1 className="text-3xl md:text-4xl font-extrabold text-[#2c1547] dark:text-[#f5f0fb] tracking-tight">
-              AULA {datosAula.aula}
-            </h1>
-
-            {/* Selector interactivo de las 37 aulas */}
-            <div className="relative inline-block">
-              <select
-                value={datosAula.aula}
-                onChange={(e) => onCambiarAula(e.target.value)}
-                className="appearance-none bg-[#f4f0f9] dark:bg-[#211336] text-[#2c1547] dark:text-[#f5f0fb] font-bold text-xs pl-3 pr-8 py-1.5 rounded-lg border border-[#e2d9ee] dark:border-[#3b2259] cursor-pointer hover:border-[#f57021] transition-all"
-                title="Cambiar de aula"
-              >
-                {aulasDisponibles.map((id) => (
-                  <option key={id} value={id}>
-                    Aula {id}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown className="w-3.5 h-3.5 text-[#6e5987] dark:text-[#b7a7cc] absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
-            </div>
-          </div>
+          <h1 className="text-3xl md:text-4xl font-extrabold text-[#2c1547] dark:text-[#f5f0fb] tracking-tight">
+            AULA {datosAula.aula}
+          </h1>
 
           <div className="flex items-center space-x-4 text-xs text-[#6e5987] dark:text-[#b7a7cc]">
             <span className="capitalize font-medium">{fechaTexto}</span>
