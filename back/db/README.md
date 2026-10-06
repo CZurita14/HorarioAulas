@@ -101,8 +101,8 @@ docker compose exec postgres psql -U horarios -d horarios_aulas \
 docker compose exec api node scripts/crear_campus.js "<nombre del campus>" "<ciudad>" <prefijo>
 
 # Ejemplos:
-docker compose exec api node scripts/crear_campus.js "Quito 1" "Quito" QT
-docker compose exec api node scripts/crear_campus.js "Latacunga" "Latacunga" LTG
+docker compose exec api node scripts/crear_campus.js "Eugenio Espejo" "Quito" QT
+docker compose exec api node scripts/crear_campus.js "Sede Latacunga" "Latacunga" LTG
 ```
 
 El panel de admin lo toma solo (pide la lista a `GET /api/campus`, agrupada

@@ -8,8 +8,8 @@
  *     "<nombre del campus>" "<ciudad>" <prefijo>
  *
  * Ejemplo:
- *   node back/server/scripts/crear_campus.js "Quito 1" "Quito" QT
- *   node back/server/scripts/crear_campus.js "Latacunga" "Latacunga" LTG
+ *   node back/server/scripts/crear_campus.js "Eugenio Espejo" "Quito" QT
+ *   node back/server/scripts/crear_campus.js "Sede Latacunga" "Latacunga" LTG
  *
  * El prefijo es el que debe llevar el codigo_qr de cada aula de este
  * campus para evitar choques con aulas de otros campus (ver

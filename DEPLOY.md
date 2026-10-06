@@ -265,8 +265,8 @@ cuando se termine de probar.
    DATABASE_URL="<External Database URL>" ADMIN_USER=admin ADMIN_PASSWORD="<la del paso 3>" \
      node back/server/scripts/migrar_json_a_bd.js
    # Para probar Quito/Latacunga:
-   DATABASE_URL="<External Database URL>" node back/server/scripts/crear_campus.js "Quito 1" "Quito" QT
-   DATABASE_URL="<External Database URL>" node back/server/scripts/crear_campus.js "Latacunga" "Latacunga" LTG
+   DATABASE_URL="<External Database URL>" node back/server/scripts/crear_campus.js "Eugenio Espejo" "Quito" QT
+   DATABASE_URL="<External Database URL>" node back/server/scripts/crear_campus.js "Sede Latacunga" "Latacunga" LTG
    ```
 6. Entrar a **`horarios-api-pruebas`**, copiar su URL pública. Entrar a
    **`horarios-front-pruebas`** → **Environment** → pegar esa URL en
