@@ -1,18 +1,36 @@
 services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: horarios-postgres
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-horarios}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:?Definí POSTGRES_PASSWORD en un archivo .env o en el entorno antes de levantar}
+      - POSTGRES_DB=${POSTGRES_DB:-horarios_aulas}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Se aplica solo, automáticamente, la primera vez que arranca el
+      # contenedor (carpeta estándar de Postgres para scripts de inicio).
+      - ./back/db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    restart: unless-stopped
+
   api:
     build:
       context: .
       dockerfile: back/server/Dockerfile
     container_name: horarios-api
+    depends_on:
+      - postgres
     environment:
+      - DATA_SOURCE=bd
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-horarios}:${POSTGRES_PASSWORD:?Definí POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-horarios_aulas}
       - ADMIN_USER=${ADMIN_USER:-admin}
       - ADMIN_PASSWORD=${ADMIN_PASSWORD:?Definí ADMIN_PASSWORD en un archivo .env o en el entorno antes de levantar}
       - JWT_SECRET=${JWT_SECRET:?Definí JWT_SECRET en un archivo .env o en el entorno antes de levantar}
       - DATA_DIR=/app/data
     volumes:
-      # Monta la carpeta real del repo: lo que el admin publique queda
-      # escrito directamente en back/data/ en el servidor (y por lo tanto
-      # visible con git status ahí, para poder respaldarlo con un commit).
+      # Ya no es la fuente de los datos (eso es la base de datos ahora),
+      # pero cada publicación igual escribe acá una copia de respaldo
+      # legible y versionable con git — ver back/db/README.md.
       - ./back/data:/app/data
     restart: unless-stopped
 
@@ -26,3 +44,6 @@ services:
     ports:
       - "8080:80"
     restart: unless-stopped
+
+volumes:
+  postgres_data:

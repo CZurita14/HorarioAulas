@@ -33,7 +33,7 @@ git checkout produccion
 git pull origin produccion
 ```
 
-## 3. Configurar las credenciales del admin
+## 3. Configurar las credenciales
 
 Antes de levantar nada, crear un archivo `.env` en la raíz del repo (no se
 sube a git) con:
@@ -42,11 +42,19 @@ sube a git) con:
 ADMIN_USER=admin
 ADMIN_PASSWORD=<una contraseña fuerte, elegida por ustedes>
 JWT_SECRET=<una cadena larga y aleatoria, ej. salida de 'openssl rand -hex 32'>
+POSTGRES_USER=horarios
+POSTGRES_PASSWORD=<otra contraseña fuerte, distinta a la del admin>
+POSTGRES_DB=horarios_aulas
 ```
 
-Esto protege el panel de administración (`/` → botón "Admin" al pie de la
-página) donde se sube un horario nuevo para un aula. Sin estas variables el
-backend se niega a arrancar.
+Las dos primeras protegen el panel de administración (`/admin`, sin ningún
+enlace visible en la página pública) donde se sube un horario nuevo para
+un aula — `ADMIN_USER`/`ADMIN_PASSWORD` solo se usan para crear la primera
+cuenta de administrador en el paso 5.1; después de eso, los administradores
+reales viven en la base de datos (ver `back/db/README.md` para sumar más
+cuentas). Las tres últimas son las credenciales del contenedor de
+PostgreSQL que guarda los horarios. Sin estas variables el backend se
+niega a arrancar.
 
 ## 4. Build de las imágenes
 
@@ -54,11 +62,12 @@ backend se niega a arrancar.
 docker compose build
 ```
 
-Esto compila dos servicios:
+Esto compila dos imágenes (la tercera, `postgres`, se descarga ya lista,
+no hay nada que compilar ahí):
 - **`front`**: el frontend (React + Vite + TypeScript) con nginx sirviéndolo.
-- **`api`**: el backend (Node/Express) que sirve los datos, autentica al
-  admin y procesa los PDF subidos (necesita Python/pdfplumber, ya incluido
-  en su imagen — no hace falta instalar nada aparte en el servidor).
+- **`api`**: el backend (Node/Express) que sirve los datos, autentica a los
+  administradores y procesa los PDF subidos (necesita Python/pdfplumber, ya
+  incluido en su imagen — no hace falta instalar nada aparte en el servidor).
 
 No necesita Node ni Python instalados en el servidor, todo el build pasa
 dentro de los contenedores.
@@ -73,6 +82,21 @@ Por defecto el sitio queda escuchando en el puerto **8080** del servidor
 (`docker-compose.yml`, servicio `front`: `"8080:80"`). Si ese puerto ya está
 ocupado o el equipo de TI pide otro, editar esa línea antes de levantar.
 
+## 5.1. Cargar los horarios en la base de datos (solo la primera vez)
+
+El contenedor `postgres` arranca con las tablas ya creadas, pero vacías.
+Este paso trae los 37 horarios que ya están en `back/data/` y crea el
+primer usuario administrador (con lo que se puso en `ADMIN_USER`/
+`ADMIN_PASSWORD` en el paso 3):
+
+```bash
+docker compose exec api node scripts/migrar_json_a_bd.js
+```
+
+Se puede correr de nuevo sin problema si algo falla a medias — no duplica
+datos. Para sumar más administradores después (cada persona con su propia
+cuenta), ver `back/db/README.md`.
+
 ## 6. Verificar que responde
 
 Desde el propio servidor:
@@ -86,9 +110,9 @@ El primero debe devolver `200 OK`; el segundo, la lista de las 37 aulas en
 JSON. Desde un navegador, entrar a `http://<IP-del-servidor>:8080/?aula=A4`
 y confirmar que carga el horario real.
 
-Para probar el panel de admin: ir al botón "Admin" del pie de página,
-loguearse con lo definido en el paso 3, elegir un aula, subir su PDF y
-confirmar que la vista previa se ve bien antes de publicar.
+Para probar el panel de admin: entrar a `/admin`, loguearse con lo
+definido en el paso 3, elegir campus y aula, subir su PDF y confirmar que
+la vista previa se ve bien antes de publicar.
 
 ## 7. Dominio y HTTPS
 
@@ -134,11 +158,13 @@ docker compose down              # detener y quitar los contenedores
 
 ## 10. Respaldar los horarios que publique el admin
 
-`back/data/` está montado como volumen dentro del contenedor `api`
-(`docker-compose.yml`), así que cualquier horario que el admin publique
-desde el panel se escribe directamente en esa carpeta **en el servidor**,
-no solo dentro del contenedor. Para no perder esos cambios si el servidor
-se reinstala:
+La base de datos (PostgreSQL) es la fuente real de los horarios. Dos
+respaldos, por las dudas:
+
+**Copia en git** (automática): cada publicación desde el panel también
+actualiza `back/data/<ID>.json` — montado como volumen en el contenedor
+`api`, así que ese archivo se escribe directamente en el servidor. Para
+subir esa copia a git de vez en cuando:
 
 ```bash
 cd HorarioAulas
@@ -148,17 +174,32 @@ git commit -m "Actualizar horarios publicados desde el panel de admin"
 git push origin produccion
 ```
 
-Conviene hacerlo cada tanto (ej. semanal) o después de una actualización
-importante.
+**Respaldo completo de la base de datos** (recomendado, ej. semanal):
 
-## 11. Agregar una aula nueva desde cero
+```bash
+docker compose exec postgres pg_dump -U horarios horarios_aulas > respaldo-$(date +%Y%m%d).sql
+```
 
-No requiere redeploy especial del contenedor:
-1. Desde el panel de admin, publicar su PDF por primera vez (el backend
-   crea `back/data/<ID>.json` si no existía), **o** agregarlo a mano.
-2. Generar su QR (ver `qr/README.md`) y su letrero (ver
-   `letreros_individuales/`).
-3. Respaldar con git (paso 10).
+## 11. Agregar un aula nueva, o un campus nuevo
+
+1. Si es un campus que todavía no existe (otra sede de Ambato, o una
+   ciudad nueva como Quito o Latacunga), crearlo primero con
+   `scripts/crear_campus.js` (ver "Agregar un campus nuevo" en
+   `back/db/README.md`) — el panel de admin lo toma solo, sin redeploy.
+2. Desde el panel de admin, publicar su PDF por primera vez — el backend
+   crea el aula sola, en la base de datos, la primera vez que se publica
+   para ese código.
+3. Si el nombre del aula choca con una ya existente de otro campus, la
+   base de datos va a rechazar la publicación — hay que darle un código
+   distinto, normalmente con el prefijo de su campus (ver "Agregar un
+   campus con un aula que choca de nombre" en `back/db/README.md`). Para
+   las aulas de Manuela Sáenz esto no pasa, ya están todas cargadas y son
+   únicas entre sí; para un campus en una ciudad nueva, usar el prefijo
+   desde el principio evita este problema.
+4. Generar su QR (ver `qr/README.md`) y su letrero (ver
+   `letreros_individuales/`) — **solo para esta aula nueva**, nunca
+   regenerar los de aulas/campus ya existentes.
+5. Respaldar (paso 10).
 
 ## Demo rápida en Render (Blueprint)
 
@@ -196,3 +237,46 @@ app en sí):
   se redespliega (vuelve a los datos del último commit en `back/data/`).
   Para que lo publicado quede permanente hace falta un disco (plan pago de
   Render) o el servidor propio del paso a paso de arriba.
+
+## Demo de pruebas en Render, con base de datos (rama `base-datos-postgres`)
+
+Para probar el feature de base de datos (multi-campus, Quito, Latacunga)
+en una URL pública, sin tocar la demo de arriba ni el servidor real de la
+universidad. Es un proyecto Render totalmente aparte — se puede borrar
+cuando se termine de probar.
+
+1. En el [dashboard de Render](https://dashboard.render.com), **New +** →
+   **Blueprint**.
+2. Conectar el repo `CZurita14/HorarioAulas` y elegir la rama
+   `base-datos-postgres`. Render detecta `render.yaml` y propone 3
+   recursos: la base `horarios-pruebas-db` (Postgres) y los servicios
+   `horarios-api-pruebas` / `horarios-front-pruebas`.
+3. Antes de confirmar, Render pide `ADMIN_PASSWORD` — escribir una. Dejar
+   `API_BASE_URL` vacío por ahora (se completa en el paso 6).
+4. **Deploy Blueprint**. A diferencia de Docker Compose (que aplica
+   `schema.sql` solo al arrancar), la Postgres de Render queda **vacía** —
+   `horarios-api-pruebas` va a quedar Live pero sin datos hasta el paso 5.
+5. Entrar a **`horarios-pruebas-db`** → **Connect** → copiar el
+   **External Database URL** (`postgresql://...`). Desde una máquina con
+   `psql`/Node (puede ser esta misma sesión), aplicar el esquema y migrar
+   los datos de prueba:
+   ```bash
+   psql "<External Database URL>" -f back/db/schema.sql
+   DATABASE_URL="<External Database URL>" ADMIN_USER=admin ADMIN_PASSWORD="<la del paso 3>" \
+     node back/server/scripts/migrar_json_a_bd.js
+   # Para probar Quito/Latacunga:
+   DATABASE_URL="<External Database URL>" node back/server/scripts/crear_campus.js "Quito 1" "Quito" QT
+   DATABASE_URL="<External Database URL>" node back/server/scripts/crear_campus.js "Latacunga" "Latacunga" LTG
+   ```
+6. Entrar a **`horarios-api-pruebas`**, copiar su URL pública. Entrar a
+   **`horarios-front-pruebas`** → **Environment** → pegar esa URL en
+   `API_BASE_URL` → **Save Changes** (dispara un redeploy).
+7. Cuando `horarios-front-pruebas` diga **Live**, abrir su URL — ahí se
+   puede entrar a `/admin`, ver el selector de campus agrupado por ciudad,
+   y publicar un horario de prueba para Quito o Latacunga.
+
+**No genera ni modifica ningún QR real** — esto es solo para validar que
+el panel de admin y la base de datos funcionan antes de usarlos de verdad.
+Mismas limitaciones de plan gratuito que la demo de arriba (duerme tras
+~15 min, sin disco persistente — acá no importa, los datos viven en
+`horarios-pruebas-db`, no en archivos).

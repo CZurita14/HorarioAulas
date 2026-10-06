@@ -5,6 +5,13 @@
 > apunta a Render, que sigue sirviendo la rama `main` (sin backend, sitio
 > 100% estático) — no fusionar `produccion` ahí hasta que Render (o el
 > dominio del QR) se mueva al servidor con backend.
+>
+> **Rama `base-datos-postgres`** (esta rama, sobre `produccion`): agrega la
+> opción de guardar los horarios en PostgreSQL en vez de archivos JSON
+> sueltos — pensada para el servidor propio, de cara a sumar los campus
+> Simón Bolívar y Parque Tecnológico Santa Rosa en Ambato, y los nuevos de
+> Quito y Latacunga. Ver `back/db/README.md`.
+> La demo en Render sigue sin base de datos (JSON), no cambia nada ahí.
 
 Reemplaza el flujo QR → SharePoint → PDF por una página web que muestra automáticamente
 la clase en curso y la siguiente en cada aula, más un horario completo navegable por día.
@@ -18,7 +25,8 @@ Monolito organizado en carpetas con responsabilidades claras:
 ```
 /front        → la app web (React + Vite + TypeScript + Tailwind). Corre en el navegador.
 /back/data    → los datos del horario (back/data/<ID>.json, uno por aula) y su esquema.
-/back/server  → backend (Node/Express): sirve los datos, autentica al admin, recibe PDFs.
+/back/server  → backend (Node/Express): sirve los datos, autentica, recibe PDFs.
+/back/db      → esquema de PostgreSQL y scripts de migración (modo DATA_SOURCE=bd).
 /consumos     → integraciones externas (hoy: el proceso de leer SharePoint).
 ```
 

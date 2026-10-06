@@ -43,3 +43,15 @@ export async function obtenerAulasDisponibles(): Promise<string[]> {
   if (!resp.ok) return [];
   return resp.json();
 }
+
+export interface Campus {
+  nombre: string;
+  ciudad: string;
+  prefijo: string;
+}
+
+export async function obtenerCampusDisponibles(): Promise<Campus[]> {
+  const resp = await fetch('/api/campus');
+  if (!resp.ok) return [];
+  return resp.json();
+}
