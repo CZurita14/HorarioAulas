@@ -14,6 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const bcrypt = require('bcryptjs');
 const { Pool } = require('pg');
+const { sslConfigPara } = require('../pgSsl');
 
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, '..', '..', 'data');
 const DATABASE_URL = process.env.DATABASE_URL;
@@ -37,7 +38,7 @@ const CAMPUS = [
 ];
 
 async function main() {
-  const pool = new Pool({ connectionString: DATABASE_URL });
+  const pool = new Pool({ connectionString: DATABASE_URL, ssl: sslConfigPara(DATABASE_URL) });
   const client = await pool.connect();
   try {
     await client.query('BEGIN');

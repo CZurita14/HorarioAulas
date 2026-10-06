@@ -20,6 +20,7 @@
  * vez de fallar.
  */
 const { Pool } = require('pg');
+const { sslConfigPara } = require('../pgSsl');
 
 const [, , nombre, ciudad, prefijo] = process.argv;
 const DATABASE_URL = process.env.DATABASE_URL;
@@ -38,7 +39,7 @@ if (!/^[A-Za-z0-9]{1,10}$/.test(prefijo)) {
 }
 
 async function main() {
-  const pool = new Pool({ connectionString: DATABASE_URL });
+  const pool = new Pool({ connectionString: DATABASE_URL, ssl: sslConfigPara(DATABASE_URL) });
   try {
     const r = await pool.query(
       `INSERT INTO campus (nombre, ciudad, prefijo)

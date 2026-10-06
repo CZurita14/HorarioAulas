@@ -9,6 +9,7 @@
  */
 const bcrypt = require('bcryptjs');
 const { Pool } = require('pg');
+const { sslConfigPara } = require('../pgSsl');
 
 const [, , usuario, password] = process.argv;
 const DATABASE_URL = process.env.DATABASE_URL;
@@ -27,7 +28,7 @@ if (password.length < 8) {
 }
 
 async function main() {
-  const pool = new Pool({ connectionString: DATABASE_URL });
+  const pool = new Pool({ connectionString: DATABASE_URL, ssl: sslConfigPara(DATABASE_URL) });
   const hash = await bcrypt.hash(password, 12);
   const r = await pool.query(
     `INSERT INTO usuario_admin (usuario, password_hash, activo)
