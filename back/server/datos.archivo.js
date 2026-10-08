@@ -34,6 +34,21 @@ async function listarAulas() {
     .sort();
 }
 
+async function listarAulasConCampus() {
+  const archivos = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith('.json'));
+  return archivos
+    .map((f) => {
+      try {
+        const datos = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf-8'));
+        return datos.aula ? { aula: datos.aula, campus: datos.campus } : null;
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.aula.localeCompare(b.aula));
+}
+
 async function obtenerAula(id) {
   const archivos = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith('.json'));
   for (const f of archivos) {
@@ -54,4 +69,4 @@ async function publicarAula(id, datos) {
   fs.writeFileSync(archivoDestino, JSON.stringify(datos, null, 2) + '\n', 'utf-8');
 }
 
-module.exports = { listarAulas, listarCampus, obtenerAula, publicarAula };
+module.exports = { listarAulas, listarAulasConCampus, listarCampus, obtenerAula, publicarAula };

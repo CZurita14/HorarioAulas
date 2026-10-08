@@ -150,7 +150,6 @@ export const App: React.FC = () => {
             verificandoSesion ? null : adminUsuario ? (
               <AdminPanel
                 usuario={adminUsuario}
-                aulasDisponibles={aulasDisponibles}
                 onCerrarSesion={() => { setAdminUsuario(null); salirDeAdmin(); }}
                 onVolver={salirDeAdmin}
                 onPublicado={handlePublicado}

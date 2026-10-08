@@ -35,6 +35,17 @@ export async function sesionActiva(): Promise<string | null> {
   return body.usuario ?? null;
 }
 
+export interface AulaConCampus {
+  aula: string;
+  campus: string;
+}
+
+export async function obtenerAulasConCampus(): Promise<AulaConCampus[]> {
+  const resp = await fetch('/api/admin/aulas', { credentials: 'include' });
+  if (!resp.ok) return [];
+  return resp.json();
+}
+
 export async function previsualizarPdf(aula: string, archivo: File): Promise<PreviewResultado> {
   const form = new FormData();
   form.append('aula', aula);

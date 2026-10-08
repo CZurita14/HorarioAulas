@@ -19,6 +19,15 @@ async function listarCampus() {
   return r.rows;
 }
 
+async function listarAulasConCampus() {
+  const r = await pool.query(
+    `SELECT a.codigo_qr AS aula, c.nombre AS campus
+     FROM aula a JOIN campus c ON c.id = a.campus_id
+     ORDER BY a.codigo_qr`
+  );
+  return r.rows;
+}
+
 async function obtenerAula(id) {
   const rAula = await pool.query(
     `SELECT a.id, a.codigo_qr AS aula, a.capacidad, c.nombre AS campus
@@ -130,4 +139,4 @@ async function publicarAula(id, datos, usuarioAdminId) {
   }
 }
 
-module.exports = { listarAulas, listarCampus, obtenerAula, publicarAula };
+module.exports = { listarAulas, listarAulasConCampus, listarCampus, obtenerAula, publicarAula };

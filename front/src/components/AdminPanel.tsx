@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Upload, LogOut, ArrowLeft, CheckCircle, AlertTriangle, Clock, User, ChevronDown } from 'lucide-react';
 import { DatosAula, Campus, obtenerCampusDisponibles } from '../services/aulaService';
-import { previsualizarPdf, publicarAula, logout, PreviewResultado } from '../services/aulaAdminService';
+import { previsualizarPdf, publicarAula, logout, PreviewResultado, AulaConCampus, obtenerAulasConCampus } from '../services/aulaAdminService';
 import { DIAS_LABORABLES, DIAS_LABORABLES_LABEL, obtenerBloquesDia, agruparBloquesConsecutivos, formatearDetalle } from '../services/scheduleUtils';
 
 // Nota: la lista de campus ya no es fija acá — se pide a GET /api/campus
@@ -10,33 +10,48 @@ import { DIAS_LABORABLES, DIAS_LABORABLES_LABEL, obtenerBloquesDia, agruparBloqu
 // ciudad (Quito, Latacunga) — no requiere tocar ni redeployar el front,
 // solo cargar el campus en la base (ver back/server/scripts/crear_campus.js).
 //
-// Falta todavía: filtrar "Aula" por el campus elegido (hoy el combo
-// "Aula" lista todas las aulas existentes sin importar el campus).
+// El combo "Aula" se filtra por el campus elegido (GET /api/admin/aulas
+// trae aula+campus de cada una) — evita mezclar aulas de varios campus en
+// una sola lista y que se publique sin querer en el campus equivocado.
 
 interface AdminPanelProps {
   usuario: string;
-  aulasDisponibles: string[];
   onCerrarSesion: () => void;
   onVolver: () => void;
   onPublicado: (aula: string) => void;
 }
 
-export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponibles, onCerrarSesion, onVolver, onPublicado }) => {
+export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion, onVolver, onPublicado }) => {
   const [campusDisponibles, setCampusDisponibles] = useState<Campus[]>([]);
   const [campusSeleccionado, setCampusSeleccionado] = useState('');
+  const [aulasConCampus, setAulasConCampus] = useState<AulaConCampus[]>([]);
 
   useEffect(() => {
     obtenerCampusDisponibles().then((campus) => {
       setCampusDisponibles(campus);
       if (campus.length > 0) setCampusSeleccionado((actual) => actual || campus[0].nombre);
     });
+    obtenerAulasConCampus().then(setAulasConCampus);
   }, []);
 
   const campusPorCiudad = campusDisponibles.reduce<Record<string, Campus[]>>((acc, c) => {
     (acc[c.ciudad] ??= []).push(c);
     return acc;
   }, {});
-  const [aulaSeleccionada, setAulaSeleccionada] = useState(aulasDisponibles[0] ?? '');
+
+  const aulasDelCampus = aulasConCampus.filter((a) => a.campus === campusSeleccionado).map((a) => a.aula);
+
+  const [aulaSeleccionada, setAulaSeleccionada] = useState('');
+
+  // Si cambia el campus (o recién llegan las aulas), la aula elegida tiene
+  // que ser una de ESE campus — si la anterior ya no aplica, salta a la
+  // primera del nuevo campus (o queda vacía si no tiene ninguna todavía).
+  useEffect(() => {
+    if (!aulasDelCampus.includes(aulaSeleccionada)) {
+      setAulaSeleccionada(aulasDelCampus[0] ?? '');
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [campusSeleccionado, aulasConCampus]);
   const [archivo, setArchivo] = useState<File | null>(null);
   const [cargando, setCargando] = useState(false);
   const [publicando, setPublicando] = useState(false);
@@ -132,11 +147,16 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponible
               <select
                 value={aulaSeleccionada}
                 onChange={(e) => { setAulaSeleccionada(e.target.value); setResultado(null); setMensajeExito(null); }}
-                className="w-full appearance-none px-3 py-2 pr-8 rounded-lg border border-border bg-bg-soft text-text text-sm"
+                disabled={aulasDelCampus.length === 0}
+                className="w-full appearance-none px-3 py-2 pr-8 rounded-lg border border-border bg-bg-soft text-text text-sm disabled:opacity-60"
               >
-                {aulasDisponibles.map((a) => (
-                  <option key={a} value={a}>Aula {a}</option>
-                ))}
+                {aulasDelCampus.length === 0 ? (
+                  <option value="">Este campus todavía no tiene aulas cargadas</option>
+                ) : (
+                  aulasDelCampus.map((a) => (
+                    <option key={a} value={a}>Aula {a}</option>
+                  ))
+                )}
               </select>
               <ChevronDown className="w-4 h-4 text-text-muted absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>
@@ -154,7 +174,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, aulasDisponible
 
         <button
           onClick={handlePrevisualizar}
-          disabled={!archivo || cargando}
+          disabled={!archivo || !aulaSeleccionada || cargando}
           className="mt-4 inline-flex items-center space-x-2 px-4 py-2.5 bg-brand hover:opacity-90 disabled:opacity-50 text-white rounded-xl text-sm font-bold transition-all"
         >
           <Upload className="w-4 h-4" />

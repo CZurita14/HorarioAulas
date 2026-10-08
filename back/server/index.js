@@ -91,6 +91,13 @@ app.get('/api/admin/me', requireAdmin, (req, res) => {
   res.json({ usuario: req.admin.usuario });
 });
 
+// Lista aula+campus de cada una — solo para que el panel de admin filtre
+// el combo "Aula" por el campus elegido. No es pública: /api/aulas (sin
+// campus) ya cubre el uso público, esto es exclusivamente del admin.
+app.get('/api/admin/aulas', requireAdmin, async (req, res) => {
+  res.json(await datos.listarAulasConCampus());
+});
+
 // --- Datos públicos de aulas (los consume el front en vez del import.meta.glob) ---
 
 app.get('/api/aulas', async (req, res) => {
