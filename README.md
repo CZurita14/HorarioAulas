@@ -91,7 +91,7 @@ Hay dos sets de material imprimible con el QR de cada aula:
 
 ## Estado
 
-Multi-aula (37 aulas del campus Manuela Sáenz) con panel de administrador para
+Multi-aula (38 aulas del campus Manuela Sáenz) con panel de administrador para
 actualizar horarios individuales. Datos originales cargados manualmente desde
 SharePoint (ver `/consumos`). Sin manejo de cambios/suspensiones puntuales (solo
 reemplazo de horario completo por aula). Ver el spec de diseño para el alcance

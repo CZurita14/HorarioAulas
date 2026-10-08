@@ -16,7 +16,7 @@ pip install pymupdf qrcode pillow
 python3 - <<'PY'
 import pymupdf, qrcode, io, glob, os
 
-# Posición del QR dentro de la página — es la misma en los 37 letreros.
+# Posición del QR dentro de la página — es la misma en los 38 letreros.
 QR_RECT = pymupdf.Rect(117.75, 241.25, 477.75, 601.25)
 BASE_URL = "http://horarios.indoamerica.edu.ec"  # cambiar por la URL final
 

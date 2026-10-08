@@ -12,8 +12,8 @@ uno apunta a `https://horarios-front.onrender.com/?aula=<ID>` — ver
 > URL definitiva.
 
 - `QR_<ID>.png`: tarjeta individual de cada aula, lista para imprimir y
-  pegar en la puerta. Una por cada archivo en `back/data/` — las 37 aulas
-  del campus Manuela Sáenz (A1-A5, B1,B3-B9, C1-C9, D1-D13, Taller_3,
+  pegar en la puerta. Una por cada archivo en `back/data/` — las 38 aulas
+  del campus Manuela Sáenz (A1-A5, B1-B2,B3-B9, C1-C9, D1-D13, Taller_3,
   Taller_4).
 - `tabla_qr_aulas.png`: todas las tarjetas juntas en una sola hoja, para
   revisar todas de un vistazo.
