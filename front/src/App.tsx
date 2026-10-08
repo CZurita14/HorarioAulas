@@ -4,7 +4,6 @@ import {
   obtenerDatosAula,
   obtenerAulasDisponibles,
   obtenerIdAulaDesdeUrl,
-  AULA_POR_DEFECTO,
   DatosAula,
 } from './services/aulaService';
 import { sesionActiva } from './services/aulaAdminService';
@@ -12,6 +11,7 @@ import { AulaHeader } from './components/AulaHeader';
 import { AulaVistaPrincipal } from './components/AulaVistaPrincipal';
 import { AulaVistaCompleta } from './components/AulaVistaCompleta';
 import { AulaNoEncontrada } from './components/AulaNoEncontrada';
+import { BienvenidaInicio } from './components/BienvenidaInicio';
 import { AdminLogin } from './components/AdminLogin';
 import { AdminPanel } from './components/AdminPanel';
 import { TemaDevPreview } from './components/TemaDevPreview';
@@ -19,8 +19,11 @@ import { useTemaAdaptativo } from './theme/useTemaAdaptativo';
 import { construirFechaConMinutosGuayaquil } from './theme/calcularColoresTema';
 
 export const App: React.FC = () => {
-  const [idAulaActual, setIdAulaActual] = useState<string>(() => {
-    return obtenerIdAulaDesdeUrl() || AULA_POR_DEFECTO;
+  // null = no se pasó ?aula= en la URL (ej. alguien entra al dominio
+  // directo, sin escanear ningún QR) — antes esto caía por defecto al
+  // Aula A4, ahora muestra la pantalla de bienvenida en su lugar.
+  const [idAulaActual, setIdAulaActual] = useState<string | null>(() => {
+    return obtenerIdAulaDesdeUrl();
   });
   const [vistaAula, setVistaAula] = useState<'principal' | 'completa'>('principal');
 
@@ -54,8 +57,13 @@ export const App: React.FC = () => {
     cargarAulasDisponibles();
   }, [cargarAulasDisponibles]);
 
-  // Datos del aula activa
+  // Datos del aula activa — si no hay aula en la URL, no se pide nada (se
+  // muestra la bienvenida en vez de "Cargando…" o un horario que no se pidió).
   useEffect(() => {
+    if (idAulaActual === null) {
+      setDatosAula(null);
+      return;
+    }
     let vigente = true;
     setDatosAula(undefined);
     obtenerDatosAula(idAulaActual).then((datos) => {
@@ -134,7 +142,7 @@ export const App: React.FC = () => {
 
   const handlePublicado = (aulaPublicada: string) => {
     cargarAulasDisponibles();
-    if (aulaPublicada.toUpperCase() === idAulaActual.toUpperCase()) {
+    if (idAulaActual && aulaPublicada.toUpperCase() === idAulaActual.toUpperCase()) {
       obtenerDatosAula(idAulaActual).then(setDatosAula);
     }
   };
@@ -160,6 +168,8 @@ export const App: React.FC = () => {
                 onCerrar={salirDeAdmin}
               />
             )
+          ) : idAulaActual === null ? (
+            <BienvenidaInicio />
           ) : datosAula === undefined ? (
             <div className="text-center py-20 text-sm text-text-muted-on-bg">Cargando horario…</div>
           ) : datosAula ? (
