@@ -13,6 +13,13 @@ import { DIAS_LABORABLES, DIAS_LABORABLES_LABEL, obtenerBloquesDia, agruparBloqu
 // El combo "Aula" se filtra por el campus elegido (GET /api/admin/aulas
 // trae aula+campus de cada una) — evita mezclar aulas de varios campus en
 // una sola lista y que se publique sin querer en el campus equivocado.
+// También incluye la opción "+ Agregar aula nueva…" para el primer alta de
+// un aula que todavía no existe (ej. la primera de un campus recién
+// creado) — el backend la crea sola al publicar (ver datos.bd.js).
+
+const NUEVA_AULA = '__nueva__';
+// Mismo patrón que idAulaValido en back/server/index.js.
+const CODIGO_AULA_REGEX = /^[A-Za-z0-9_-]{1,20}$/;
 
 interface AdminPanelProps {
   usuario: string;
@@ -42,16 +49,27 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion,
   const aulasDelCampus = aulasConCampus.filter((a) => a.campus === campusSeleccionado).map((a) => a.aula);
 
   const [aulaSeleccionada, setAulaSeleccionada] = useState('');
+  const [codigoNuevaAula, setCodigoNuevaAula] = useState('');
 
   // Si cambia el campus (o recién llegan las aulas), la aula elegida tiene
   // que ser una de ESE campus — si la anterior ya no aplica, salta a la
-  // primera del nuevo campus (o queda vacía si no tiene ninguna todavía).
+  // primera del nuevo campus (o a "+ Agregar aula nueva" si todavía no
+  // tiene ninguna).
   useEffect(() => {
     if (!aulasDelCampus.includes(aulaSeleccionada)) {
-      setAulaSeleccionada(aulasDelCampus[0] ?? '');
+      setAulaSeleccionada(aulasDelCampus[0] ?? NUEVA_AULA);
+      setCodigoNuevaAula('');
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [campusSeleccionado, aulasConCampus]);
+
+  const creandoAulaNueva = aulaSeleccionada === NUEVA_AULA;
+  const codigoNuevaAulaNormalizado = codigoNuevaAula.trim().toUpperCase();
+  const codigoNuevaAulaValido = CODIGO_AULA_REGEX.test(codigoNuevaAulaNormalizado);
+  // La aula que de verdad se usa para previsualizar/publicar: la elegida
+  // del combo, o el código recién escrito si está en modo "aula nueva".
+  const aulaEfectiva = creandoAulaNueva ? codigoNuevaAulaNormalizado : aulaSeleccionada;
+
   const [archivo, setArchivo] = useState<File | null>(null);
   const [cargando, setCargando] = useState(false);
   const [publicando, setPublicando] = useState(false);
@@ -60,13 +78,14 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion,
   const [mensajeExito, setMensajeExito] = useState<string | null>(null);
 
   const handlePrevisualizar = async () => {
-    if (!aulaSeleccionada || !archivo) return;
+    if (!aulaEfectiva || !archivo) return;
+    if (creandoAulaNueva && !codigoNuevaAulaValido) return;
     setError(null);
     setMensajeExito(null);
     setResultado(null);
     setCargando(true);
     try {
-      const res = await previsualizarPdf(aulaSeleccionada, archivo);
+      const res = await previsualizarPdf(aulaEfectiva, archivo);
       // El parser no sabe de qué campus es el PDF (hoy solo existe uno) —
       // el campus que se publica es el que elige el admin acá.
       res.datos.campus = campusSeleccionado;
@@ -83,11 +102,14 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion,
     setError(null);
     setPublicando(true);
     try {
-      await publicarAula(aulaSeleccionada, resultado.datos);
-      setMensajeExito(`Horario de ${aulaSeleccionada} publicado correctamente.`);
+      await publicarAula(aulaEfectiva, resultado.datos);
+      setMensajeExito(`Horario de ${aulaEfectiva} publicado correctamente.`);
       setResultado(null);
       setArchivo(null);
-      onPublicado(aulaSeleccionada);
+      setCodigoNuevaAula('');
+      // Si se acaba de crear una aula nueva, el combo tiene que verla ya.
+      obtenerAulasConCampus().then(setAulasConCampus);
+      onPublicado(aulaEfectiva);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'No se pudo publicar.');
     } finally {
@@ -146,21 +168,38 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion,
             <div className="relative">
               <select
                 value={aulaSeleccionada}
-                onChange={(e) => { setAulaSeleccionada(e.target.value); setResultado(null); setMensajeExito(null); }}
-                disabled={aulasDelCampus.length === 0}
-                className="w-full appearance-none px-3 py-2 pr-8 rounded-lg border border-border bg-bg-soft text-text text-sm disabled:opacity-60"
+                onChange={(e) => { setAulaSeleccionada(e.target.value); setCodigoNuevaAula(''); setResultado(null); setMensajeExito(null); }}
+                className="w-full appearance-none px-3 py-2 pr-8 rounded-lg border border-border bg-bg-soft text-text text-sm"
               >
-                {aulasDelCampus.length === 0 ? (
-                  <option value="">Este campus todavía no tiene aulas cargadas</option>
-                ) : (
-                  aulasDelCampus.map((a) => (
-                    <option key={a} value={a}>Aula {a}</option>
-                  ))
-                )}
+                {aulasDelCampus.map((a) => (
+                  <option key={a} value={a}>Aula {a}</option>
+                ))}
+                <option value={NUEVA_AULA}>+ Agregar aula nueva…</option>
               </select>
               <ChevronDown className="w-4 h-4 text-text-muted absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>
           </div>
+          {creandoAulaNueva && (
+            <div className="sm:col-span-2">
+              <label className="block text-xs font-semibold text-text-muted mb-1">Código de la aula nueva</label>
+              <input
+                type="text"
+                value={codigoNuevaAula}
+                onChange={(e) => { setCodigoNuevaAula(e.target.value); setResultado(null); setMensajeExito(null); }}
+                placeholder="ej. A6, QT-A1"
+                className="w-full px-3 py-2 rounded-lg border border-border bg-bg-soft text-text text-sm font-mono"
+              />
+              <p className="text-[11px] text-text-muted mt-1">
+                Es el código que va a llevar el QR de esa puerta. Letras, números, "-" y "_", sin espacios.
+                {campusSeleccionado && !aulasDelCampus.length ? ' Si el nombre puede chocar con el de otro campus, usá el prefijo de este campus (ver back/db/README.md).' : ''}
+              </p>
+              {codigoNuevaAula.trim() && !codigoNuevaAulaValido && (
+                <p className="text-[11px] text-rose-600 dark:text-rose-400 mt-1">
+                  Código inválido — solo letras, números, "-" y "_", de 1 a 20 caracteres.
+                </p>
+              )}
+            </div>
+          )}
           <div className="sm:col-span-2">
             <label className="block text-xs font-semibold text-text-muted mb-1">PDF "USO DE AULAS"</label>
             <input
@@ -174,7 +213,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion,
 
         <button
           onClick={handlePrevisualizar}
-          disabled={!archivo || !aulaSeleccionada || cargando}
+          disabled={!archivo || !aulaEfectiva || (creandoAulaNueva && !codigoNuevaAulaValido) || cargando}
           className="mt-4 inline-flex items-center space-x-2 px-4 py-2.5 bg-brand hover:opacity-90 disabled:opacity-50 text-white rounded-xl text-sm font-bold transition-all"
         >
           <Upload className="w-4 h-4" />
@@ -218,7 +257,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ usuario, onCerrarSesion,
             className="w-full inline-flex items-center justify-center space-x-2 px-4 py-3 bg-accent hover:bg-accent-strong disabled:opacity-60 text-white rounded-xl text-sm font-bold transition-all"
           >
             <CheckCircle className="w-4 h-4" />
-            <span>{publicando ? 'Publicando…' : `Publicar horario de ${aulaSeleccionada}`}</span>
+            <span>{publicando ? 'Publicando…' : `Publicar horario de ${aulaEfectiva}`}</span>
           </button>
         </div>
       )}
