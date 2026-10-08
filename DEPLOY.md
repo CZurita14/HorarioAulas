@@ -106,7 +106,7 @@ curl -I http://localhost:8080/
 curl http://localhost:8080/api/aulas
 ```
 
-El primero debe devolver `200 OK`; el segundo, la lista de las 37 aulas en
+El primero debe devolver `200 OK`; el segundo, la lista de las 38 aulas en
 JSON. Desde un navegador, entrar a `http://<IP-del-servidor>:8080/?aula=A4`
 y confirmar que carga el horario real.
 

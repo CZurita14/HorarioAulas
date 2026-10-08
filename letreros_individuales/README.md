@@ -3,26 +3,22 @@
 Un letrero en PDF por aula, con el logo y colores oficiales de la
 Universidad Indoamérica — son los que se deben imprimir y pegar en cada
 puerta (a diferencia de `qr/`, que son tarjetas genéricas de referencia
-rápida). Cada uno apunta a `https://horarios-front.onrender.com/?aula=<ID>`.
-
-> **Esta URL es temporal** (demo gratuita de Render para la rama
-> `produccion`). Cuando la app se mude al servidor propio de la
-> universidad con su dominio final (ver `DEPLOY.md`), hay que regenerar
-> estos letreros una sola vez con la URL definitiva — con el mismo script
-> de abajo, solo cambiando `BASE_URL`.
+rápida). Cada uno apunta a `http://horarios.indoamerica.edu.ec/?aula=<ID>`,
+el dominio definitivo de la universidad.
 
 El diseño (logo, colores, layout) no tiene un script de origen en este
-repo — para actualizar la URL sin rehacer el diseño, se reemplaza
-únicamente la imagen del QR dentro de cada PDF, en el mismo lugar exacto:
+repo — se recibió ya armado (plantilla oficial) y se actualiza solo el QR.
+Para actualizar la URL sin rehacer el diseño, se reemplaza únicamente la
+imagen del QR dentro de cada PDF, en el mismo lugar exacto:
 
 ```bash
 pip install pymupdf qrcode pillow
 python3 - <<'PY'
 import pymupdf, qrcode, io, glob, os
 
-# Posición del QR dentro de la página — es la misma en los 37 letreros.
-QR_RECT = pymupdf.Rect(148.82, 291.69, 446.46, 589.32)
-BASE_URL = "https://horarios-front.onrender.com"  # cambiar por la URL final
+# Posición del QR dentro de la página — es la misma en los 38 letreros.
+QR_RECT = pymupdf.Rect(117.75, 241.25, 477.75, 601.25)
+BASE_URL = "http://horarios.indoamerica.edu.ec"  # cambiar por la URL final
 
 aulas = sorted(os.path.splitext(os.path.basename(f))[0] for f in glob.glob("back/data/*.json"))
 
