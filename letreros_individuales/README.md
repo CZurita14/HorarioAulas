@@ -6,6 +6,12 @@ puerta (a diferencia de `qr/`, que son tarjetas genéricas de referencia
 rápida). Cada uno apunta a `http://horarios.indoamerica.edu.ec/?aula=<ID>`,
 el dominio definitivo de la universidad.
 
+Organizado en una subcarpeta por campus, para no mezclar los letreros de
+aulas de campus distintos:
+
+- `Manuela Saenz/`: los 38 letreros del campus Manuela Sáenz.
+- `Campus Simon Bolivar/`: los 17 letreros del campus Simón Bolívar.
+
 El diseño (logo, colores, layout) no tiene un script de origen en este
 repo — se recibió ya armado (plantilla oficial) y se actualiza solo el QR.
 Para actualizar la URL sin rehacer el diseño, se reemplaza únicamente la
@@ -23,7 +29,7 @@ BASE_URL = "http://horarios.indoamerica.edu.ec"  # cambiar por la URL final
 aulas = sorted(os.path.splitext(os.path.basename(f))[0] for f in glob.glob("back/data/*.json"))
 
 for aula in aulas:
-    path = f"letreros_individuales/Letrero_{aula}.pdf"
+    path = f"letreros_individuales/Manuela Saenz/Letrero_{aula}.pdf"
     url = f"{BASE_URL}/?aula={aula}"
     doc = pymupdf.open(path)
     page = doc[0]
@@ -56,7 +62,7 @@ import pymupdf, glob, os, io
 from pyzbar.pyzbar import decode
 from PIL import Image
 
-for path in sorted(glob.glob("letreros_individuales/Letrero_*.pdf")):
+for path in sorted(glob.glob("letreros_individuales/*/Letrero_*.pdf")):
     aula = os.path.basename(path)[len("Letrero_"):-len(".pdf")]
     doc = pymupdf.open(path)
     pix = doc[0].get_pixmap(dpi=150)
