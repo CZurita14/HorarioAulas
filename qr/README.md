@@ -18,6 +18,7 @@ de aulas de campus distintos:
   `back/data/`. Incluye `tabla_qr_aulas.png` con todas las tarjetas juntas
   en una sola hoja.
 - `Campus Simon Bolivar/`: las 17 aulas del campus Simón Bolívar.
+- `Sede Latacunga/`: las 11 aulas del campus Sede Latacunga.
 
 Dentro de cada subcarpeta: `QR_<ID>.png` es la tarjeta individual de esa
 aula, lista para imprimir y pegar en la puerta.

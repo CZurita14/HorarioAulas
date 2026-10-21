@@ -11,6 +11,7 @@ aulas de campus distintos:
 
 - `Manuela Saenz/`: los 38 letreros del campus Manuela Sáenz.
 - `Campus Simon Bolivar/`: los 17 letreros del campus Simón Bolívar.
+- `Sede Latacunga/`: los 11 letreros del campus Sede Latacunga.
 
 El diseño (logo, colores, layout) no tiene un script de origen en este
 repo — se recibió ya armado (plantilla oficial) y se actualiza solo el QR.
